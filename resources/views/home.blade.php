@@ -1,27 +1,27 @@
 @extends('layouts.common')
 
 @section('content')
-  <div class="parallax-window" data-parallax="scroll" data-image-src="image/test_main.jpg" style="height: 200px; background-attachment: fixed;">
+  <div class="parallax-bg">
     <p>パララックス</p>
   </div>
 
-  <div class="w-auto bg-warning" style="height: 200px;">
+  <div class="scrollbox">
     PsychologyTest
   </div>
 
-  <div class="parallax-window" data-parallax="scroll" data-image-src="image/test_main.jpg" style="height: 200px; background-attachment: fixed;">
+  <div class="parallax-bg">
     <p>パララックス</p>
   </div>
 
-  <div class="w-auto bg-warning" style="height: 200px;">
+  <div class="scrollbox">
     Content
   </div>
 
-  <div class="parallax-window" data-parallax="scroll" data-image-src="image/test_main.jpg" style="height: 200px; background-attachment: fixed;">
+  <div class="parallax-bg">
     <p>パララックス</p>
   </div>
 
-  <div class="w-auto bg-warning" style="height: 200px;">
+  <div class="scrollbox">
     Care
   </div>
 @endsection
