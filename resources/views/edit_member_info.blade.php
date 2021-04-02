@@ -30,5 +30,5 @@
 @endsection
 
 @section('title')
-Field-UP ~技術とヒトに寄りそう~
+会員情報編集
 @endsection
