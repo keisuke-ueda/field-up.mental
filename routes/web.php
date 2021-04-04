@@ -33,6 +33,8 @@ Route::view('/introduction', 'introduction');
 Route::view('/news', 'news');
 Route::view('/psycology_test', 'psycology_test');
 Route::view('/sign_up', 'sign_up');
+Route::view('/login', 'login');
+
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
