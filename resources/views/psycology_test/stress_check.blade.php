@@ -30,5 +30,5 @@
 @endsection
 
 @section('title')
-心理テスト
+ストレスチェック
 @endsection

@@ -1,7 +1,7 @@
 @extends('layouts.common')
 
 @section('content')
-  <div class="parallax-bg">
+  <div class="parallax-bg contents_list">
     <p>パララックス</p>
   </div>
 
@@ -9,7 +9,7 @@
     PsychologyTest
   </div>
 
-  <div class="parallax-bg">
+  <div class="parallax-bg contents_list">
     <p>パララックス</p>
   </div>
 
@@ -17,7 +17,7 @@
     Content
   </div>
 
-  <div class="parallax-bg">
+  <div class="parallax-bg contents_list">
     <p>パララックス</p>
   </div>
 

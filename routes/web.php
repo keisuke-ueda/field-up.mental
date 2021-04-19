@@ -27,13 +27,15 @@ Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('ho
 
 Route::view('/care', 'care');
 Route::view('/contacts_faq', 'contacts_faq');
-Route::view('/content', 'content');
+Route::view('/contents_list', 'contents_list');
 Route::view('/edit_member_info', 'edit_member_info');
 Route::view('/introduction', 'introduction');
 Route::view('/news', 'news');
 Route::view('/psycology_test', 'psycology_test');
 Route::view('/sign_up', 'sign_up');
 Route::view('/login', 'login');
+
+Route::get('/psycology_test/egogram', [App\Http\Controllers\EgogramController::class, 'egogram']);
 
 Auth::routes();
 

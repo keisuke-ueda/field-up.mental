@@ -1,28 +1,28 @@
 @extends('layouts.common')
 
 @section('content')
-  <div class="parallax-bg">
-    <p>パララックス</p>
+  <div class="parallax-bg bg home">
+    <p></p>
   </div>
 
   <div class="scrollbox">
-    PsychologyTest
+    <p>心理テストへ遷移</p>
   </div>
 
-  <div class="parallax-bg">
-    <p>パララックス</p>
-  </div>
-
-  <div class="scrollbox">
-    Content
-  </div>
-
-  <div class="parallax-bg">
-    <p>パララックス</p>
+  <div class="parallax-bg bg home">
+    <p></p>
   </div>
 
   <div class="scrollbox">
-    Care
+    <p>コンテンツへ遷移</p>
+  </div>
+
+  <div class="parallax-bg bg home">
+    <p></p>
+  </div>
+
+  <div class="scrollbox">
+    <p>ケアページへ遷移</p>
   </div>
 @endsection
 
