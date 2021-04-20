@@ -1,24 +1,22 @@
 @extends('layouts.common')
 
 @section('content')
-  <div class="parallax-bg bg home">
-    <p></p>
+<?php $bg_img = 'home' ?>
+  <div class="parallax-bg bg {{$bg_img}}">
   </div>
 
   <div class="scrollbox">
     <p>心理テストへ遷移</p>
   </div>
 
-  <div class="parallax-bg bg home">
-    <p></p>
+  <div class="parallax-bg bg {{$bg_img}}">
   </div>
 
   <div class="scrollbox">
     <p>コンテンツへ遷移</p>
   </div>
 
-  <div class="parallax-bg bg home">
-    <p></p>
+  <div class="parallax-bg bg {{$bg_img}}">
   </div>
 
   <div class="scrollbox">
