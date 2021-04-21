@@ -1,26 +1,54 @@
-/* div {
-  box-sizing: border-box;
-  color: #FFF;
-  font-size: 5rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-  padding: 5%;
-} */
+
+/* パララックス */
 .parallax-bg {
-  background-image: url('../image/test_main.jpg');
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+/* パララックスのみのパーツ */
+.bg {
   height: 200px;
 }
 
+/* パララックスの背景 sass移行時に要リファクタリング */
+.parallax-bg.home {
+  background-image: url('../image/test_main.jpg');
+}
+
+.parallax-bg.introduction {
+  background-image: url('../image/test_intr.jpg');
+}
+
+.parallax-bg.psycology_test {
+  background-image: url('../image/test_test.jpg');
+
+}.parallax-bg.contents_list {
+  background-image: url('../image/test_cont.jpg');
+}
 
 /*スクロールするコンテンツ*/
 .scrollbox {
-  background-color: #111;
+  background-color: rgb(207, 203, 203);
   height: 300px;
 }
 
+
+
+/* nav-itemの文字色 */
+.navbar .navbar-nav .nav-link{
+  color: white;
+}
+/* nav-item activeの文字色 */
+/* .navbar .navbar-nav .active > .nav-link {
+  color: rgba(0,0,255,1);
+} */
+/* nav-item:focus、nav-item:hoverの文字色 */
+/* .navbar .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+  color: rgba(0,255,255,1);
+} */
+/* ドロップダウンアイテムの文字色 */
+/* .dropdown-item {
+  color: rgba(255,0,0,1);
+} */

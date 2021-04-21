@@ -1,7 +1,7 @@
 @extends('layouts.common')
 
 @section('content')
-  <div class="parallax-bg">
+  <div class="parallax-bg psycology_test">
     <p>パララックス</p>
   </div>
 
@@ -9,7 +9,7 @@
     PsychologyTest
   </div>
 
-  <div class="parallax-bg">
+  <div class="parallax-bg psycology_test">
     <p>パララックス</p>
   </div>
 
@@ -17,7 +17,7 @@
     Content
   </div>
 
-  <div class="parallax-bg">
+  <div class="parallax-bg psycology_test">
     <p>パララックス</p>
   </div>
 
@@ -30,5 +30,5 @@
 @endsection
 
 @section('title')
-コンテンツ一覧
+ストレスチェック
 @endsection
