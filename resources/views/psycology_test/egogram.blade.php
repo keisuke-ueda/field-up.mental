@@ -2,7 +2,7 @@
 
 @section('content')
 <?php $bg_img = 'psycology_test'; ?>
-<div class="parallax-bg bg {{$bg_img}}">
+<div class="parallax-bg bg {{$bg_img}}" style="height: 50px;">
 </div>
 
 <div class="parallax-bg {{$bg_img}}">
@@ -31,7 +31,7 @@
     <div class="scrollbox" style="height: auto; color: white;">
       <div class="row justify-content-center parallax-bg {{$bg_img}}">
         <!-- 位置調整用カラム-->
-        <div class="col-md-10 overflow-auto" style="height: 400px; background-color:aquamarine;">
+        <div class="col-md-10" style="background-color:aquamarine;">
           <form action="#" method="post">
             <h4>ⅰ</h4>
             <table class="table mt-5">
