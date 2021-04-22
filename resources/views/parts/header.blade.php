@@ -12,22 +12,22 @@
           <a class="nav-link" href="/home">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/introduction">Introduction</a>
+          <a class="nav-link" href="{{ route('introduction.show') }}">Introduction</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/news">News</a>
+          <a class="nav-link" href="{{ route('news.show') }}">News</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/psychology_test">PsychologyTest</a>
+          <a class="nav-link" href="{{ route('egogram.show') }}">PsychologyTest</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href=" {{ route('contents_list.show') }}">Content</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/care">Care</a>
+          <a class="nav-link" href="{{ route('care.show') }}">Care</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/contacts_faq">Contacts&FAQ</a>
+          <a class="nav-link" href="{{ route('contacts_faq.show') }}">Contacts&FAQ</a>
         </li>
 
         @guest

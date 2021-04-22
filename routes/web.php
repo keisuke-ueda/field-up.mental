@@ -22,36 +22,15 @@ Auth::routes();
 // ローカル
 Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
-Route::view('/care', 'care');
-Route::view('/contacts_faq', 'contacts_faq');
-Route::view('/contents_list', 'contents_list');
-Route::view('/edit_member_info', 'edit_member_info');
-Route::view('/introduction', 'introduction');
-Route::view('/news', 'news');
-Route::view('/psycology_test', 'psycology_test');
-Route::view('/sign_up', 'sign_up');
-Route::view('/login', 'login');
-
 Route::get('/contents_list', [App\Http\Controllers\ContentsListController::class, 'show'])-> name('contents_list.show');
+Route::get('/care', [App\Http\Controllers\CareController::class, 'show'])-> name('care.show');
+Route::get('/contacts_faq', [App\Http\Controllers\ContactsFaqController::class, 'show'])-> name('contacts_faq.show');
+Route::get('/edit_member_info', [App\Http\Controllers\EditMemberInfoController::class, 'show'])-> name('edit_member_info.show');
+Route::get('/introduction', [App\Http\Controllers\IntroductionController::class, 'show'])-> name('introduction.show');
+Route::get('/news', [App\Http\Controllers\NewsController::class, 'show'])-> name('news.show');
+Route::get('/psychology_test', [App\Http\Controllers\PsychologyTestController::class, 'show'])-> name('psychology_test.show');
 
-Route::get('/psycology_test/egogram', [App\Http\Controllers\EgogramController::class, 'egogram']);
+
+Route::get('/psycology_test/egogram', [App\Http\Controllers\EgogramController::class, 'show'])->name('egogram.show');
+
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-
-
-
-//本番
-
-// Route::get('/mental_field-up', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-
-// Route::view('/mental_field-up/care', 'care')->name('care');
-// Route::view('/mental_field-up/contacts_faq', 'contacts_faq')->name('contacts_faq');
-// Route::view('/mental_field-up/contents_list', 'contents_list')->name('contents_list');
-// Route::view('/mental_field-up/edit_member_info', 'edit_member_info')->name('edit_member_info');
-// Route::view('/mental_field-up/introduction', 'introduction')->name('introduction');
-// Route::view('/mental_field-up/news', 'news')->name('news');
-// Route::view('/mental_field-up/psycology_test', 'psycology_test')->name('psycology_test');
-// Route::view('/mental_field-up/sign_up', 'sign_up')->name('sign_up');
-// Route::view('/mental_field-up/login', 'login')->name('login');
-
-// Route::get('/mental_field-up/psycology_test/egogram', [App\Http\Controllers\EgogramController::class, 'egogram'])->name('egogram');
-// Route::get('/mental_field-up/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
