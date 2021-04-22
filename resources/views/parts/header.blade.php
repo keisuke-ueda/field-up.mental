@@ -9,25 +9,25 @@
     <div class="collapse navbar-collapse" id="navbarCollapse">
       <ul class="navbar-nav mr-auto w-100 nav-justified text-nowrap">
         <li class="nav-item">
-          <a class="nav-link" href="/">Home</a>
+          <a class="nav-link" href="{{ route('home') }}">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/introduction">Introduction</a>
+          <a class="nav-link" href="{{ route('introduction') }}">Introduction</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/news">News</a>
+          <a class="nav-link" href="{{ route('news') }}">News</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/psycology_test">PsychologyTest</a>
+          <a class="nav-link" href="{{ route('psychology_test') }}">PsycologyTest</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/contents_list">Content</a>
+          <a class="nav-link" href="{{ route('contents_list') }}">Content</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/care">Care</a>
+          <a class="nav-link" href="{{ route('care') }}">Care</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/contacts_faq">Contacts&FAQ</a>
+          <a class="nav-link" href="{{ route('contacts_faq') }}">Contacts&FAQ</a>
         </li>
 
         @guest
