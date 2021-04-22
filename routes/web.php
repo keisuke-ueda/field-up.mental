@@ -32,7 +32,7 @@ Route::view('/psycology_test', 'psycology_test');
 Route::view('/sign_up', 'sign_up');
 Route::view('/login', 'login');
 
-Route::get('/mental_field-up/contents_list', [App\Http\Controllers\ContentsListController::class, 'show'])-> name('contents_list.show');
+Route::get('/contents_list', [App\Http\Controllers\ContentsListController::class, 'show'])-> name('contents_list.show');
 
 Route::get('/psycology_test/egogram', [App\Http\Controllers\EgogramController::class, 'egogram']);
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
