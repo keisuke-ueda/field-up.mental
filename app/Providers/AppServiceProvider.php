@@ -21,8 +21,10 @@ class AppServiceProvider extends ServiceProvider
      *
      * @return void
      */
-    public function boot()
-    {
-        //
+    public function boot() {  
+        // 使用プロトコルがhttpsの時にassetで呼び出されるURLをhttpsに変更する
+        if (request()->isSecure()) {
+            \URL::forceScheme('https');
+        }
     }
 }
