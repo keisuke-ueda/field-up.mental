@@ -21,7 +21,7 @@
           <a class="nav-link" href="/psychology_test">PsychologyTest</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/content">Content</a>
+          <a class="nav-link" href=" {{ route('contents_list.show') }}">Content</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="/care">Care</a>
