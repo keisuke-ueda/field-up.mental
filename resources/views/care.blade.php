@@ -1,6 +1,7 @@
 @extends('layouts.common')
 
 @section('content')
+<?php $bg_img = asset('/image/test_care.jpg'); ?>
   <div class="parallax-bg">
     <p>パララックス</p>
   </div>

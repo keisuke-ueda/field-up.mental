@@ -1,22 +1,22 @@
 @extends('layouts.common')
 
 @section('content')
-<?php $bg_img = 'home' ?>
-  <div class="parallax-bg bg {{$bg_img}}">
+<?php $bg_img = asset('/image/test_main.jpg') ?>
+  <div class="parallax-bg" style="background-image: url('{{$bg_img}}'); height: 50px;">
   </div>
 
   <div class="scrollbox">
     <p>心理テストへ遷移</p>
   </div>
 
-  <div class="parallax-bg bg {{$bg_img}}">
+  <div class="parallax-bg" style="background-image: url('{{$bg_img}}'); height: 50px;">
   </div>
 
   <div class="scrollbox">
     <p>コンテンツへ遷移</p>
   </div>
 
-  <div class="parallax-bg bg {{$bg_img}}">
+  <div class="parallax-bg" style="background-image: url('{{$bg_img}}'); height: 50px;">
   </div>
 
   <div class="scrollbox">

@@ -14,6 +14,7 @@
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
+    @yield('js')
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
@@ -31,7 +32,6 @@
         @include('parts.header')
         @yield('content')
         @include('parts.footer')
-        @yield('js')
-        <script src="{{ asset('/js/egogram.js') }}"></script>
+
     </body>
 </html>
