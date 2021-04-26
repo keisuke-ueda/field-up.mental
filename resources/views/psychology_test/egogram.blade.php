@@ -126,25 +126,6 @@
 @section('js')
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js"></script>
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
-<script>
-$(function () {
-  $('#button-1').click(function() {
-    alert('ボタンテスト');
-  })
-})
-
-$(function () {
-  $('#openModal').click(function(){
-      $('#modalArea').fadeIn();
-  });
-  $('#closeModal , #modalBg').click(function(){
-    $('#modalArea').fadeOut();
-  });
-});
-</script>
-
 <script>
 let score_list = new Array(5);
 
@@ -223,6 +204,25 @@ function OnButtonClick() {
 
 }
 </script>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<script>
+  $(function () {
+    $('#button-1').click(function() {
+      alert('ボタンテスト');
+    })
+  })
+  
+  $(function () {
+    $('#openModal').click(function(){
+        $('#modalArea').fadeIn();
+    });
+    $('#closeModal , #modalBg').click(function(){
+      $('#modalArea').fadeOut();
+    });
+  });
+  </script>
 @endsection
 
 @section('title')
