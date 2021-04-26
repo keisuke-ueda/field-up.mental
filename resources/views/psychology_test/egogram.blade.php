@@ -119,6 +119,8 @@
   </div>
 </section>
 <!-- モーダルエリアここまで -->
+
+<button id="button-1"></button>
 @endsection
 
 @section('js')
@@ -127,6 +129,12 @@
 <script src="//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 <script>
+$(function () {
+  $('#button-1').click(function() {
+    alert('ボタンテスト');
+  })
+})
+
 $(function () {
   $('#openModal').click(function(){
       $('#modalArea').fadeIn();
