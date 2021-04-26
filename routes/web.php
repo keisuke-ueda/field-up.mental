@@ -1,5 +1,6 @@
 <?php
 
+// 本番環境ではhttp通信が弾かれるため、httpsに変換する
 if(config('app.env') === 'production'){
     // asset()やurl()がhttpsで生成される
     URL::forceScheme('https');
@@ -19,7 +20,6 @@ use Illuminate\Support\Facades\Route;
 */
 Auth::routes();
 
-// ローカル
 Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 Route::get('/contents_list', [App\Http\Controllers\ContentsListController::class, 'show'])-> name('contents_list.show');
