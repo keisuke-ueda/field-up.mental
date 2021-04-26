@@ -32,5 +32,6 @@
         @yield('content')
         @include('parts.footer')
         @yield('js')
+        <script src="{{ asset('/js/egogram.js') }}"></script>
     </body>
 </html>
