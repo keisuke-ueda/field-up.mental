@@ -3,7 +3,7 @@
 @section('content')
 <?php $bg_img = asset('/image/test_test.jpg'); ?>
 
-<div class="parallax-bg bg" style="background-image: url('{{$bg_img}}');" style="height: 50px;">
+<div class="parallax-bg bg" style="background-image: url('{{$bg_img}}'); height: 50px;">
 </div>
 
 <div class="parallax-bg" style="background-image: url('{{$bg_img}}');">
@@ -23,7 +23,7 @@
   </div>
 </div>
 
-<div class="parallax-bg" style="background-image: url('{{$bg_img}}');" style="height: 20px">
+<div class="parallax-bg" style="background-image: url('{{$bg_img}}'); height: 20px;">
 </div>
 
 
@@ -63,7 +63,7 @@
             </table>
           </form>
         </div>
-        <div class="w-100 parallax-bg" style="background-image: url('{{$bg_img}}');" style="height: 50px;">
+        <div class="w-100 parallax-bg" style="background-image: url('{{$bg_img}}'); height: 50px;">
         </div>
         <div class="w-100">
           <button type="button" class="btn btn-secondary mx-auto d-block btn-lg" onclick="OnButtonClick();">どうなるかな？</button>
@@ -76,7 +76,7 @@
   </div>
 </div>
 
-<div class="parallax-bg" style="background-image: url('{{$bg_img}}');" style="height: 100px">
+<div class="parallax-bg" style="background-image: url('{{$bg_img}}'); height: 100px;">
 </div>
 
 
@@ -88,7 +88,7 @@
         <div class="col-md-10 overflow-auto" style="height: 400px; background-color:rgb(226, 235, 232);">
           <canvas id="ex_chart"></canvas>
         </div>
-        <div class="w-100 parallax-bg" style="background-image: url('{{$bg_img}}');" style="height: 50px;">
+        <div class="w-100 parallax-bg" style="background-image: url('{{$bg_img}}'); height: 50px;">
         </div>
         <div class="w-100">
           <button type="button" class="btn btn-secondary mx-auto d-block btn-lg" id="openModal">分析してみよう</button>
@@ -102,7 +102,7 @@
 </div>
 
 
-<div class="parallax-bg" style="background-image: url('{{$bg_img}}');" style="height: 100px">
+<div class="parallax-bg" style="background-image: url('{{$bg_img}}'); height: 100px;">
 </div>
 
 <!-- モーダルエリアここから -->
