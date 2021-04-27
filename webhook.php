@@ -20,7 +20,6 @@ if (!function_exists('getallheaders'))
     }
 }
 
-
 //テスト
 
 $header = getallheaders();
