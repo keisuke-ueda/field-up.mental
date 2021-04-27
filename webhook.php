@@ -25,8 +25,8 @@ $hmac = hash_hmac('sha1', file_get_contents("php://input"), $SECRET_KEY);
 if ( isset($header['X-Hub-Signature']) && $header['X-Hub-Signature'] === 'sha1='.$hmac ) {
     $payload = json_decode(file_get_contents("php://input"), true);
     $buf = '';
-    exec('cd MentalHealth 2>&1; git pull origin develop 2>&1', $buf);
-    file_put_contents($LOG_FILE, date("[Y-m-d H:i:s]")." ".$_SERVER['REMOTE_ADDR']." git pulled: ".$payload['after']." ".$payload['commits'][0]['message']."\n". "error_message\n".$buf, FILE_APPEND|LOCK_EX);
+    exec('cd MentalHealth 2>&1; git pull origin develop 2>&1;', $buf);
+    file_put_contents($LOG_FILE, date("[Y-m-d H:i:s]")." ".$_SERVER['REMOTE_ADDR']." git pulled: ".$payload['after']." ".$payload['commits'][0]['message']."\n". "error_message\n".$buf[0], FILE_APPEND|LOCK_EX);
 } else {
     file_put_contents($LOG_FILE, date("[Y-m-d H:i:s]")." invalid access: ".$_SERVER['REMOTE_ADDR']."\n", FILE_APPEND|LOCK_EX);
 }
