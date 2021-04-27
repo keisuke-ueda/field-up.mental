@@ -1,7 +1,7 @@
 @extends('layouts.common')
 
 @section('content')
-<?php $bg_img = asset('/image/背景テスト7.jpg') ?>
+<?php $bg_img = asset('/image/背景テスト1.jpg') ?>
 <!--
   背景テスト1:0.5
   背景テスト2:0.3

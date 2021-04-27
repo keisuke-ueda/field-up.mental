@@ -1,33 +1,29 @@
 @extends('layouts.common')
 
 @section('content')
-<?php $bg_img = asset('/image/背景テスト7.jpg'); ?>
+<?php $bg_img = asset('/image/背景テスト4.jpg'); ?>
 
-<div class="parallax-bg {{$bg_img}}" style="height: 50px;">
+<div class="parallax-bg" style="background-image: url('{{$bg_img}}');height: 50px;">
 </div>
 
-<div class="parallax-bg {{$bg_img}}">
-  <div class="container parallax-bg {{$bg_img}}">
+<div class="parallax-bg" style="background-image: url('{{$bg_img}}');">
+  <div class="container parallax-bg" style="background-image: url('{{$bg_img}}');">
     <div class="scrollbox" style="height: auto; color: white;">
-      <div class="row justify-content-center parallax-bg {{$bg_img}}">
-        <!-- <div class="col-md-3 parallax-bg {{$bg_img}}">
-        </div> -->
+      <div class="row justify-content-center parallax-bg" style="background-image: url('{{$bg_img}}');">
         <div class="col-md-7 align-self-center">
           <h1 style="text-align: center;">コンテンツライブラリ</h1>
           <p style="text-align: center;">気になるコンテンツをチェックしてみよう</p>
         </div>
-        <!-- <div class="col-md-3 parallax-bg {{$bg_img}}">
-        </div> -->
       </div>
     </div>
   </div>
 </div>
 
-<div class="parallax-bg {{$bg_img}}" style="height: 50px;">
+<div class="parallax-bg" style="background-image: url('{{$bg_img}}');height: 50px;">
 </div>
 
-<div class="parallax-bg {{$bg_img}}">
-  <div class="container parallax-bg {{$bg_img}}">
+<div class="parallax-bg" style="background-image: url('{{$bg_img}}');">
+  <div class="container parallax-bg" style="background-image: url('{{$bg_img}}');">
     <div class="scrollbox" style="height: auto; color: white;">
       <div class="row">
         @for ($i = 0; $i < 5; $i++)
@@ -43,7 +39,7 @@
           </a>
         </div>
 
-        <div class="col-md-2 parallax-bg {{$bg_img}}">
+        <div class="col-md-2 parallax-bg" style="background-image: url('{{$bg_img}}');">
         </div>
         <div class="col-md-5" style="height: 150px;">
           <a href="#" class="card w-100 h-100">
@@ -57,7 +53,7 @@
           </a>
         </div>
 
-        <div class="col-md-12 parallax-bg {{$bg_img}}" style="height: 20px;">
+        <div class="col-md-12 parallax-bg" style="background-image: url('{{$bg_img}}');height: 20px;">
         </div>
         @endfor
       </div>
@@ -65,7 +61,7 @@
   </div>
 </div>
 
-<div class="parallax-bg {{$bg_img}}">
+<div class="parallax-bg" style="background-image: url('{{$bg_img}}');">
 </div>
 @endsection
 
