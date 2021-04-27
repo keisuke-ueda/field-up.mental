@@ -1,14 +1,17 @@
 
-/* パララックス */
+/* パララックス背景画像 */
 .parallax-bg {
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  /*背景画像透過*/
+  background-color:rgba(255,255,255,0.2);
+  background-blend-mode:lighten;
 }
 
 /* パララックスの背景 sass移行時に要リファクタリング */
-.parallax-bg.home {
+/* .parallax-bg.home {
   background-image: url('../image/test_main.jpg');
 }
 
@@ -21,11 +24,11 @@
 
 }.parallax-bg.contents_list {
   background-image: url('../image/test_cont.jpg');
-}
+} */
 
 /*スクロールするコンテンツ*/
 .scrollbox {
-  background-color: rgb(207, 203, 203);
+  background-color: rgb(134, 151, 151);
   height: 300px;
 }
 

@@ -1,10 +1,10 @@
-<footer class="section siteFooter">
+<footer class="section siteFooter"style="background-color: lightblue;">
 	<div class="footerMenu">
 	   <div class="container">
 			</div>
 	</div>
 	<div class="container sectionBox footerWidget">
-		<div class="row">
+		<div class="row" style="background-color: white;">
 			<div class="col-md-4">
         <aside class="widget widget_text" id="text-3"><h3 class="widget-title subSection-title text-center">会社情報</h3>
           <div class="textwidget border-top">
