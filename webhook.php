@@ -26,8 +26,7 @@ $header = getallheaders();
 $hmac = hash_hmac('sha1', file_get_contents("php://input"), $SECRET_KEY);
 if ( isset($header['X-Hub-Signature']) && $header['X-Hub-Signature'] === 'sha1='.$hmac ) {
     $payload = json_decode(file_get_contents("php://input"), true);
-　　//gitpullする対象のフォルダへ移動する 
-    exec('git pull');
+    exec('');
     file_put_contents($LOG_FILE, date("[Y-m-d H:i:s]")." ".$_SERVER['REMOTE_ADDR']." git pulled: ".$payload['after']." ".$payload['commits'][0]['message']."\n", FILE_APPEND|LOCK_EX);
 } else {
     file_put_contents($LOG_FILE, date("[Y-m-d H:i:s]")." invalid access: ".$_SERVER['REMOTE_ADDR']."\n", FILE_APPEND|LOCK_EX);
