@@ -21,6 +21,7 @@ if (!function_exists('getallheaders'))
 }
 
 
+//テスト
 
 $header = getallheaders();
 $hmac = hash_hmac('sha1', file_get_contents("php://input"), $SECRET_KEY);
