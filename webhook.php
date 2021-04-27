@@ -26,11 +26,10 @@ if ( isset($header['X-Hub-Signature']) && $header['X-Hub-Signature'] === 'sha1='
     $payload = json_decode(file_get_contents("php://input"), true);
     $buf = '';
     $error_message = '';
-    exec('cd MentalHealth 2>&1; git pull origin develop 2>&1;', $buf);
+    exec('cd MentalHealth 2>&1; git pull origin develop 2>&1; cp public/* ../;', $buf);
     foreach($buf as $value) {
       $error_message = $error_message . $value . "\n";
     }
-    exec('gbw21ueda');
     file_put_contents($LOG_FILE, date("[Y-m-d H:i:s]")." ".$_SERVER['REMOTE_ADDR']." git pulled: ".$payload['after']." ".$payload['commits'][0]['message']."\n". "error_message-----\n".$error_message."-----", FILE_APPEND|LOCK_EX);
 } else {
     file_put_contents($LOG_FILE, date("[Y-m-d H:i:s]")." invalid access: ".$_SERVER['REMOTE_ADDR']."\n", FILE_APPEND|LOCK_EX);
