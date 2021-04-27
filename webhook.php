@@ -21,6 +21,7 @@ if (!function_exists('getallheaders'))
 }
 
 
+
 $header = getallheaders();
 $hmac = hash_hmac('sha1', file_get_contents("php://input"), $SECRET_KEY);
 if ( isset($header['X-Hub-Signature']) && $header['X-Hub-Signature'] === 'sha1='.$hmac ) {
