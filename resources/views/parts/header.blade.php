@@ -2,7 +2,7 @@
   <div class="container-fruid">
     <div class="row">
       <div class="col-md-7" style="height: 150px;">  
-        <img src="{{ asset('/image/屋号ロゴ.png') }}" alt="" width="300px" height="" style="margin-left: 25px; margin-top: 50px;"/>
+        <img src="{{ asset('/image/屋号ロゴ.png') }}" alt="" width="300px" height="" style="margin-left: 25px; margin-top: 50px;"/>
       </div>
       <div class="col-md-5" style="height: 150px;">
         <div class="float-right">
