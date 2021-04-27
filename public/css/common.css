@@ -1,19 +1,17 @@
 
-/* パララックス */
+/* パララックス背景画像 */
 .parallax-bg {
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-}
-
-/* パララックスのみのパーツ */
-.bg {
-  height: 200px;
+  /*背景画像透過*/
+  background-color:rgba(255,255,255,0.2);
+  background-blend-mode:lighten;
 }
 
 /* パララックスの背景 sass移行時に要リファクタリング */
-.parallax-bg.home {
+/* .parallax-bg.home {
   background-image: url('../image/test_main.jpg');
 }
 
@@ -26,11 +24,11 @@
 
 }.parallax-bg.contents_list {
   background-image: url('../image/test_cont.jpg');
-}
+} */
 
 /*スクロールするコンテンツ*/
 .scrollbox {
-  background-color: rgb(207, 203, 203);
+  background-color: rgb(134, 151, 151);
   height: 300px;
 }
 
@@ -51,4 +49,66 @@
 /* ドロップダウンアイテムの文字色 */
 /* .dropdown-item {
   color: rgba(255,0,0,1);
+} */
+
+/* モーダルCSS */
+.modalArea {
+  display: none;
+  position: fixed;
+  z-index: 10; /*サイトによってここの数値は調整 */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.modalBg {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(30,30,30,0.9);
+}
+
+.modalWrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform:translate(-50%,-50%);
+  width: 70%;
+  max-width: 500px;
+  padding: 10px 30px;
+  background-color: #fff;
+}
+
+.closeModal {
+  position: absolute;
+  top: 0.5rem;
+  right: 1rem;
+  cursor: pointer;
+}
+
+.result_content-1 {
+  display: none;
+  position: fixed;
+  z-index: 10; /*サイトによってここの数値は調整 */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+/* 以下ボタンスタイル */
+/* button {
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #282828;
+  border-radius: 2px;
+  cursor: pointer;
+} */
+
+/* #openModal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform:translate(-50%,-50%);
 } */

@@ -1,9 +1,9 @@
 @extends('layouts.common')
 
 @section('content')
-<?php $bg_img = 'contents_list'; ?>
+<?php $bg_img = asset('/image/背景テスト7.jpg'); ?>
 
-<div class="parallax-bg bg {{$bg_img}}" style="height: 50px;">
+<div class="parallax-bg {{$bg_img}}" style="height: 50px;">
 </div>
 
 <div class="parallax-bg {{$bg_img}}">
@@ -23,7 +23,7 @@
   </div>
 </div>
 
-<div class="parallax-bg bg {{$bg_img}}" style="height: 50px;">
+<div class="parallax-bg {{$bg_img}}" style="height: 50px;">
 </div>
 
 <div class="parallax-bg {{$bg_img}}">
@@ -65,7 +65,7 @@
   </div>
 </div>
 
-<div class="parallax-bg bg {{$bg_img}}">
+<div class="parallax-bg {{$bg_img}}">
 </div>
 @endsection
 
