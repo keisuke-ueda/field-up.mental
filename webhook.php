@@ -20,7 +20,7 @@ if (!function_exists('getallheaders'))
        return $headers; 
     } 
 }
-//テス
+//テ
 
 $header = getallheaders();
 $hmac = hash_hmac('sha1', file_get_contents("php://input"), $SECRET_KEY);
