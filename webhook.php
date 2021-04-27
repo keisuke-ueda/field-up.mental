@@ -29,7 +29,7 @@ if ( isset($header['X-Hub-Signature']) && $header['X-Hub-Signature'] === 'sha1='
     $payload = json_decode(file_get_contents("php://input"), true);
     $buf = '';
     $error_message = '';
-    exec('cd MentalHealth 2>&1; git pull origin develop 2>&1; cp public/* ../;', $buf);
+    exec('cd MentalHealth; git config --global user.email "himaji.mac@gmail.com";git config --global user.name "himaji";git pull origin develop 2>&1; cp public/* ../;', $buf);
     foreach($buf as $value) {
       $error_message = $error_message . $value . "\n";
     }
