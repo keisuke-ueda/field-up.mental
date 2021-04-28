@@ -10966,26 +10966,6 @@ a.text-dark:focus {
   color: white;
 }
 
-.contents #home {
-  background-image: url(/images/背景テスト1.jpg?1981ffc8a1ba8907fb7a3b8cedc55f21);
-  background-color: rgba(255, 255, 255, 0.5);
-}
-
-.contents #introduction {
-  background-image: url(/images/背景テスト8.jpg?5434aafdc9610b0ac23a6dea502a99b3);
-  background-color: rgba(255, 255, 255, 0.3);
-}
-
-.contents #contents_list {
-  background-image: url(/images/背景テスト3.jpg?961cbc4f79663ed9cfe98d208bc44e45);
-  background-color: rgba(255, 255, 255, 0.3);
-}
-
-.contents #psychology_test {
-  background-image: url(/images/背景テスト6.jpg?bc8f74a3d920cd15939b986f0ff77e1b);
-  background-color: rgba(255, 255, 255, 0.3);
-}
-
 #loading {
   display: block;
 }
