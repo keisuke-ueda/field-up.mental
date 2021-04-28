@@ -1,7 +1,7 @@
 @extends('layouts.common')
 
 @section('content')
-<?php $bg_img = asset('/image/背景テスト3.jpg') ?>
+<?php $bg_img = asset('/image/背景テスト8.jpg') ?>
 <div class="parallax-bg" style="background-image: url('{{$bg_img}}'); height: 50px;">
 </div>
 

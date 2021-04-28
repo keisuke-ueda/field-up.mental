@@ -34,3 +34,7 @@ Route::get('/psychology_test', [App\Http\Controllers\PsychologyTestController::c
 Route::get('/psycology_test/egogram', [App\Http\Controllers\EgogramController::class, 'show'])->name('egogram.show');
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+// Route::get('scss', function () {
+//     return view('for-scss');
+// });

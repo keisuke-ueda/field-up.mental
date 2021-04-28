@@ -6,3 +6,69 @@
 
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
+
+// sass手動
+/* パララックス背景画像 */
+// .parallax-bg {
+//   background-attachment: fixed;
+//   background-position: center;
+//   background-size: cover;
+//   background-repeat: no-repeat;
+//   /*背景画像透過*/
+//   background-color:rgba(255,255,255,0.2);
+//   background-blend-mode:lighten;
+// }
+
+.contents {
+  // パララックス背景画像
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  // 背景画像の濃さを調整(ページごとのID欄に転記)
+  // background-color:rgba(255,255,255,0.2);
+  background-blend-mode:lighten;
+
+  .container {
+    background-color:rgba(138, 44, 226, 0);
+    .row {
+      background-color: rgba(255, 140, 0, 0);
+      .item {
+        background-color: rgba(255, 0, 255, 0.2);
+        padding: 0;
+        color: rgb(255, 255, 255);
+      }
+    }
+  }
+  #home {
+    background-image: url('/image/背景テスト1.jpg');
+    background-color:rgba(255,255,255,0.5);
+  }
+  #introduction {
+    background-image: url('/image/背景テスト8.jpg');
+    background-color:rgba(255,255,255,0.3);
+  }
+  #contents_list {
+    background-image: url('/image/背景テスト3.jpg');
+    background-color:rgba(255,255,255,0.3);
+  }
+  #psychology_test {
+    background-image: url('/image/背景テスト6.jpg');
+    background-color:rgba(255,255,255,0.3);
+  }
+}
+
+
+
+#loading {
+  display: block;
+}
+
+#wait-load {
+  display: none;
+}
+
+h1 {
+  font-weight: bold;
+}
