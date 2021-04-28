@@ -27,7 +27,7 @@
           <a class="nav-link" href="{{ route('news.show') }}">News</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="{{ route('egogram.show') }}">PsychologyTest</a>
+          <a class="nav-link" href="{{ route('psychology_test.show') }}">PsychologyTest</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href=" {{ route('contents_list.show') }}">Content</a>

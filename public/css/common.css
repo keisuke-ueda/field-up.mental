@@ -16,6 +16,7 @@
   color: rgba(255,0,0,1);
 } */
 
+
 #home {
   background-image: url('../image/背景テスト1.jpg');
   background-color:rgba(255,255,255,0.5);
@@ -24,7 +25,7 @@
   background-image: url('../image/背景テスト8.jpg');
   background-color:rgba(255,255,255,0.3);
 }
-#contents_list {
+#mental_care_contents {
   background-image: url('../image/背景テスト3.jpg');
   background-color:rgba(255,255,255,0.3);
 }

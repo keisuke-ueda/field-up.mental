@@ -9,4 +9,8 @@ class PsychologyTestController extends Controller
     public function show() {
         return view('psychology_test');
     }
+
+    public function select() {
+        return view('psychology_test/egogram');
+    }
 }

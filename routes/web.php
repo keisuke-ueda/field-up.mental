@@ -30,6 +30,9 @@ Route::get('/introduction', [App\Http\Controllers\IntroductionController::class,
 Route::get('/news', [App\Http\Controllers\NewsController::class, 'show'])-> name('news.show');
 Route::get('/psychology_test', [App\Http\Controllers\PsychologyTestController::class, 'show'])-> name('psychology_test.show');
 
+Route::get('/psychology_test/egogram', [App\Http\Controllers\PsychologyTestController::class, 'select'])-> name('psychology_test.select');
+
+Route::get('/contents/contents1',[App\Http\Controllers\ContentsListController::class, 'select'])->name('contents_list.select');
 
 Route::get('/psycology_test/egogram', [App\Http\Controllers\EgogramController::class, 'show'])->name('egogram.show');
 
