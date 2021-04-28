@@ -15,6 +15,16 @@
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
     @yield('js')
+    <script>
+        window.onload = function() {
+            setTimeout("show()", 500);
+        }
+
+        function show() {
+            document.getElementById('loading').style.display = 'none';
+            document.getElementById('wait-load').style.display = 'block';
+        }
+    </script>
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
@@ -30,8 +40,12 @@
 
     <body>
         @include('parts.header')
-        @yield('content')
-        @include('parts.footer')
-
+        <div id="wait-load">
+            @yield('content')
+            @include('parts.footer')
+        </div>
+        <div id="loading">
+            <span class="spinner-loader"></span>
+        </div>
     </body>
 </html>
