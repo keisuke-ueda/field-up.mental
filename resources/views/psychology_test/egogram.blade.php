@@ -49,19 +49,8 @@
       </div>
       <div class="w-100 " style="height: 50px;">
       </div>
-      <div class="w-100">
-        <button type="button" class="btn btn-secondary mx-auto d-block btn-lg"
-          onclick="OnButtonClick();">どうなるかな？</button>
-      </div>
-      <div class="col-md-2">
-      </div>
     </div>
   </div>
-
-
-  <div style="height: 100px;">
-  </div>
-
 
   <div class="container">
     <div class="row justify-content-center">
@@ -76,11 +65,9 @@
       <div class="col-md-2">
       </div>
     </div>
-    <div class="col-md-12" style="height: 100px;">
+    <div class="col-md-12" style="height: 50px;">
     </div>
   </div>
-
-
 
   <!-- モーダルエリアここから -->
   <section id="modalArea" class="modalArea">
