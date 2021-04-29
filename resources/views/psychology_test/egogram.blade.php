@@ -21,11 +21,9 @@
     <div class="row justify-content-center">
       <div class="col-md-10 item" style="background-color: rgb(199, 114, 185);">
         <form action="#" method="post">
-          <h4>ⅰ</h4>
           <table class="table mt-5">
             <tbody>
               <tr>
-                <th>id</th>
                 <th>質問</th>
                 <th>○</th>
                 <th>△</th>
@@ -33,16 +31,15 @@
               <tr>
                 @foreach($arrays as $array)
               <tr>
-                <td>{{ $array['id'] }}</td>
                 <td>{{ $array['question'] }}</td>
                 <td>
-                  <input type="radio" value="round_count" name="ego<?=$array['id']?>" />
+                  <input type="radio" onclick="onClick()" value="round_count" name="ego<?=$array['id']?>" />
                 </td>
                 <td>
-                  <input type="radio" value="triangle_count" name="ego<?=$array['id']?>" />
+                  <input type="radio" onclick="onClick()" value="triangle_count" name="ego<?=$array['id']?>" />
                 </td>
                 <td>
-                  <input type="radio" value="cross_count" name="ego<?=$array['id']?>" />
+                  <input type="radio" onclick="onClick()" value="cross_count" name="ego<?=$array['id']?>" />
                 </td>
               </tr>
               @endforeach

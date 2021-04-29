@@ -34,6 +34,12 @@
   background-color:rgba(255,255,255,0.3);
 }
 
+input[type=radio] {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+}
+
 /* モーダルCSS */
 .modalArea {
   display: none;

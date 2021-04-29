@@ -63,7 +63,7 @@ var ex_chart = new Chart(ctx, {
     options: options
 });
 
-function OnButtonClick() {
+function onClick() {
 
   for (let i = 1; i <= 5; i++) {
     let score = 0;
