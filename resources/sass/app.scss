@@ -20,7 +20,7 @@
 // }
 
 .contents *{
-  // パララックス背景画像
+  // パララックス背景画像プロパティ
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -29,15 +29,16 @@
   // 背景画像の濃さを調整(ページごとのID欄に転記)
   // background-color:rgba(255,255,255,0.2);
   background-blend-mode:lighten;
-
-  .container {
-    background-color:rgba(138, 44, 226, 0);
-    .row {
-      background-color: rgba(255, 140, 0, 0);
-      .item {
-        background-color: rgba(255, 0, 255, 0.2);
-        padding: 0;
-        color: rgb(255, 255, 255);
+  @each $container in container, container-fruid {
+    .#{$container} {
+      background-color:rgba(138, 44, 226, 0);
+      .row {
+        background-color: rgba(255, 140, 0, 0);
+        .item {
+          background-color: rgba(255, 0, 255, 0.2);
+          padding: 0;
+          color: rgb(255, 255, 255);
+        }
       }
     }
   }

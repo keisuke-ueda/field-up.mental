@@ -10966,6 +10966,20 @@ a.text-dark:focus {
   color: white;
 }
 
+.contents * .container-fruid {
+  background-color: rgba(138, 44, 226, 0);
+}
+
+.contents * .container-fruid .row {
+  background-color: rgba(255, 140, 0, 0);
+}
+
+.contents * .container-fruid .row .item {
+  background-color: rgba(255, 0, 255, 0.2);
+  padding: 0;
+  color: white;
+}
+
 #loading {
   display: block;
 }
