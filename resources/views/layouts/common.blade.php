@@ -36,8 +36,8 @@
         integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 
     <!-- Styles -->
-    <link href="{{ asset('css/app.css') }}?ver1.0.0" rel="stylesheet">
-    <link href="{{ asset('css/common.css') }}?ver1.0.0" rel="stylesheet">
+    <link href="{{ asset('css/app.css') }}?ver1.0.1" rel="stylesheet">
+    <link href="{{ asset('css/common.css') }}?ver1.0.1" rel="stylesheet">
 </head>
 
 <body>

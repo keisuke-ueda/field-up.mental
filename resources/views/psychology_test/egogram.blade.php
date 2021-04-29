@@ -16,7 +16,6 @@
     </div>
   </div>
 
-
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-md-10 item" style="background-color: rgb(199, 114, 185);">
