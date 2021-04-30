@@ -19,12 +19,12 @@
 //   background-blend-mode:lighten;
 // }
 
-.contents {
+.contents *{
   // パララックス背景画像プロパティ
-  // background-attachment: fixed;
-  // background-position: center;
-  // background-size: cover;
-  // background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 
   // 背景画像の濃さを調整(ページごとのID欄に転記)
   // background-color:rgba(255,255,255,0.2);
@@ -82,7 +82,6 @@
 //     background-color:rgba(255,255,255,0.5);
 //   }
 // }
-
 
 
 #loading {

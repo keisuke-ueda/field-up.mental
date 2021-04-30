@@ -10944,33 +10944,37 @@ a.text-dark:focus {
 
 /* パララックス背景画像 */
 
-.contents {
+.contents * {
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   background-blend-mode: lighten;
 }
 
-.contents .container {
+.contents * .container {
   background-color: rgba(138, 44, 226, 0);
 }
 
-.contents .container .row {
+.contents * .container .row {
   background-color: rgba(255, 140, 0, 0);
 }
 
-.contents .container .row .item {
+.contents * .container .row .item {
   background-color: rgba(255, 0, 255, 0);
   padding: 0;
   color: white;
 }
 
-.contents .container-fruid {
+.contents * .container-fruid {
   background-color: rgba(138, 44, 226, 0);
 }
 
-.contents .container-fruid .row {
+.contents * .container-fruid .row {
   background-color: rgba(255, 140, 0, 0);
 }
 
-.contents .container-fruid .row .item {
+.contents * .container-fruid .row .item {
   background-color: rgba(255, 0, 255, 0);
   padding: 0;
   color: white;
