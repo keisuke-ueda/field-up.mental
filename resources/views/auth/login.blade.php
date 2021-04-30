@@ -68,13 +68,13 @@
                             </div>
 
                             <div class="form-group row mb-0">
-                                <div class="col-md-8 offset-md-4">
+                                <div class="col-md-12 text-center">
                                     <button type="submit" class="btn btn-primary">
                                         {{ __('Login') }}
                                     </button>
 
                                 </div>
-                                <div class="col-md-8 offset-md-2">
+                                <div class="col-md-12 text-center">
                                     @if (Route::has('password.request'))
                                     <p class="text-center">
                                         <a class="btn btn-link" href="{{ route('password.request') }}">
