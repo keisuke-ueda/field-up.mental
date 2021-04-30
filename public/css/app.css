@@ -10944,96 +10944,39 @@ a.text-dark:focus {
 
 /* パララックス背景画像 */
 
-.contents * {
-  background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+.contents {
   background-blend-mode: lighten;
 }
 
-.contents * .container {
+.contents .container {
   background-color: rgba(138, 44, 226, 0);
 }
 
-.contents * .container .row {
+.contents .container .row {
   background-color: rgba(255, 140, 0, 0);
 }
 
-.contents * .container .row .item {
+.contents .container .row .item {
   background-color: rgba(255, 0, 255, 0);
   padding: 0;
   color: white;
 }
 
-.contents * .container-fruid {
+.contents .container-fruid {
   background-color: rgba(138, 44, 226, 0);
 }
 
-.contents * .container-fruid .row {
+.contents .container-fruid .row {
   background-color: rgba(255, 140, 0, 0);
 }
 
-.contents * .container-fruid .row .item {
+.contents .container-fruid .row .item {
   background-color: rgba(255, 0, 255, 0);
   padding: 0;
   color: white;
 }
 
 /* mobile bugfix */
-
-@media screen and (max-width: 575px) {
-  #home {
-    background-image: none !important;
-  }
-
-  .contents * {
-    background-color: rgba(0, 0, 0, 0);
-  }
-
-  .contents * .container {
-    background-color: rgba(138, 44, 226, 0);
-  }
-
-  .contents * .container .row {
-    background-color: rgba(255, 140, 0, 0);
-  }
-
-  .contents * .container .row .item {
-    background-color: rgba(255, 0, 255, 0);
-    padding: 0;
-    color: white;
-  }
-
-  .contents * .container-fruid {
-    background-color: rgba(138, 44, 226, 0);
-  }
-
-  .contents * .container-fruid .row {
-    background-color: rgba(255, 140, 0, 0);
-  }
-
-  .contents * .container-fruid .row .item {
-    background-color: rgba(255, 0, 255, 0);
-    padding: 0;
-    color: white;
-  }
-
-  #home::before {
-    content: "";
-    display: block;
-    position: fixed;
-    top: 0;
-    left: 0;
-    transform: translate3d(0, 0, -1px);
-    width: 100%;
-    min-height: 100%;
-    background-size: cover;
-    z-index: -1;
-    background-image: url(/images/背景テスト1.jpg?1981ffc8a1ba8907fb7a3b8cedc55f21);
-    background-color: rgba(255, 255, 255, 0.5);
-  }
-}
 
 #loading {
   display: block;

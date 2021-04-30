@@ -1,7 +1,7 @@
 
 /* mobile bugfix */
-/* @media screen and (max-width: 575px) {
-  .contents {
+@media screen and (max-width: 575px) {
+  #home {
     background-image: none !important;
     height: 100%;
   }
@@ -21,7 +21,7 @@
     background-image: url('../image/背景テスト1.jpg');
     background-color:rgba(255,255,255,0.5);
   }
-} */
+}
 
 /* nav-itemの文字色 */
 .navbar .navbar-nav .nav-link{
@@ -51,6 +51,10 @@
 
 
 #home {
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   background-image: url('../image/背景テスト1.jpg');
   background-color:rgba(255,255,255,0.5);
 }
