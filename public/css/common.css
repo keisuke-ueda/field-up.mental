@@ -5,7 +5,7 @@
     background-image: none !important;
     height: 100%;
   }
-  #home::before {
+  .container-fruid::before {
     content: "";
     display: block;
     position: fixed;
