@@ -45,7 +45,7 @@
 </head>
 
 <body>
-    <div class="wrapper w-100" style="overflow: hidden;">
+    <div class="wrapper w-100 overflow-hidden">
         @include('parts.header')
         <div id="wait-load">
             <div class="contents">
