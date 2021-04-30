@@ -1,11 +1,11 @@
 
 /* mobile bugfix */
 @media screen and (max-width: 575px) {
-  .contents {
+  #home {
     background-image: none !important;
     height: 100%;
   }
-  .contents::before {
+  #home::before {
     content: "";
     display: block;
     position: fixed;
