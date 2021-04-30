@@ -82,6 +82,14 @@ h1 {
   background-image: url('../image/背景テスト6.jpg');
   background-color:rgba(255,255,255,0.3);
 }
+#care {
+  background-image: url('../image/背景テスト4.jpg');
+  background-color:rgba(255,255,255,0.3);
+}
+#news {
+  background-image: url('../image/背景テスト7.jpg');
+  background-color:rgba(255,255,255,0.3);
+}
 
 input[type=radio] {
   width: 20px;

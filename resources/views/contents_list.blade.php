@@ -33,12 +33,12 @@
       </div>
       <div class="col-md-5 item">
         <a href='{{ route("contents_list.select", ["page_number"=>$i*2+2]) }}' class="card w-100 h-100">
-          <img src='{{ asset("/image/コンテンツサムネ" . ($i*2+2) . ".jpg") }}' class="card-img" alt="...">
-          <div class="card-img-overlay">
-            <h3 class="card-title"></h3>
+          <img src='{{ asset("/image/コンテンツサムネ" . ($i*2+2) . ".jpg") }}' class="card-img w-100 h-75" alt="...">
+          <!-- <div class="card-img-overlay"> -->
+            <h3 class="card-title">【すぐ実践できる】健やかに生きるための心構え</h3>
             <p class="card-text">
             </p>
-          </div>
+          <!-- </div> -->
         </a>
       </div>
       <div class="col-md-12" style="height: 50px;">
