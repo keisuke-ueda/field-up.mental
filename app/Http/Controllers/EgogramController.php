@@ -65,7 +65,7 @@ class EgogramController extends Controller
             ['id' => '5_10', 'question' => '⑩自分はいつも損ばかりしていると思う。'],
         ];
  
-        return view('psychology_test/egogram')->with('arrays',$array);
+        return view('psychology_test/test1')->with('arrays',$array);
  
     }
 }

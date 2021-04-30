@@ -10,7 +10,8 @@ class PsychologyTestController extends Controller
         return view('psychology_test');
     }
 
-    public function select() {
-        return view('psychology_test/egogram');
+
+    public function select($page_number) {
+        return redirect("psychology_test/egogram");
     }
 }

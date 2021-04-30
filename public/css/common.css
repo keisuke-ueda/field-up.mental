@@ -49,8 +49,19 @@
   width: 100%;
   height: 100%;
 }
-
-
+h1 {
+  color          : #ffffff;            /* 文字の色 */
+  letter-spacing : 4px;                /* 文字間 */
+  text-shadow    : 
+  2px  2px 1px rgba(102, 102, 255, 0.30),
+  -2px  2px 1px rgba(102, 102, 255, 0.30),
+   2px -2px 1px rgba(102, 102, 255, 0.30),
+  -2px -2px 1px rgba(102, 102, 255, 0.30),
+   2px  0px 1px rgba(102, 102, 255, 0.30),
+   0px  2px 1px rgba(102, 102, 255, 0.30),
+  -2px  0px 1px rgba(102, 102, 255, 0.30),
+   0px -2px 1px rgba(102, 102, 255, 0.30);        /* 文字の影 */
+}
 #home {
   /* background-attachment: fixed;
   background-position: center;
