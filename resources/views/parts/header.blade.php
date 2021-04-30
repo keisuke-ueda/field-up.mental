@@ -4,7 +4,7 @@
       <div class="col-md-7" style="height: 150px;">  
         <img src="{{ asset('/image/屋号ロゴ.png') }}" alt="" width="300px" height="" style="margin-left: 25px; margin-top: 50px;"/>
       </div>
-      <div class="col-md-5" style="height: 150px;">
+      <div class="col-md-5 d-none d-md-block" style="height: 150px;">
         <div class="float-right">
           <img src="{{ asset('/image/test_gif.gif') }}" alt="" style="height: 150px;"/>
         </div>

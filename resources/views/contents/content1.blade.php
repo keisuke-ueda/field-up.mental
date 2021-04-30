@@ -20,7 +20,7 @@
       </div>
       <div class="col-md-12" style="height:20px;">
       </div>
-      <div class="col-md-10 item text-center" style="height: auto;">
+      <div class="col-md-10 item text-center w-100" style="height: auto;">
           <iframe width="560" height="315" src="https://www.youtube.com/embed/vGv7p8g61DA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
       <div class="col-md-12" style="height:20px;">
