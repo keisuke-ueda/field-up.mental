@@ -1,3 +1,7 @@
+body {
+  /* スマホで左右にブレるのを解消 */
+  overflow-x: hidden;
+}
 
 /* nav-itemの文字色 */
 .navbar .navbar-nav .nav-link{

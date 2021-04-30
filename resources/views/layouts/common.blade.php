@@ -26,6 +26,10 @@
             document.getElementById('wait-load').style.display = 'block';
         }
     </script>
+    <!-- <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+        ScrollReveal().reveal('.item');
+    </script> -->
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
