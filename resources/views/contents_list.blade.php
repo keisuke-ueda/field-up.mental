@@ -17,7 +17,7 @@
 
   <div class="container">
     <div class="row">
-      @for ($i = 0; $i < 5; $i++) <div class="col-md-5 item" style="height: 150px;">
+      @for ($i = 0; $i < 5; $i++) <div class="col-md-5 item">
         <a href='{{ route("contents_list.select", ["page_number"=>$i*2+1]) }}' class="card w-100 h-100">
           <img src='{{ asset("/image/コンテンツサムネ" . ($i*2+1) . ".jpg") }}' class="card-img" alt="...">
           <div class="card-img-overlay">
@@ -29,7 +29,9 @@
       </div>
       <div class="col-md-2">
       </div>
-      <div class="col-md-5 item" style="height: 150px;">
+      <div class="d-md-none" style="height: 50px;">
+      </div>
+      <div class="col-md-5 item">
         <a href='{{ route("contents_list.select", ["page_number"=>$i*2+2]) }}' class="card w-100 h-100">
           <img src='{{ asset("/image/コンテンツサムネ" . ($i*2+2) . ".jpg") }}' class="card-img" alt="...">
           <div class="card-img-overlay">
