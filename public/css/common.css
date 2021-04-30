@@ -1,6 +1,6 @@
 body {
   /* スマホで左右にブレるのを解消 */
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 /* nav-itemの文字色 */
