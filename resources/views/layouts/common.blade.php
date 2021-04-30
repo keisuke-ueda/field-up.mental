@@ -45,15 +45,17 @@
 </head>
 
 <body>
-    @include('parts.header')
-    <div id="wait-load">
-        <div class="contents">
-            @yield('content')
+    <div class="wrapper w-100" style="overflow: hidden;">
+        @include('parts.header')
+        <div id="wait-load">
+            <div class="contents">
+                @yield('content')
+            </div>
+            @include('parts.footer')
         </div>
-        @include('parts.footer')
-    </div>
-    <div id="loading">
-        <span class="spinner-loader"></span>
+        <div id="loading">
+            <span class="spinner-loader"></span>
+        </div>
     </div>
 </body>
 
