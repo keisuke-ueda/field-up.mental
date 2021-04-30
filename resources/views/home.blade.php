@@ -1,7 +1,7 @@
 @extends('layouts.common')
 
 @section('content')
-<?php $bg_img = asset('/image/背景テスト7.jpg') ?>
+<div id="home">
 <!--
   背景テスト1:0.5
   背景テスト2:0.3
@@ -13,32 +13,46 @@
   背景テスト8:0.3
   背景テスト9:0.3
 -->
-  <div class="parallax-bg" style="background-image: url('{{$bg_img}}'); height: 250px;">
-  </div>
 
-  <div class="container-fruid parallax-bg" style="background-image: url('{{$bg_img}}');">
-    <div class="scrollbox" style="filter: opacity(0.5);">
-      <p>心理テストへ遷移</p>
+  <div class="container-fruid">
+    <div class="row">
+      <div class="col-md-12" style="height: 50px;">
+      </div>
+      <div class="col-md-12 item div-link" style="height: 250px;">
+        <p>心理テストへ遷移</p>
+        <a class ="link" href="{{ route('psychology_test.show') }}"></a>
+      </div>
+      <div class="col-md-12" style="height: 50px;">
+      </div>
     </div>
   </div>
 
-  <div class="parallax-bg" style="background-image: url('{{$bg_img}}'); height: 250px;">
-  </div>
-
-  <div class="container-fruid parallax-bg" style="background-image: url('{{$bg_img}}');">
-    <div class="scrollbox" style="filter: opacity(0.5);">
-      <p>心理テストへ遷移</p>
+  <div class="container-fruid">
+    <div class="row">
+      <div class="col-md-12" style="height: 50px;">
+      </div>
+      <div class="col-md-12 item div-link" style="height: 250px;">
+        <p>コンテンツへ遷移</p>
+        <a class ="link" href="{{ route('contents_list.show') }}"></a>
+      </div>
+      <div class="col-md-12" style="height: 50px;">
+      </div>
     </div>
   </div>
 
-  <div class="parallax-bg" style="background-image: url('{{$bg_img}}'); height: 250px;">
-  </div>
-
-  <div class="container-fruid parallax-bg" style="background-image: url('{{$bg_img}}');">
-    <div class="scrollbox" style="filter: opacity(0.5);">
-      <p>心理テストへ遷移</p>
+  <div class="container-fruid">
+    <div class="row">
+      <div class="col-md-12" style="height: 50px;">
+      </div>
+      <div class="col-md-12 item div-link" style="height: 250px;">
+        <p>ケアページへ遷移</p>
+        <a class ="link" href="{{ route('care.show') }}"></a>
+      </div>
+      <div class="col-md-12" style="height: 50px;">
+      </div>
     </div>
   </div>
+</div>
 @endsection
 
 @section('js')

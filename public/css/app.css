@@ -10942,4 +10942,56 @@ a.text-dark:focus {
   }
 }
 
+/* パララックス背景画像 */
+
+.contents * {
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: lighten;
+}
+
+.contents * .container {
+  background-color: rgba(138, 44, 226, 0);
+}
+
+.contents * .container .row {
+  background-color: rgba(255, 140, 0, 0);
+}
+
+.contents * .container .row .item {
+  background-color: rgba(255, 0, 255, 0.2);
+  padding: 0;
+  color: white;
+}
+
+.contents * .container-fruid {
+  background-color: rgba(138, 44, 226, 0);
+}
+
+.contents * .container-fruid .row {
+  background-color: rgba(255, 140, 0, 0);
+}
+
+.contents * .container-fruid .row .item {
+  background-color: rgba(255, 0, 255, 0.2);
+  padding: 0;
+  color: white;
+}
+
+/* mobile bugfix */
+
+#loading {
+  display: block;
+}
+
+#wait-load {
+  display: none;
+}
+
+h1 {
+  font-weight: bold;
+}
+
 

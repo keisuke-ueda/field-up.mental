@@ -1,37 +1,27 @@
 
-/* パララックス背景画像 */
-.parallax-bg {
-  background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  /*背景画像透過*/
-  background-color:rgba(255,255,255,0.2);
-  background-blend-mode:lighten;
-}
-
-/* パララックスの背景 sass移行時に要リファクタリング */
-/* .parallax-bg.home {
-  background-image: url('../image/test_main.jpg');
-}
-
-.parallax-bg.introduction {
-  background-image: url('../image/test_intr.jpg');
-}
-
-.parallax-bg.psycology_test {
-  background-image: url('../image/test_test.jpg');
-
-}.parallax-bg.contents_list {
-  background-image: url('../image/test_cont.jpg');
+/* mobile bugfix */
+/* @media screen and (max-width: 575px) {
+  #home {
+    background-image: none !important;
+    height: 100%;
+  }
+  #home::before {
+    content: "";
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    -webkit-transform: translate3d(0, 0, -1px);
+    transform: translate3d(0, 0, -1px);
+    width: 100%;
+    min-height: 100%;
+    -webkit-background-size: cover;
+    background-size: cover;
+    z-index: -1;
+    background-image: url('../image/背景テスト1.jpg');
+    background-color:rgba(255,255,255,0.5);
+  }
 } */
-
-/*スクロールするコンテンツ*/
-.scrollbox {
-  background-color: rgb(134, 151, 151);
-  height: 300px;
-}
-
 
 
 /* nav-itemの文字色 */
@@ -50,6 +40,62 @@
 /* .dropdown-item {
   color: rgba(255,0,0,1);
 } */
+
+.div-link .link{
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+h1 {
+  color          : #ffffff;            /* 文字の色 */
+  letter-spacing : 4px;                /* 文字間 */
+  text-shadow    : 
+  2px  2px 1px rgba(102, 102, 255, 0.30),
+  -2px  2px 1px rgba(102, 102, 255, 0.30),
+   2px -2px 1px rgba(102, 102, 255, 0.30),
+  -2px -2px 1px rgba(102, 102, 255, 0.30),
+   2px  0px 1px rgba(102, 102, 255, 0.30),
+   0px  2px 1px rgba(102, 102, 255, 0.30),
+  -2px  0px 1px rgba(102, 102, 255, 0.30),
+   0px -2px 1px rgba(102, 102, 255, 0.30);        /* 文字の影 */
+}
+#home {
+  /* background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; */
+  background-image: url('../image/背景テスト1.jpg');
+  background-color:rgba(255,255,255,0.5);
+}
+#introduction {
+  background-image: url('../image/背景テスト8.jpg');
+  background-color:rgba(255,255,255,0.3);
+}
+#mental_care_contents {
+  background-image: url('../image/背景テスト3.jpg');
+  background-color:rgba(255,255,255,0.3);
+}
+#psychology_test {
+  background-image: url('../image/背景テスト6.jpg');
+  background-color:rgba(255,255,255,0.3);
+}
+#care {
+  background-image: url('../image/背景テスト4.jpg');
+  background-color:rgba(255,255,255,0.3);
+}
+#news {
+  background-image: url('../image/背景テスト7.jpg');
+  background-color:rgba(255,255,255,0.3);
+}
+
+input[type=radio] {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+}
 
 /* モーダルCSS */
 .modalArea {
@@ -112,3 +158,80 @@
   left: 50%;
   transform:translate(-50%,-50%);
 } */
+
+
+/* ローディング */
+@-moz-keyframes spinner-loader {
+  0% {
+    -moz-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -moz-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes spinner-loader {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes spinner-loader {
+  0% {
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+/* :not(:required) hides this rule from IE9 and below */
+.spinner-loader:not(:required) {
+  -moz-animation: spinner-loader 1500ms infinite linear;
+  -webkit-animation: spinner-loader 1500ms infinite linear;
+  animation: spinner-loader 1500ms infinite linear;
+  -moz-border-radius: 0.5em;
+  -webkit-border-radius: 0.5em;
+  border-radius: 0.5em;
+  -moz-box-shadow: rgba(0, 0, 51, 0.3) 1.5em 0 0 0, 
+  rgba(0, 0, 51, 0.3) 1.1em 1.1em 0 0, 
+  rgba(0, 0, 51, 0.3) 0 1.5em 0 0, 
+  rgba(0, 0, 51, 0.3) -1.1em 1.1em 0 0, 
+  rgba(0, 0, 51, 0.3) -1.5em 0 0 0, 
+  rgba(0, 0, 51, 0.3) -1.1em -1.1em 0 0, 
+  rgba(0, 0, 51, 0.3) 0 -1.5em 0 0, 
+  rgba(0, 0, 51, 0.3) 1.1em -1.1em 0 0;
+  -webkit-box-shadow: rgba(0, 0, 51, 0.3) 1.5em 0 0 0, 
+  rgba(0, 0, 51, 0.3) 1.1em 1.1em 0 0, 
+  rgba(0, 0, 51, 0.3) 0 1.5em 0 0, 
+  rgba(0, 0, 51, 0.3) -1.1em 1.1em 0 0, 
+  rgba(0, 0, 51, 0.3) -1.5em 0 0 0, 
+  rgba(0, 0, 51, 0.3) -1.1em -1.1em 0 0, 
+  rgba(0, 0, 51, 0.3) 0 -1.5em 0 0, 
+  rgba(0, 0, 51, 0.3) 1.1em -1.1em 0 0;
+  box-shadow: rgba(0, 0, 51, 0.3) 1.5em 0 0 0, 
+  rgba(0, 0, 51, 0.3) 1.1em 1.1em 0 0, 
+  rgba(0, 0, 51, 0.3) 0 1.5em 0 0, 
+  rgba(0, 0, 51, 0.3) -1.1em 1.1em 0 0, 
+  rgba(0, 0, 51, 0.3) -1.5em 0 0 0, 
+  rgba(0, 0, 51, 0.3) -1.1em -1.1em 0 0, 
+  rgba(0, 0, 51, 0.3) 0 -1.5em 0 0, 
+  rgba(0, 0, 51, 0.3) 1.1em -1.1em 0 0;
+  display: inline-block;
+  font-size: 10px;
+  width: 1em;
+  height: 1em;
+  margin: 1.5em;
+  overflow: hidden;
+  text-indent: 100%;
+}

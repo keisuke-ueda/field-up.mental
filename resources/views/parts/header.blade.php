@@ -2,9 +2,9 @@
   <div class="container-fruid">
     <div class="row">
       <div class="col-md-7" style="height: 150px;">  
-        <img src="{{ asset('/image/屋号ロゴ.png') }}" alt="" width="300px" height="" style="margin-left: 25px; margin-top: 50px;"/>
+        <img src="{{ asset('/image/屋号ロゴ.png') }}" alt="" width="300px" height="" style="margin-left: 25px; margin-top: 50px;"/>
       </div>
-      <div class="col-md-5" style="height: 150px;">
+      <div class="col-md-5 d-none d-md-block" style="height: 150px;">
         <div class="float-right">
           <img src="{{ asset('/image/test_gif.gif') }}" alt="" style="height: 150px;"/>
         </div>
@@ -18,7 +18,7 @@
     <div class="collapse navbar-collapse" id="navbarCollapse">
       <ul class="navbar-nav mr-auto w-100 nav-justified text-nowrap">
         <li class="nav-item">
-          <a class="nav-link" href="/home">Home</a>
+          <a class="nav-link" href="{{ route('home') }}">Home</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="{{ route('introduction.show') }}">Introduction</a>
@@ -27,7 +27,7 @@
           <a class="nav-link" href="{{ route('news.show') }}">News</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="{{ route('egogram.show') }}">PsychologyTest</a>
+          <a class="nav-link" href="{{ route('psychology_test.show') }}">PsychologyTest</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href=" {{ route('contents_list.show') }}">Content</a>

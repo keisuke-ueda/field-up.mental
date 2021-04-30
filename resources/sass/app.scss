@@ -6,3 +6,92 @@
 
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
+
+// sass手動
+/* パララックス背景画像 */
+// .parallax-bg {
+//   background-attachment: fixed;
+//   background-position: center;
+//   background-size: cover;
+//   background-repeat: no-repeat;
+//   /*背景画像透過*/
+//   background-color:rgba(255,255,255,0.2);
+//   background-blend-mode:lighten;
+// }
+
+.contents *{
+  // パララックス背景画像プロパティ
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  // 背景画像の濃さを調整(ページごとのID欄に転記)
+  // background-color:rgba(255,255,255,0.2);
+  background-blend-mode:lighten;
+  @each $container in container, container-fruid {
+    .#{$container} {
+      background-color:rgba(138, 44, 226, 0);
+      .row {
+        background-color: rgba(255, 140, 0, 0);
+        .item {
+          background-color: rgba(255, 0, 255, 0.2);
+          padding: 0;
+          color: rgb(255, 255, 255);
+        }
+      }
+    }
+  }
+}
+
+/* mobile bugfix */
+// @media screen and (max-width: 575px) {
+//   #home {
+//     background-image: none !important;
+//   }
+//   .contents *{
+//     background-color: rgba(0, 0, 0, 0);
+//     @each $container in container, container-fruid {
+//       .#{$container} {
+//         background-color:rgba(138, 44, 226, 0);
+//         .row {
+//           background-color: rgba(255, 140, 0, 0);
+//           .item {
+//             background-color: rgba(255, 0, 255, 0);
+//             padding: 0;
+//             color: rgb(255, 255, 255);
+//           }
+//         }
+//       }
+//     }
+//   }
+//   #home::before {
+//     content: "";
+//     display: block;
+//     position: fixed;
+//     top: 0;
+//     left: 0;
+//     -webkit-transform: translate3d(0, 0, -1px);
+//     transform: translate3d(0, 0, -1px);
+//     width: 100%;
+//     min-height: 100%;
+//     -webkit-background-size: cover;
+//     background-size: cover;
+//     z-index: -1;
+//     background-image: url('../image/背景テスト1.jpg');
+//     background-color:rgba(255,255,255,0.5);
+//   }
+// }
+
+
+#loading {
+  display: block;
+}
+
+#wait-load {
+  display: none;
+}
+
+h1 {
+  font-weight: bold;
+}

@@ -1,30 +1,35 @@
 @extends('layouts.common')
 
 @section('content')
-<?php $bg_img = asset('/image/test_care.jpg'); ?>
-  <div class="parallax-bg">
-    <p>パララックス</p>
+<div id="care">
+  <div class="container page_title">
+    <div class="row justify-content-center">
+      <div class="col-md-12" style="height: 50px;">
+      </div>
+      <div class="col-md-7 item align-self-center">
+        <h1 style="text-align: center;">ケアコンテンツ</h1>
+      </div>
+      <div class="col-md-12" style="height: 50px;">
+      </div>
+    </div>
   </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-5 item" style="height: 300px;">
+        チャット
+      </div>
+      <div class="d-block d-sm-none" style="height: 50px;">
 
-  <div class="scrollbox">
-    PsychologyTest
-  </div>
+      </div>
+      <div class="col-sm-5 offset-sm-2 item" style="height: 300px;">
+        予約
+      </div>
+      <div class="col-md-12 d-none d-sm-block" style="height: 50px;">
 
-  <div class="parallax-bg">
-    <p>パララックス</p>
+      </div>
+    </div>
   </div>
-
-  <div class="scrollbox">
-    Content
-  </div>
-
-  <div class="parallax-bg">
-    <p>パララックス</p>
-  </div>
-
-  <div class="scrollbox">
-    Care
-  </div>
+</div>
 @endsection
 
 @section('js')
