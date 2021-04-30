@@ -32,7 +32,7 @@ Route::get('/psychology_test', [App\Http\Controllers\PsychologyTestController::c
 
 Route::get('/psychology_test/egogram', [App\Http\Controllers\PsychologyTestController::class, 'select'])-> name('psychology_test.select');
 
-Route::get('/contents/contents1',[App\Http\Controllers\ContentsListController::class, 'select'])->name('contents_list.select');
+Route::get("/contents/contents{page_number}",[App\Http\Controllers\ContentsListController::class, 'select'])->name('contents_list.select');
 
 Route::get('/psycology_test/egogram', [App\Http\Controllers\EgogramController::class, 'show'])->name('egogram.show');
 

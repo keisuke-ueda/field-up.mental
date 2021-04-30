@@ -10,7 +10,7 @@ class ContentsListController extends Controller
         return view('contents_list');
     }
 
-    public function select() {
-        return view('contents/content1');
+    public function select($page_number) {
+        return view("contents/content${page_number}");
     }
 }
