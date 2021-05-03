@@ -10944,6 +10944,14 @@ a.text-dark:focus {
 
 /* パララックス背景画像 */
 
+.link-box a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
 .contents * {
   background-attachment: fixed;
   background-position: center;

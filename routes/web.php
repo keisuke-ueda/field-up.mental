@@ -39,3 +39,5 @@ Route::get("/contents/contents{page_number}",[App\Http\Controllers\ContentsListC
 Route::get('/psycology_test/egogram', [App\Http\Controllers\EgogramController::class, 'show'])->name('egogram.show');
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Route::get('/chat_care', [App\Http\Controllers\ChatController::class, 'login'])->name('chat_care');

@@ -19,6 +19,14 @@
 //   background-blend-mode:lighten;
 // }
 
+.link-box a{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
 .contents *{
   // パララックス背景画像プロパティ
   background-attachment: fixed;
