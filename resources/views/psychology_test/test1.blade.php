@@ -99,6 +99,14 @@
 <script src="{{ asset('/js/egogram.js') }}" defer></script>
 @endsection
 
+@section('style')
+<style type="text/css">
+  .item {
+    background-color: rgba(17, 168, 80, 0.5)!important;
+  }
+</style>
+@endsection
+
 @section('title')
 エゴグラム
 @endsection

@@ -108,6 +108,14 @@
 @section('js')
 @endsection
 
+@section('style')
+<style type="text/css">
+  .item {
+    background-color: rgba(55, 202, 116, 0.5)!important;
+  }
+</style>
+@endsection
+
 @section('title')
 事業紹介
 @endsection
