@@ -41,7 +41,7 @@
           <!-- </div> -->
         </a>
       </div>
-      <div class="col-md-12" style="height: 50px;">
+      <div class="w-100" style="height: 50px;">
       </div>
       @endfor
     </div>
