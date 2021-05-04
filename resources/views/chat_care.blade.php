@@ -1,7 +1,7 @@
 @extends('layouts.common')
 
 @section('content')
-<div id="authentication">
+<div id="care">
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-md-8 item text-dark">
@@ -139,10 +139,18 @@
     </div>
   </div>
 </div>
+<!-- <div id="app">
+  <main-component></main-component>
+</div> -->
+<!-- <input type="button" value="Googleを新しいウィンドウで開く" onclick="openWindow()"/> -->
 @endsection
 
 @section('js')
-
+<!-- <script>
+function openWindow() {
+  window.open("{{ route('psychology_test.show') }}", 'test', 'width=50,height=50,left=20,top=20,menubar=false,toolbar=false,status=false,scrollbars=false,resizable=false');
+};
+</script> -->
 @endsection
 
 @section('title')

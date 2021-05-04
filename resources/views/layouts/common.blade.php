@@ -11,6 +11,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
+    <!-- Title -->
     <title>@yield('title')</title>
 
     <!-- Scripts -->
@@ -40,8 +41,10 @@
         integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 
     <!-- Styles -->
-    <link href="{{ asset('css/app.css') }}?ver1.0.5" rel="stylesheet">
-    <link href="{{ asset('css/common.css') }}?ver1.0.5" rel="stylesheet">
+    <link href="{{ asset('css/app.css') }}?ver1.0.6" rel="stylesheet">
+    <link href="{{ asset('css/common.css') }}?ver1.0.6" rel="stylesheet">
+    <!-- Headタグ内に足す -->
+    <!-- <link rel="stylesheet" href="{{ mix('/css/app.css') }}"> -->
 </head>
 
 <body>
@@ -57,6 +60,10 @@
             <span class="spinner-loader"></span>
         </div>
     </div>
+
+    <!-- body タグの最後に足す-->
+    <!-- <script src=" {{ mix('js/app.js') }} "></script> -->
+
 </body>
 
 </html>

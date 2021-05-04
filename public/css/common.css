@@ -1,47 +1,10 @@
 
-/* mobile bugfix */
-/* @media screen and (max-width: 575px) {
-  #home {
-    background-image: none !important;
-    height: 100%;
-  }
-  #home::before {
-    content: "";
-    display: block;
-    position: fixed;
-    top: 0;
-    left: 0;
-    -webkit-transform: translate3d(0, 0, -1px);
-    transform: translate3d(0, 0, -1px);
-    width: 100%;
-    min-height: 100%;
-    -webkit-background-size: cover;
-    background-size: cover;
-    z-index: -1;
-    background-image: url('../image/背景テスト1.jpg');
-    background-color:rgba(255,255,255,0.5);
-  }
-} */
-
-
-
 
 /* nav-itemの文字色 */
 .navbar .navbar-nav .nav-link{
   color: white;
 }
-/* nav-item activeの文字色 */
-/* .navbar .navbar-nav .active > .nav-link {
-  color: rgba(0,0,255,1);
-} */
-/* nav-item:focus、nav-item:hoverの文字色 */
-/* .navbar .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
-  color: rgba(0,255,255,1);
-} */
-/* ドロップダウンアイテムの文字色 */
-/* .dropdown-item {
-  color: rgba(255,0,0,1);
-} */
+
 
 .div-link .link{
   display: block;
@@ -65,10 +28,6 @@ h1 {
    0px -2px 1px rgba(102, 102, 255, 0.30);        /* 文字の影 */
 }
 #home {
-  /* background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat; */
   background-image: url('../image/背景テスト1.jpg');
   background-color:rgba(255,255,255,0.5);
 }
@@ -143,24 +102,6 @@ input[type=radio] {
   width: 100%;
   height: 100%;
 }
-
-
-/* 以下ボタンスタイル */
-/* button {
-  padding: 10px;
-  background-color: #fff;
-  border: 1px solid #282828;
-  border-radius: 2px;
-  cursor: pointer;
-} */
-
-/* #openModal {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform:translate(-50%,-50%);
-} */
-
 
 /* ローディング */
 @-moz-keyframes spinner-loader {
