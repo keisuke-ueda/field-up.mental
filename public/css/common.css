@@ -4,6 +4,21 @@
 } */
 
 
+
+@font-face {
+  font-family: honokamarugo;
+  src: url('../fonts/font_1_honokamarugo_1.1.ttf');
+}
+
+body {
+  font-family: honokamarugo;
+}
+
+/* スマホのみ改行 */
+@media screen and (min-width: 768px){
+  .br-sp {display: none; }
+}
+
 .youtube {
   position: relative;
   width: 100%;/*横幅いっぱいにwidthを指定*/

@@ -2,12 +2,12 @@
 
 @section('content')
 <div id="mental_care_contents">
-  <div class="container page_title">
+  <div class="container">
     <div class="row justify-content-center">
       <div class="w-100" style="height: 50px;">
       </div>
-      <div class="col-md-7 item align-self-center">
-        <h1 style="text-align: center;">カラダとココロの関係</h1>
+      <div class="col-md-7 page-title">
+        <h1 class="text-center">カラダとココロの関係</h1>
       </div>
       <div class="w-100" style="height: 50px;">
       </div>

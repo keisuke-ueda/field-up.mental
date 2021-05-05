@@ -52,6 +52,26 @@
   }
 }
 
+#introduction *{
+  .item {
+    background-color: rgba(55, 202, 116, 0.5);
+  }
+}
+
+// 各ページタイトルの入るコンテナー
+.page-title {
+      color:#ffffff;
+      background-color: rgba(0, 0, 0, 0);
+}
+
+h1:after {
+  content: "";
+  display: block;
+  height: 4px;
+  background: -webkit-linear-gradient(to right, rgb(255, 186, 115), #ffb2b2);
+  background: linear-gradient(to right, rgb(255, 186, 115), #ffb2b2);
+}
+
 #loading {
   display: block;
 }

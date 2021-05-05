@@ -2,13 +2,13 @@
 
 @section('content')
 <div id="mental_care_contents">
-  <div class="container page_title">
+  <div class="container">
     <div class="row justify-content-center">
       <div class="col-md-12" style="height: 50px;">
       </div>
-      <div class="col-md-7 item align-self-center">
-        <h1 style="text-align: center;">コンテンツライブラリ</h1>
-        <p style="text-align: center;">気になるコンテンツをチェックしてみよう</p>
+      <div class="col-md-7 page_title">
+        <h1 class="text-center">コンテンツ<br class="br-sp"/>ライブラリ</h1>
+        <p class="text-center">気になるコンテンツをチェックしてみよう</p>
       </div>
       <div class="col-md-12" style="height: 50px;">
       </div>

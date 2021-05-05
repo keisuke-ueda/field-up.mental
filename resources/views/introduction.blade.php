@@ -2,13 +2,13 @@
 
 @section('content')
 <div id="introduction">
-  <div class="container ">
+  <div class="container">
     <div class="row">
       <div class="w-100" style="height: 50px;">
       </div>
       <div class="col-md-3 ">
       </div>
-      <div class="col-md-6 item">
+      <div class="col-md-6 page-title">
         <h1 style="text-align: center;">事業紹介</h1>
       </div>
       <div class="col-md-3 ">
@@ -31,7 +31,7 @@
       <div class=" col-md-4">
       </div>
 
-      <div class="col-md-8 item d-none d-md-block"
+      <div class="col-md-8 item d-none d-md-block text-center"
         style="height: 325px; position:relative; bottom: 50px;">
         <h3>現代の問題として精神疾患や、うつ病などメンタルに大きくかかわる問題が溢れている</h3>
         <p>・家族間の心の不一致--親の面倒を見るのが大変、奥さん、旦那がわかってくれない、生活困窮している</p>
@@ -58,7 +58,7 @@
   <div class="container">
     <div class="row">
       <div class="order-md-5 col-md-4 item" style="height: 50px">
-        <h3>サービス紹介</h3>
+        <h3 class="text-center">サービス紹介</h3>
       </div>
       <div class="d-block d-md-none w-100" style="height:20px;">
       </div>
@@ -100,7 +100,7 @@
       </div>
     </div>
   </div>
-  <div class="d-block d-md-none w-100" style="height:50px;">
+  <div class="w-100" style="height:50px;">
   </div>
 </div>
 @endsection
@@ -110,9 +110,7 @@
 
 @section('style')
 <style type="text/css">
-  .item {
-    background-color: rgba(55, 202, 116, 0.5)!important;
-  }
+
 </style>
 @endsection
 

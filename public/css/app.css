@@ -10988,6 +10988,22 @@ a.text-dark:focus {
   color: white;
 }
 
+#introduction * .item {
+  background-color: rgba(55, 202, 116, 0.5);
+}
+
+.page-title {
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+h1:after {
+  content: "";
+  display: block;
+  height: 4px;
+  background: linear-gradient(to right, #ffba73, #ffb2b2);
+}
+
 #loading {
   display: block;
 }

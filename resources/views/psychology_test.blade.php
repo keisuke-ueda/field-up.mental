@@ -2,13 +2,13 @@
 
 @section('content')
 <div id="psychology_test">
-  <div class="container page_title">
+  <div class="container">
     <div class="row justify-content-center">
       <div class="w-100" style="height: 50px;">
       </div>
-      <div class="col-md-7 item align-self-center">
-        <h1 style="text-align: center;">心理テスト</h1>
-        <p style="text-align: center;">気になったテストをやってみよう</p>
+      <div class="col-md-7 page-title">
+        <h1 class="text-center">心理テスト</h1>
+        <p class="text-center">気になったテストをやってみよう</p>
       </div>
       <div class="w-100" style="height: 50px;">
       </div>
