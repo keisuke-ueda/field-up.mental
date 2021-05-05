@@ -1,3 +1,8 @@
+/* オーバーバウンス無効(効かなかった) */
+/* body {
+  overscroll-behavior-y: none;
+} */
+
 
 .youtube {
   position: relative;
@@ -40,30 +45,143 @@ h1 {
   -2px  0px 1px rgba(102, 102, 255, 0.30),
    0px -2px 1px rgba(102, 102, 255, 0.30);        /* 文字の影 */
 }
+
+/*******************/
+/* 各ページの背景設定 */
+/*******************/
 #home {
   background-image: url('../image/背景テスト1.jpg');
   background-color:rgba(255,255,255,0.5);
 }
+@media screen and (max-width:798px){
+  #home {
+    background-image: none!important;
+  }
+  #home:before {
+    content:"";
+    display:block;
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:-1;
+    width:100%;
+    height:100vh;
+    background:url('../image/背景テスト1.jpg') center no-repeat;
+    background-size:cover;
+  }
+}
+
 #introduction {
   background-image: url('../image/背景テスト8.jpg');
   background-color:rgba(255,255,255,0.3);
 }
+@media screen and (max-width:798px){
+  #introduction {
+    background-image: none!important;
+  }
+
+  #introduction:before {
+    content:"";
+    display:block;
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:-1;
+    width:100%;
+    height:100vh;
+    background:url('../image/背景テスト8.jpg') center no-repeat;
+    background-size:cover;
+  }
+}
+
 #mental_care_contents {
   background-image: url('../image/背景テスト3.jpg');
   background-color:rgba(255,255,255,0.3);
 }
+@media screen and (max-width:798px){
+  #mental_care_contents {
+    background-image: none!important;
+  }
+  #mental_care_contents:before {
+    content:"";
+    display:block;
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:-1;
+    width:100%;
+    height:100vh;
+    background:url('../image/背景テスト3.jpg') center no-repeat;
+    background-size:cover;
+  }
+}
+
 #psychology_test {
   background-image: url('../image/背景テスト6.jpg');
   background-color:rgba(255,255,255,0.3);
 }
+@media screen and (max-width:798px){
+  #psychology_test {
+    background-image: none!important;
+  }
+  #psychology_test:before {
+    content:"";
+    display:block;
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:-1;
+    width:100%;
+    height:100vh;
+    background:url('../image/背景テスト6.jpg') center no-repeat;
+    background-size:cover;
+  }
+}
+
 #care {
   background-image: url('../image/背景テスト4.jpg');
   background-color:rgba(255,255,255,0.3);
 }
+@media screen and (max-width:798px){
+  #care {
+    background-image: none!important;
+  }
+  #care:before {
+    content:"";
+    display:block;
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:-1;
+    width:100%;
+    height:100vh;
+    background:url('../image/背景テスト4.jpg') center no-repeat;
+    background-size:cover;
+  }
+}
+
 #news {
   background-image: url('../image/背景テスト7.jpg');
   background-color:rgba(255,255,255,0.3);
 }
+@media screen and (max-width:798px){
+  #news {
+    background-image: none!important;
+  }
+  #news:before {
+    content:"";
+    display:block;
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:-1;
+    width:100%;
+    height:100vh;
+    background:url('../image/背景テスト7.jpg') center no-repeat;
+    background-size:cover;
+  }
+}
+
 
 input[type=radio] {
   width: 20px;

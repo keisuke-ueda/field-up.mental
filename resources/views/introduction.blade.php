@@ -1,7 +1,7 @@
 @extends('layouts.common')
 
 @section('content')
-<div id="psychology_test">
+<div id="introduction">
   <div class="container ">
     <div class="row">
       <div class="w-100" style="height: 50px;">
