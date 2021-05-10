@@ -9,4 +9,8 @@ class ChatCareController extends Controller
     public function login() {
         return view('chat_care');
     }
+
+    public function chat() {
+        
+    }
 }
