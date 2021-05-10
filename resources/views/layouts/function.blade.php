@@ -39,6 +39,17 @@
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}?ver1.0.6" rel="stylesheet">
     <link href="{{ asset('css/common.css') }}?ver1.0.6" rel="stylesheet">
+    <style>
+      .wrapper {
+        height: 100%;
+      }
+      #wait-load {
+        height: 100%;
+      }
+      .contents {
+        height: 100%;
+      }
+    </style>
     @yield('style')
 </head>
 

@@ -7,7 +7,7 @@
       <div class="col-md-12" style="height: 50px;">
       </div>
       <div class="col-md-7 page-title">
-        <h1 class="text-center">ケアコンテンツ</h1>
+        <h1 class="text-center">チャット</h1>
       </div>
       <div class="col-md-12" style="height: 50px;">
       </div>
@@ -15,18 +15,28 @@
   </div>
   <div class="container">
     <div class="row">
-      <div class="col-sm-5 item link-box" style="height: 300px;">
-        <a href="{{ route('chat_care.login') }}"></a>
-        チャット
+      <div id="chat-frame" style="height: 400px;">
+        <p class="chat-talk">
+          <span class="talk-icon">
+            <img src="" alt="tartgeticon" width="XX" height="XX" />
+          </span>
+          <span class="talk-content">[トーク内容を記載]</span>
+        </p>
+        <p class="chat-talk mytalk">
+          <span class="talk-icon">
+            <img src="" alt="myicon" width="XX" height="XX" />
+          </span>
+          <span class="talk-content">[トーク内容を記載]</span>
+        </p>
       </div>
-      <div class="d-block d-sm-none" style="height: 50px;">
-
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="w-100" style="height: 30px;">
       </div>
-      <div class="col-sm-5 offset-sm-2 item link-box" style="height: 300px;">
-        予約
-      </div>
-      <div class="col-md-12 d-none d-sm-block" style="height: 50px;">
-
+      <div class="text-center">
+        <textarea class="w-50" style="height: 50px;"></textarea>
       </div>
     </div>
   </div>
@@ -35,6 +45,16 @@
 
 @section('js')
 @endsection
+
+@section('style')
+<style>
+  #care {
+    height: 100%;
+  }
+  textarea {
+    resize: none!important;
+  }
+</style>
 
 @section('title')
 チャット
