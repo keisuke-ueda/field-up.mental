@@ -7,7 +7,6 @@ use Illuminate\Http\Request;
 class EgogramController extends Controller
 {
     public function show() {
- 
         $array = [
             ['id' => '1_1', 'question' => '①どんなことでもちゃんとしないと気がすまない。'],
             ['id' => '1_2', 'question' => '②人の過ちをなかなか許せない。'],

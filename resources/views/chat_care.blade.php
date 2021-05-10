@@ -142,15 +142,15 @@
 <!-- <div id="app">
   <main-component></main-component>
 </div> -->
-<!-- <input type="button" value="Googleを新しいウィンドウで開く" onclick="openWindow()"/> -->
+<input type="button" value="新しいウィンドウで開く" onclick="openWindow()"/>
 @endsection
 
 @section('js')
-<!-- <script>
+<script>
 function openWindow() {
-  window.open("{{ route('psychology_test.show') }}", 'test', 'width=50,height=50,left=20,top=20,menubar=false,toolbar=false,status=false,scrollbars=false,resizable=false');
+  window.open("{{route('home')}}", null, 'width=500,toolbar=yes,menubar=yes,scrollbars=yes');
 };
-</script> -->
+</script>
 @endsection
 
 @section('title')

@@ -16,7 +16,7 @@
   <div class="container">
     <div class="row">
       <div class="col-sm-5 item link-box" style="height: 300px;">
-        <a href="{{ route('chat_care') }}"></a>
+        <a href="{{ route('chat_care.login') }}"></a>
         チャット
       </div>
       <div class="d-block d-sm-none" style="height: 50px;">

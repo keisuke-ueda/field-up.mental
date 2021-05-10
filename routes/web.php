@@ -40,4 +40,4 @@ Route::get('/psycology_test/egogram', [App\Http\Controllers\EgogramController::c
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
-Route::get('/chat_care', [App\Http\Controllers\ChatController::class, 'login'])->name('chat_care');
+Route::get('/chat_care', [App\Http\Controllers\ChatCareController::class, 'login'])->name('chat_care.login');
