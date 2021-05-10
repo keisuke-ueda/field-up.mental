@@ -10969,7 +10969,7 @@ a.text-dark:focus {
 }
 
 .contents * .container .row .item {
-  background-color: rgba(255, 0, 255, 0.2);
+  background-color: rgba(255, 0, 255, 0);
   padding: 0;
   color: white;
 }
@@ -10983,7 +10983,7 @@ a.text-dark:focus {
 }
 
 .contents * .container-fruid .row .item {
-  background-color: rgba(255, 0, 255, 0.2);
+  background-color: rgba(255, 0, 255, 0);
   padding: 0;
   color: white;
 }
