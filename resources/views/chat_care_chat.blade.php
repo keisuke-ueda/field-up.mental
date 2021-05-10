@@ -13,6 +13,7 @@
       </div>
     </div>
   </div>
+  
   <div class="container">
     <div class="row">
       <div id="chat-frame" style="height: 400px;">
