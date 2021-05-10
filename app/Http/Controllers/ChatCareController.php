@@ -11,6 +11,6 @@ class ChatCareController extends Controller
     }
 
     public function chat() {
-        
+        return view('chat_care_chat');
     }
 }
