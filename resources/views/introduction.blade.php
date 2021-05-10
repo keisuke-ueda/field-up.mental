@@ -122,6 +122,27 @@
 @endsection
 
 @section('js')
+<!-- <script src="https://unpkg.com/scrollreveal"></script>
+<script>
+  $(function () {
+    ScrollReveal().reveal('.item', {
+      duration: 1000,
+      reset: true,
+      origin: right
+    });
+  });
+</script> -->
+@endsection
+
+@section('js_bottom')
+<script src="https://unpkg.com/scrollreveal">
+   ScrollReveal().reveal('.item', {
+     origin: right,
+     reset: true,
+     duration: 1000,
+     viewFactor: 0.3,
+    });
+</script>
 @endsection
 
 @section('style')

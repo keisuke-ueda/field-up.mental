@@ -64,7 +64,7 @@
 
     <!-- body タグの最後に足す-->
     <!-- <script src=" {{ mix('js/app.js') }} "></script> -->
-
+    @yield('js_bottom')
 </body>
 
 </html>
