@@ -27,10 +27,6 @@
             document.getElementById('wait-load').style.display = 'block';
         }
     </script>
-    <!-- <script src="https://unpkg.com/scrollreveal"></script>
-    <script>
-        ScrollReveal().reveal('.item');
-    </script> -->
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
@@ -44,8 +40,6 @@
     <link href="{{ asset('css/app.css') }}?ver1.0.6" rel="stylesheet">
     <link href="{{ asset('css/common.css') }}?ver1.0.6" rel="stylesheet">
     @yield('style')
-    <!-- Headタグ内に足す -->
-    <!-- <link rel="stylesheet" href="{{ mix('/css/app.css') }}"> -->
 </head>
 
 <body>
@@ -62,8 +56,6 @@
         </div>
     </div>
 
-    <!-- body タグの最後に足す-->
-    <!-- <script src=" {{ mix('js/app.js') }} "></script> -->
     @yield('js_bottom')
 </body>
 
