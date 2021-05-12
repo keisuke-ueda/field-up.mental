@@ -127,7 +127,7 @@
                 </div>
               </div>
               <div class="col-md-12 text-center">
-                <button type="submit" class="btn btn-primary">
+                <button type="button" class="btn btn-primary" onclick="openWindow();">
                   チャットログイン
                 </button>
               </div>
@@ -142,16 +142,23 @@
 <!-- <div id="app">
   <main-component></main-component>
 </div> -->
-<input type="button" value="新しいウィンドウで開く" onclick="openWindow()"/>
+<!-- <input type="button" value="新しいウィンドウで開く" onclick="openWindow()"/> -->
 @endsection
 
 @section('js')
 <script>
 function openWindow() {
-  window.open("{{route('home')}}", null, 'width=500,toolbar=yes,menubar=yes,scrollbars=yes');
+  window.open("{{route('chat_care.chat')}}", null, 'width=500,toolbar=yes,menubar=yes,scrollbars=yes');
 };
 </script>
 @endsection
+
+@section('style')
+<style>
+  p {
+    font-weight: bold;
+  }
+</style>
 
 @section('title')
 チャットケア
