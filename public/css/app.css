@@ -10944,6 +10944,14 @@ a.text-dark:focus {
 
 /* パララックス背景画像 */
 
+.link-box a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
 .contents * {
   background-attachment: fixed;
   background-position: center;
@@ -10961,7 +10969,7 @@ a.text-dark:focus {
 }
 
 .contents * .container .row .item {
-  background-color: rgba(255, 0, 255, 0.2);
+  background-color: rgba(255, 0, 255, 0);
   padding: 0;
   color: white;
 }
@@ -10975,12 +10983,26 @@ a.text-dark:focus {
 }
 
 .contents * .container-fruid .row .item {
-  background-color: rgba(255, 0, 255, 0.2);
+  background-color: rgba(255, 0, 255, 0);
   padding: 0;
   color: white;
 }
 
-/* mobile bugfix */
+#introduction * .item {
+  background-color: rgba(55, 202, 116, 0.5);
+}
+
+.page-title {
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+h1:after {
+  content: "";
+  display: block;
+  height: 4px;
+  background: linear-gradient(to right, #ffba73, #ffb2b2);
+}
 
 #loading {
   display: block;

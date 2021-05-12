@@ -3,13 +3,13 @@
 @section('content')
 <div id="psychology_test">
 
-  <div class="container page_title">
+  <div class="container">
     <div class="row justify-content-center">
       <div class="col-md-12" style="height: 50px;">
       </div>
-      <div class="col-md-7 item align-self-center">
-        <h1 style="text-align: center;">エゴグラム</h1>
-        <p style="text-align: center;">あなたの特性を知ろう！！</p>
+      <div class="col-md-7 page_title">
+        <h1 class="text-center">エゴグラム</h1>
+        <p class="text-center">あなたの特性を知ろう！！</p>
       </div>
       <div class="col-md-12" style="height: 50px;">
       </div>
@@ -20,8 +20,11 @@
     <div class="row justify-content-center">
       <div class="col-md-10 item" style="background-color: rgb(199, 114, 185);">
         <form action="#" method="post">
-          <table class="table mt-5">
+          <table class="table text-white">
             <tbody>
+              <tr>
+                <th colspan='3'><h3>○ = 当てはまる、<br class="br-sp"/>△ = どちらでもない、<br class="br-sp"/>✗ = 当てはまらない、<br/>で質問に答えていこう</h3></th>
+              </tr>
               <tr>
                 <th>質問</th>
                 <th>○</th>
@@ -97,6 +100,14 @@
 <script src="//cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js"></script>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="{{ asset('/js/egogram.js') }}" defer></script>
+@endsection
+
+@section('style')
+<style type="text/css">
+  .item {
+    background-color: rgba(17, 168, 80, 0.5)!important;
+  }
+</style>
 @endsection
 
 @section('title')

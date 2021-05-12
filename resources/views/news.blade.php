@@ -2,12 +2,12 @@
 
 @section('content')
 <div id="news">
-  <div class="container page_title">
+  <div class="container">
     <div class="row justify-content-center">
       <div class="col-md-12" style="height: 50px;">
       </div>
-      <div class="col-md-7 item align-self-center">
-        <h1 style="text-align: center;">ニュース</h1>
+      <div class="col-md-7  page_title">
+        <h1 class="text-center">ニュース</h1>
       </div>
       <div class="col-md-12" style="height: 50px;">
       </div>
