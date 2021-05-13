@@ -2,6 +2,10 @@
 
 @section('content')
 <div id="care">
+  <div class="position-absolute ml-3 mt-3">
+    <button class="btn btn-secondary" onClick="window.close(); return false;">チャット画面を閉じる</a>
+  </div>
+
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-md-12" style="height: 50px;">
@@ -13,34 +17,6 @@
       </div>
     </div>
   </div>
-
-  <div class="container">
-    <div class="row">
-      <div id="chat-frame" style="height: 400px;">
-        <p class="chat-talk">
-          <span class="talk-icon">
-            <img src="" alt="tartgeticon" width="XX" height="XX" />
-          </span>
-          <span class="talk-content">[トーク内容を記載]</span>
-        </p>
-        <p class="chat-talk mytalk">
-          <span class="talk-icon">
-            <img src="" alt="myicon" width="XX" height="XX" />
-          </span>
-          <span class="talk-content">[トーク内容を記載]</span>
-        </p>
-      </div>
-    </div>
-  </div>
-  <div class="container">
-    <div class="row">
-      <div class="w-100" style="height: 30px;">
-      </div>
-      <div class="text-center">
-        <textarea class="w-50" style="height: 50px;"></textarea>
-      </div>
-    </div>
-  </div> -->
 
   <div class="container">
     <div class="chat-container row justify-content-center">
@@ -55,19 +31,22 @@
     </div>
   </div>
   <div class="container">
-    <form method="POST" action="{{route('chat_care.add')}}">
+    <form name="commentForm" method="POST" action="{{route('chat_care.add')}}" target="send-comment">
       @csrf
       <div class="comment-container row justify-content-center">
         <div class="input-group comment-area">
-          <textarea class="form-control w-100" id="comment" name="comment" placeholder="push massage (shift + Enter)"
+          <textarea class="form-control w-100" id="commentArea" name="comment" placeholder="push massage (shift + Enter)"
             aria-label="With textarea"
-            onkeydown="if(event.shiftKey&&event.keyCode==13){document.getElementById('submit').click();return false};"></textarea>
-          <button type="submit" id="submit" class="btn btn-primary comment-btn mx-auto">Submit</button>
+            onkeydown="if(event.shiftKey&&event.keyCode==13){document.getElementById('submitBtn').click();return false};"></textarea>
+          <button type="button" id="submitBtn" class="btn btn-primary comment-btn mx-auto">送信</button>
         </div>
       </div>
     </form>
   </div>
 </div>
+
+<!-- 送信時に存在しないものを開かせる設定で実質何も開かなくする設定-->
+<iframe name="send-comment" style="width:0px;height:0px;border:0px;"></iframe>
 @endsection
 
 @section('js')
@@ -81,6 +60,21 @@
     get_data();
   });
 
+// 送信ボタン
+var btn = document.getElementById('submitBtn');
+// コメント入力欄
+var commentArea = document.getElementById("commentArea");
+
+// 送信ボタンが押された際の挙動
+btn.addEventListener('click', function() {
+  // submit()でフォームの内容を送信
+  document.commentForm.submit();
+  // コメント入力欄を空にする
+  commentArea.value = '';
+  // コメント入力欄にフォーカスする
+  commentArea.focus();
+})
+
   function get_data() {
     $.ajax({
       url: "result/ajax/",
@@ -89,10 +83,10 @@
         $("#comment-data")
           .find(".comment-visible")
           .remove();
-
+        const username = '{{ $username }}';
         for (var i = 0; i < data.comments.length; i++) {
           var html = '';
-          if ((data.comments[i].name) === "横田秀喜"){
+          if ((data.comments[i].name) === username){
             html = `
                             <div class="media comment-visible">
                                 <div class="media-body comment-body" id="chat-frame">
@@ -111,21 +105,6 @@
                                 </div>
                             </div>
                         `;
-                            // <div id="chat-frame" style="height: 400px;">
-                            //   <p class="chat-talk">
-                            //     <span class="talk-icon">
-                            //       <img src="" alt="tartgeticon" width="XX" height="XX" />
-                            //     </span>
-                            //     <span class="talk-content">[トーク内容を記載]</span>
-                            //   </p>
-                            //   <p class="chat-talk mytalk">
-                            //     <span class="talk-icon">
-                            //       <img src="" alt="myicon" width="XX" height="XX" />
-                            //     </span>
-                            //     <span class="talk-content">[トーク内容を記載]</span>
-                            //   </p>
-                            // </div>
-
           } else {
             html = `
                             <div class="media comment-visible">
@@ -168,7 +147,7 @@
       }
     });
 
-    setTimeout("get_data()", 3000);
+    setTimeout("get_data()", 1000);
   }
 </script>
 @endsection

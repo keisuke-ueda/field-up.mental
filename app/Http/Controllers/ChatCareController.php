@@ -30,7 +30,12 @@ class ChatCareController extends Controller
     public function chat()
     {
         $comments = Comment::get();
-        return view('chat_care_chat', ['comments' => $comments]);
+        $user = \Auth::user();
+        $username = $user->name;
+        return view('chat_care_chat')->with([
+            'comments' => $comments,
+            'username' => $username
+            ]);
     }
 
     public function add(Request $request)
