@@ -43,6 +43,9 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 
 Route::get('/chat_care_login', [App\Http\Controllers\ChatCareController::class, 'login'])->name('chat_care.login');
 
+Route::get('/chat_care_auth', [App\Http\Controllers\ChatCareController::class, 'auth'])->name('chat_care.auth');
+
 Route::get('/chat_care_chat', [App\Http\Controllers\ChatCareController::class, 'chat'])->name('chat_care.chat');
+
 Route::post('/chat_care_chat/add', [App\Http\Controllers\ChatCareController::class, 'add'])->name('chat_care.add');
 Route::get('/result/ajax', [App\Http\Controllers\ChatCareController::class, 'getData']);

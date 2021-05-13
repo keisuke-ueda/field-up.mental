@@ -12,6 +12,16 @@ class ChatCareController extends Controller
     public function login() {
         return view('chat_care_login');
     }
+
+    public function auth() {
+        if ( Auth::check() ) {
+            // ログインしている時
+            return view('chat_care_chat');
+          } else {
+              //ログインしていない時
+            return view('chat_care_login');
+          }
+    }
         /**
      * Create a new controller instance.
      *

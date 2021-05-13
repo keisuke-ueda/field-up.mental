@@ -91,7 +91,7 @@
                 </div>
               </div>
               <div class="col-md-12 text-center">
-                <button type="submit" class="btn btn-primary">チャットログイン</button>
+                <a href="{{ route('chat_care.auth') }}" class="btn btn-primary">チャットログイン</a>
               </div>
             </form>
 

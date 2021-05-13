@@ -38,7 +38,7 @@
         <li class="nav-item">
           <a class="nav-link" href="{{ route('contacts_faq.show') }}">Contacts&FAQ</a>
         </li>
-<!-- 
+
         @guest
           @if (Route::has('login'))
               <li class="nav-item">
@@ -69,7 +69,7 @@
                   </form>
               </div>
           </li>
-        @endguest -->
+        @endguest
       </ul>
     </div>
   </nav>
