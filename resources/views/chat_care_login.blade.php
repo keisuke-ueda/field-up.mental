@@ -2,7 +2,7 @@
 
 @section('content')
 <div id="care">
-  <div class="container">
+  <div class="container" style="padding-bottom: 20px;">
     <div class="row justify-content-center">
       <div class="col-md-8 item text-dark">
         <div class="card border-0 bg-transparent">
@@ -18,7 +18,7 @@
                 <p class="text-center">
                   ログインしていません。
                 </p>
-                <p class="text-center">{{ __('Please Enter your email address and password.') }}</p>
+                <p class="text-center">メールアドレスとパスワードを<br class="br-sp">入力してください。</p>
               </div>
             </div>
             <form method="POST" action="{{ route('login') }}">
@@ -80,21 +80,26 @@
                   @endif
                 </div>
               </div>
+              
               <div class="form-group row">
                 <div class="col-md-12 text-center">
                   <p>入室IDを入力してください。</p>
                 </div>
                 <label for="entry-id" class="col-md-4 col-form-label text-md-right">入室ID</label>
                 <div class="col-md-6">
-                  <input id="#" type="text" class="#" name="#" required>
+                  <input id="#" type="text" class="form-control" name="#" required>
                 </div>
               </div>
               <div class="col-md-12 text-center">
-                <button type="submit" class="btn btn-primary">
-                  チャットログイン
-                </button>
+                <button type="submit" class="btn btn-primary">チャットログイン</button>
               </div>
             </form>
+
+            <div class="row">
+              <div class="col-md-12 text-center">
+                  <a href="{{ route('register') }}"class="btn btn-secondary">新規登録はこちら</a>
+              </div>
+            </div>
 
           </div>
           @else
@@ -158,7 +163,12 @@ function openWindow() {
   p {
     font-weight: bold;
   }
+
+  .card-body {
+    background-color: rgba(253, 235, 235, 0.5);
+  }
 </style>
+
 
 @section('title')
 チャットケア

@@ -41,7 +41,7 @@ Route::get('/psycology_test/egogram', [App\Http\Controllers\EgogramController::c
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 
-Route::get('/chat_care', [App\Http\Controllers\ChatCareController::class, 'login'])->name('chat_care.login');
+Route::get('/chat_care_login', [App\Http\Controllers\ChatCareController::class, 'login'])->name('chat_care.login');
 
 Route::get('/chat_care_chat', [App\Http\Controllers\ChatCareController::class, 'chat'])->name('chat_care.chat');
 Route::post('/chat_care_chat/add', [App\Http\Controllers\ChatCareController::class, 'add'])->name('chat_care.add');
