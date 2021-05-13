@@ -143,7 +143,7 @@ btn.addEventListener('click', function() {
         }
       },
       error: () => {
-        alert("ajax Error");
+        // alert("ajax Error");
       }
     });
 
