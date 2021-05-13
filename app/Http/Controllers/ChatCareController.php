@@ -10,7 +10,7 @@ use Illuminate\Support\Facades\Auth;
 class ChatCareController extends Controller
 {
     public function login() {
-        return view('chat_care');
+        return view('chat_care_login');
     }
         /**
      * Create a new controller instance.
@@ -19,7 +19,7 @@ class ChatCareController extends Controller
      */
     public function __construct()
     {
-        $this->middleware('auth');
+        // $this->middleware('auth');
     }
 
     /**
