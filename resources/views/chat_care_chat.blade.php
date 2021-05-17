@@ -124,20 +124,6 @@ btn.addEventListener('click', function() {
                                 </div>
                             </div>
                         `;
-                            // <div id="chat-frame" style="height: 400px;">
-                            //   <p class="chat-talk">
-                            //     <span class="talk-icon">
-                            //       <img src="" alt="tartgeticon" width="XX" height="XX" />
-                            //     </span>
-                            //     <span class="talk-content">[トーク内容を記載]</span>
-                            //   </p>
-                            //   <p class="chat-talk mytalk">
-                            //     <span class="talk-icon">
-                            //       <img src="" alt="myicon" width="XX" height="XX" />
-                            //     </span>
-                            //     <span class="talk-content">[トーク内容を記載]</span>
-                            //   </p>
-                            // </div>
           }
           $("#comment-data").append(html);
         }
