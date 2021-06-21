@@ -32,26 +32,26 @@
       <div class="w-100" style="height:20px;">
       </div>
       <div class="col-md-5 item text-center" style="height: 150px;">
-        <img class="h-100" src="{{ asset('image/動画静止画1.jpg') }}"/>
+        <img class="h-100" src="{{ asset('image/コンテンツサムネ9.jpg') }}"/>
       </div>
       <div class="col-md-1">
       </div>
       <div class="d-md-none" style="height:20px;">
       </div>
       <div class="col-md-5 item text-center" style="height: 150px;">
-        <img class="h-100" src="{{ asset('image/動画静止画2.jpg') }}"/>
+        <img class="h-100" src="{{ asset('image/コンテンツサムネ9.jpg') }}"/>
       </div>
       <div class="w-100" style="height:20px;">
       </div>
       <div class="col-md-5 item text-center" style="height: 150px;">
-        <img class="h-100" src="{{ asset('image/動画静止画3.jpg') }}"/>
+        <img class="h-100" src="{{ asset('image/コンテンツサムネ9.jpg') }}"/>
       </div>
       <div class="col-md-1">
       </div>
       <div class="d-md-none" style="height:20px;">
       </div>
       <div class="col-md-5 item text-center" style="height: 150px;">
-        <img class="h-100" src="{{ asset('image/動画静止画4.jpg') }}"/>
+        <img class="h-100" src="{{ asset('image/コンテンツサムネ9.jpg') }}"/>
       </div>
       <div class="w-100" style="height:20px;">
       </div>
