@@ -34,12 +34,12 @@ Route::get("/psychology_test/test{page_number}", [App\Http\Controllers\Psycholog
 
 Route::get("/psychology_test/egogram", [App\Http\Controllers\EgogramController::class, 'show'])-> name('egogram.show');
 
-Route::get("/contents/contents{page_number}",[App\Http\Controllers\ContentsListController::class, 'select'])->name('contents_list.select');
+Route::get("/contents/co_sec{page_number}",[App\Http\Controllers\ContentsListController::class, 'select'])->name('contents_list.select');
+Route::get("/contents/content{page_number}",[App\Http\Controllers\ContentsController::class, 'select'])->name('contents_sec.select');
 
 Route::get('/psycology_test/egogram', [App\Http\Controllers\EgogramController::class, 'show'])->name('egogram.show');
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-
 
 Route::get('/chat_care_login', [App\Http\Controllers\ChatCareController::class, 'login'])->name('chat_care.login');
 

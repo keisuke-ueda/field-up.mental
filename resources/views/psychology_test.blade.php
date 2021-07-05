@@ -19,7 +19,7 @@
     <div class="row">
       @for ($i = 0; $i < 3; $i++) <div class="col-md-3 col-6 item">
         <div class="card" style="margin: 10px;">
-        <a href='{{ route("contents_list.select", ["page_number"=>$i*4+1]) }}' class="w-100 h-100">
+        <a href='psychology_test/egogram' class="w-100 h-100">
           <img src='{{ asset("/image/コンテンツサムネ" . ($i*4+1) . ".jpg") }}' class="card-img" alt="...">
           
             <h3 class="card-title">【すぐ実践できる】健やかに生きるための心構え</h3>

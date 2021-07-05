@@ -11,6 +11,6 @@ class ContentsListController extends Controller
     }
 
     public function select($page_number) {
-        return view("contents/content${page_number}");
+        return view("contents/co_sec${page_number}");
     }
 }
