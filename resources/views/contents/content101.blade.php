@@ -23,35 +23,32 @@
 
       <div class="col-md-10 item text-center">
         <div class="youtube">
-          <iframe width="640" height="360" src="https://www.youtube.com/watch?v=GSSB7j9QTo4&t=261s" title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/PwvpsjrXTGU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
       </div>
       <div class="w-100" style="height:20px;">
       </div>
-      <div class="col-md-5 item text-center" style="height: 150px;">
-        <img class="h-100" src="{{ asset('image/コンテンツサムネ9.jpg') }}"/>
+      <div class="col-md-5 item text-center" style="height: 300px;">
+        <img class="h-100" src="{{ asset('image/contents_img/ストレス1-1.jpg')}}"/>
       </div>
       <div class="col-md-1">
       </div>
       <div class="d-md-none" style="height:20px;">
       </div>
-      <div class="col-md-5 item text-center" style="height: 150px;">
-        <img class="h-100" src="{{ asset('image/コンテンツサムネ9.jpg') }}"/>
+      <div class="col-md-5 item text-center" style="height: 300px;">
+        <img class="h-100" src="{{ asset('image/contents_img/ストレス1-2.jpg')}}"/>
       </div>
       <div class="w-100" style="height:20px;">
       </div>
-      <div class="col-md-5 item text-center" style="height: 150px;">
-        <img class="h-100" src="{{ asset('image/コンテンツサムネ9.jpg') }}"/>
+      <div class="col-md-5 item text-center" style="height: 300px;">
+        <img class="h-100" src="{{ asset('image/contents_img/ストレス1-3.jpg')}}"/>
       </div>
       <div class="col-md-1">
       </div>
       <div class="d-md-none" style="height:20px;">
       </div>
-      <div class="col-md-5 item text-center" style="height: 150px;">
-        <img class="h-100" src="{{ asset('image/コンテンツサムネ9.jpg') }}"/>
+      <div class="col-md-5 item text-center" style="height: 300px;">
+        <img class="h-100" src="{{ asset('image/contents_img/ストレス1-4.jpg')}}"/>
       </div>
       <div class="w-100" style="height:20px;">
       </div>

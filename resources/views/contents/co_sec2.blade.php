@@ -7,8 +7,8 @@
       <div class="col-md-12" style="height: 50px;">
       </div>
       <div class="col-md-7 page_title">
-        <h1 class="text-center"><br class="br-sp"/>コンテンツライブラリ</h1>
-        <p class="text-center">気になるコンテンツをチェックしてみようかな</p>
+        <h1 class="text-center"><br class="br-sp"/>ストレスと心理</h1>
+        <p class="text-center">テキストテキスト</p>
       </div>
       <div class="col-md-12" style="height: 50px;">
       </div>
@@ -20,10 +20,10 @@
       <!--@for ($i = 0; $i < 3; $i++) <div class="col-md-3 col-6 item">-->
       <div class="col-md-3 col-6 item">
         <div class="card" style="margin: 10px;">
-        <a href='{{ route("contents_list.select", ["page_number"=>1]) }}' class="w-100 h-100">
+        <a href='{{ route("contents_sec.select", ["page_number"=>101])}}' class="w-100 h-100">
         <!--<a href='{{ route("contents_list.select", ["page_number"=>$i*4+1]) }}' class="w-100 h-100">-->
-          <img src='{{ asset("/image/シンリの本質_HOME.jpg") }}' class="card-img" alt="...">
-            <h3 class="card-title">【心理の本質】健やかに生きるための心構え</h3>
+          <img src='{{ asset("/image/ストレスと心理_HOME.jpg") }}' class="card-img" alt="...">
+            <h3 class="card-title">【導入編】テキストテキスト</h3>
             <p class="card-text">
             </p>
         </a>
@@ -32,9 +32,9 @@
       
       <div class="col-md-3 col-6 item">
         <div class="card" style="margin: 10px;">
-          <a href='{{ route("contents_list.select", ["page_number"=>2]) }}' class="w-100 h-100">
-            <img src='{{ asset("/image/ストレスと心理_HOME.jpg") }}' class="card-img" alt="...">
-              <h3 class="card-title">【ストレスと心理】健やかに生きるための心構え</h3>
+          <a href='{{ route("contents_sec.select", ["page_number"=>102]) }}' class="w-100 h-100">
+            <img src='{{ asset("/image/ストレスと心理_HOME.jpg")}}' class="card-img" alt="...">
+              <h3 class="card-title">【導入編】テキストテキスト</h3>
               <p class="card-text">
               </p>
           </a>
@@ -46,9 +46,9 @@
 
       <div class="col-md-3 col-6 item">
         <div class="card" style="margin: 10px;">
-          <a href='{{ route("contents_list.select", ["page_number"=>3]) }}' class="card w-100 h-100">
-            <img src='{{ asset("/image/健康と心理_HOME.jpg") }}' class="card-img" alt="...">
-              <h3 class="card-title">【健康と心理】健やかに生きるための心構え</h3>
+          <a href='{{ route("contents_sec.select", ["page_number"=>103])}}' class="card w-100 h-100">
+            <img src='{{ asset("/image/ストレスと心理_HOME.jpg") }}' class="card-img" alt="...">
+              <h3 class="card-title">【導入編】テキストテキスト</h3>
               <p class="card-text">
               </p>
           </a>
@@ -57,9 +57,9 @@
 
       <div class="col-md-3 col-6 item">
         <div class="card" style="margin: 10px;">
-          <a href='{{ route("contents_list.select", ["page_number"=>4]) }}' class="w-100 h-100">
-            <img src='{{ asset("/image/悩みと心理_HOME.jpg") }}' class="card-img" alt="...">
-              <h3 class="card-title">【悩みと心理】健やかに生きるための心構え</h3>
+          <a href='{{ route("contents_sec.select", ["page_number"=>104]) }}' class="w-100 h-100">
+            <img src='{{ asset("/image/ストレスと心理_HOME.jpg")}}' class="card-img" alt="...">
+              <h3 class="card-title">【導入編】テキストテキスト</h3>
               <p class="card-text">
               </p>
           </a>
