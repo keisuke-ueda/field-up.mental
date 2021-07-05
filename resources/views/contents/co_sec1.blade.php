@@ -23,7 +23,7 @@
         <a href='{{ route("contents_sec.select", ["page_number"=>101])}}' class="w-100 h-100">
         <!--<a href='{{ route("contents_list.select", ["page_number"=>$i*4+1]) }}' class="w-100 h-100">-->
           <img src='{{ asset("/image/シンリの本質_HOME.jpg") }}' class="card-img" alt="...">
-            <h3 class="card-title">【導入編】テキストテキスト</h3>
+            <h3 class="card-title">【導入編】テキストテキストテキスト</h3>
             <p class="card-text">
             </p>
         </a>
