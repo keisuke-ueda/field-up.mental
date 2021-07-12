@@ -25,7 +25,7 @@
           <img src='{{ asset("/image/psychology_test_img/心理テスト(エゴグラム).jpg") }}' class="card-img" alt="...">
           {{-- <a href='psychology_test/egogram' class="w-100 h-100">
           <img src='{{ asset("/image/コンテンツサムネ" . ($i*4+1) . ".jpg") }}' class="card-img" alt="..."> --}}
-            <h3 class="card-title">【すぐ実践できる】健やかに生きるための心構え</h3>
+            <h3 class="card-title">【エゴグラム】あなたはどんな特性があるのかな？</h3>
             <p class="card-text">
             </p>
         </a>
@@ -38,7 +38,7 @@
             <img src='{{ asset("/image/psychology_test_img/製作中ページ.jpg") }}' class="card-img" alt="...">
             {{-- <a href='{{ route("contents_list.select", ["page_number"=>$i*4+2]) }}' class="w-100 h-100">
             <img src='{{ asset("/image/コンテンツサムネ" . ($i*4+2) . ".jpg") }}' class="card-img" alt="..."> --}}
-              <h3 class="card-title">【すぐ実践できる】健やかに生きるための心構え</h3>
+              <h3 class="card-title">【準備中】ちょっと待っててね</h3>
               <p class="card-text">
               </p>
           </a>
@@ -54,7 +54,7 @@
             <img src='{{ asset("/image/psychology_test_img/製作中ページ.jpg") }}' class="card-img" alt="...">
             {{-- <a href='{{ route("contents_list.select", ["page_number"=>$i*4+3]) }}' class="card w-100 h-100">
             <img src='{{ asset("/image/コンテンツサムネ" . ($i*4+2) . ".jpg") }}' class="card-img" alt="..."> --}}
-              <h3 class="card-title">【すぐ実践できる】健やかに生きるための心構え</h3>
+              <h3 class="card-title">【準備中】ちょっと待っててね</h3>
               <p class="card-text">
               </p>
           </a>
@@ -68,7 +68,7 @@
             <img src='{{ asset("/image/psychology_test_img/製作中ページ.jpg") }}' class="card-img" alt="...">
             {{--  <a href='{{ route("contents_list.select", ["page_number"=>$i*4+4]) }}' class="w-100 h-100">
             <img src='{{ asset("/image/コンテンツサムネ" . ($i*4+2) . ".jpg") }}' class="card-img" alt="..."> --}}
-              <h3 class="card-title">【すぐ実践できる】健やかに生きるための心構え</h3>
+              <h3 class="card-title">【準備中】ちょっと待っててね</h3>
               <p class="card-text">
               </p>
           </a>
@@ -81,7 +81,7 @@
             <img src='{{ asset("/image/psychology_test_img/製作中ページ.jpg") }}' class="card-img" alt="...">
             {{--  <a href='{{ route("contents_list.select", ["page_number"=>$i*4+4]) }}' class="w-100 h-100">
             <img src='{{ asset("/image/コンテンツサムネ" . ($i*4+2) . ".jpg") }}' class="card-img" alt="..."> --}}
-              <h3 class="card-title">【すぐ実践できる】健やかに生きるための心構え</h3>
+              <h3 class="card-title">【準備中】ちょっと待っててね</h3>
               <p class="card-text">
               </p>
           </a>
@@ -94,7 +94,7 @@
             <img src='{{ asset("/image/psychology_test_img/製作中ページ.jpg") }}' class="card-img" alt="...">
             {{--  <a href='{{ route("contents_list.select", ["page_number"=>$i*4+4]) }}' class="w-100 h-100">
             <img src='{{ asset("/image/コンテンツサムネ" . ($i*4+2) . ".jpg") }}' class="card-img" alt="..."> --}}
-              <h3 class="card-title">【すぐ実践できる】健やかに生きるための心構え</h3>
+              <h3 class="card-title">【準備中】ちょっと待っててね</h3>
               <p class="card-text">
               </p>
           </a>
@@ -107,7 +107,7 @@
             <img src='{{ asset("/image/psychology_test_img/製作中ページ.jpg") }}' class="card-img" alt="...">
             {{--  <a href='{{ route("contents_list.select", ["page_number"=>$i*4+4]) }}' class="w-100 h-100">
             <img src='{{ asset("/image/コンテンツサムネ" . ($i*4+2) . ".jpg") }}' class="card-img" alt="..."> --}}
-              <h3 class="card-title">【すぐ実践できる】健やかに生きるための心構え</h3>
+              <h3 class="card-title">【準備中】ちょっと待っててね</h3>
               <p class="card-text">
               </p>
           </a>
@@ -120,7 +120,7 @@
             <img src='{{ asset("/image/psychology_test_img/製作中ページ.jpg") }}' class="card-img" alt="...">
             {{--  <a href='{{ route("contents_list.select", ["page_number"=>$i*4+4]) }}' class="w-100 h-100">
             <img src='{{ asset("/image/コンテンツサムネ" . ($i*4+2) . ".jpg") }}' class="card-img" alt="..."> --}}
-              <h3 class="card-title">【すぐ実践できる】健やかに生きるための心構え</h3>
+              <h3 class="card-title">【準備中】ちょっと待っててね</h3>
               <p class="card-text">
               </p>
           </a>
@@ -133,7 +133,7 @@
             <img src='{{ asset("/image/psychology_test_img/製作中ページ.jpg") }}' class="card-img" alt="...">
             {{--  <a href='{{ route("contents_list.select", ["page_number"=>$i*4+4]) }}' class="w-100 h-100">
             <img src='{{ asset("/image/コンテンツサムネ" . ($i*4+2) . ".jpg") }}' class="card-img" alt="..."> --}}
-              <h3 class="card-title">【すぐ実践できる】健やかに生きるための心構え</h3>
+              <h3 class="card-title">【準備中】ちょっと待っててね</h3>
               <p class="card-text">
               </p>
           </a>
