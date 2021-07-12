@@ -33,7 +33,7 @@
           <a class="nav-link" href=" {{ route('contents_list.show') }}">Content</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="{{ route('care.show') }}">Care</a>
+          <a class="nav-link" href='{{ route("making_now.show") }}'>Care</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="{{ route('contacts_faq.show') }}">Contacts&FAQ</a>
@@ -42,13 +42,13 @@
         @guest
           @if (Route::has('login'))
               <li class="nav-item">
-                  <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
+                  <a class="nav-link" href='{{ route("making_now.show") }}'>{{ __('Login') }}</a>
               </li>
           @endif
           
           @if (Route::has('register'))
               <li class="nav-item">
-                  <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
+                  <a class="nav-link" href='{{ route("making_now.show") }}'>{{ __('Register') }}</a>
               </li>
           @endif
         @else

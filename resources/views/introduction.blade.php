@@ -21,10 +21,10 @@
   <div class=" container">
     <div class="row">
 
-      <div class="col-md-8 item rounded-pill" style="height: 400px;">
+      <div class="col-md-12 item rounded-pill" style="height: 400px;">
         <div class="inner">
-          <h3>問題提起</h3>
-          画像を配置
+          <h3 class="">問題提起</h3>
+          <img src='{{ asset("/image/事業紹介デザイン1.png") }}' class="introduction-image" alt="...">
         </div>
       </div>
       <div class="col-md-4">
@@ -33,17 +33,7 @@
       <div class=" col-md-4">
       </div>
 
-      <div class="col-md-8 item rounded-pill d-none d-md-block text-center"
-        style="height: 400px; position:relative; bottom: 100px;">
-        <div class="inner">
-          <h3>現代の問題として精神疾患や、うつ病などメンタルに大きくかかわる問題が溢れている</h3>
-          <p>・家族間の心の不一致--親の面倒を見るのが大変、奥さん、旦那がわかってくれない、生活困窮している</p>
-          <p>・子供都の不一致--相談してくれない、反抗してくる、将来が心配、グレている、病気の治療が大変</p>
-          <p>・職場での問題-上司とのいざこざ、部下とのいざこざ、自分の仕事が上手くいかない、誰かに迷惑をかけられている、仕事したくない</p>
-          <p>・精神の不調が身体の不調につながている--心の不調からくる健康不調、健康不調からくる心の不調等</p>
-          <img src='{{ asset("/image/事業紹介デザイン1.png") }}' class="card-img" alt="...">
-        </div>
-      </div>
+
       <div class="d-block d-md-none w-100" style="height:20px;">
       </div>
       <div class="item rounded-pill d-block d-md-none"
@@ -149,6 +139,11 @@
 
   span {
     display: inline-block;
+  }
+
+  .introduction-image {
+    width: 100%;
+    position: fixed;
   }
 </style>
 @endsection

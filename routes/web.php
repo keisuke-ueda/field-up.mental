@@ -49,3 +49,6 @@ Route::get('/chat_care_chat', [App\Http\Controllers\ChatCareController::class, '
 
 Route::post('/chat_care_chat/add', [App\Http\Controllers\ChatCareController::class, 'add'])->name('chat_care.add');
 Route::get('/result/ajax', [App\Http\Controllers\ChatCareController::class, 'getData']);
+
+// 作成中ページ　by並木
+Route::get('/making_now', [App\Http\Controllers\MakingNowController::class, 'show'])-> name('making_now.show');

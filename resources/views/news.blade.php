@@ -15,7 +15,7 @@
   </div>
   <div class="container">
     <div class="row justify-content-center">
-      @for ($i = 0; $i < 20; $i++)
+      @for ($i = 0; $i < 3; $i++)
       <div class="col-sm-10 item" style="height: 150px;">
         <a href="#" class="card border-dark mb-3 w-100 h-100">
           <div class="card-body text-dark">
