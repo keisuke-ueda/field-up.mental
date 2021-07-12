@@ -17,24 +17,25 @@
 
   <div class="container">
     <div class="row">
-      <!--@for ($i = 0; $i < 3; $i++) <div class="col-md-3 col-6 item">-->
-      <div class="col-md-3 col-6 item">
+    {{--  @for ($i = 0; $i < 3; $i++) <div class="col-md-3 col-6 item"> --}}
+      <div class="col-md-4 item">
         <div class="card" style="margin: 10px;">
-        <a href='{{ route("contents_sec.select", ["page_number"=>101])}}' class="w-100 h-100">
-        <!--<a href='{{ route("contents_list.select", ["page_number"=>$i*4+1]) }}' class="w-100 h-100">-->
-          <img src='{{ asset("/image/ストレスと心理_HOME.jpg") }}' class="card-img" alt="...">
-            <h3 class="card-title">【導入編】テキストテキスト</h3>
+        <a href='{{ route("making_now.show") }}' class="w-100 h-100">
+        {{-- 元のやつ。他のやつはページの数字を変えるだけ <a href='{{ route("contents_sec.select", ["page_number"=>201])}}' class="w-100 h-100"> --}}
+        {{--  <!--<a href='{{ route("contents_list.select", ["page_number"=>$i*4+1]) }}' class="w-100 h-100">--> --}}
+          <img src='{{ asset("/image/sec2_image/ストレスとは(1).jpg") }}' class="card-img" alt="...">
+            <h3 class="card-title">【ストレスとは】テキストテキスト</h3>
             <p class="card-text">
             </p>
         </a>
         </div>
       </div>
       
-      <div class="col-md-3 col-6 item">
+      <div class="col-md-4 item">
         <div class="card" style="margin: 10px;">
-          <a href='{{ route("contents_sec.select", ["page_number"=>102]) }}' class="w-100 h-100">
-            <img src='{{ asset("/image/ストレスと心理_HOME.jpg")}}' class="card-img" alt="...">
-              <h3 class="card-title">【導入編】テキストテキスト</h3>
+          <a href='{{ route("making_now.show") }}' class="w-100 h-100">
+            <img src='{{ asset("/image/sec2_image/不安とは何か(2).jpg")}}' class="card-img" alt="...">
+              <h3 class="card-title">【不安とは何か】テキストテキスト</h3>
               <p class="card-text">
               </p>
           </a>
@@ -44,10 +45,76 @@
       <div class="d-md-none" style="height: 50px;">
       </div>
 
-      <div class="col-md-3 col-6 item">
+      <div class="col-md-4 item">
         <div class="card" style="margin: 10px;">
-          <a href='{{ route("contents_sec.select", ["page_number"=>103])}}' class="card w-100 h-100">
-            <img src='{{ asset("/image/ストレスと心理_HOME.jpg") }}' class="card-img" alt="...">
+          <a href='{{ route("making_now.show") }}' class="card w-100 h-100">
+            <img src='{{ asset("/image/sec2_image/感じ方は人それぞれ(3).jpg") }}' class="card-img" alt="...">
+              <h3 class="card-title">【感じ方は人それぞれ】テキストテキスト</h3>
+              <p class="card-text">
+              </p>
+          </a>
+        </div>
+      </div>
+
+      <div class="col-md-4 item">
+        <div class="card" style="margin: 10px;">
+          <a href='{{ route("making_now.show") }}' class="w-100 h-100">
+            <img src='{{ asset("/image/sec2_image/コミュニケーション(4).jpg")}}' class="card-img" alt="...">
+              <h3 class="card-title">【よりよいコミュニケーション】テキストテキスト</h3>
+              <p class="card-text">
+              </p>
+          </a>
+        </div>
+      </div>
+
+      <div class="col-md-4 item">
+        <div class="card" style="margin: 10px;">
+          <a href='{{ route("making_now.show") }}' class="w-100 h-100">
+            <img src='{{ asset("/image/sec2_image/ストレスダメージ(5).jpg")}}' class="card-img" alt="...">
+              <h3 class="card-title">【職場で生じるストレスダメージ】テキストテキスト</h3>
+              <p class="card-text">
+              </p>
+          </a>
+        </div>
+      </div>
+
+      <div class="col-md-4 item">
+        <div class="card" style="margin: 10px;">
+          <a href='{{ route("making_now.show") }}' class="w-100 h-100">
+            <img src='{{ asset("/image/sec2_image/周りのためにできること(6).jpg")}}' class="card-img" alt="...">
+              <h3 class="card-title">【周りのためにできること】テキストテキスト</h3>
+              <p class="card-text">
+              </p>
+          </a>
+        </div>
+      </div>
+
+      <div class="col-md-4 item">
+        <div class="card" style="margin: 10px;">
+          <a href='{{ route("making_now.show") }}' class="w-100 h-100">
+            <img src='{{ asset("/image/sec2_image/仕事によるストレス(7).jpg")}}' class="card-img" alt="...">
+              <h3 class="card-title">【仕事によるストレス】テキストテキスト</h3>
+              <p class="card-text">
+              </p>
+          </a>
+        </div>
+      </div>
+
+      <div class="col-md-4 item">
+        <div class="card" style="margin: 10px;">
+          <a href='{{ route("making_now.show") }}' class="w-100 h-100">
+            <img src='{{ asset("/image/sec2_image/脳の中で起きていること(8).jpg")}}' class="card-img" alt="...">
+              <h3 class="card-title">【脳の中で起きていること】テキストテキスト</h3>
+              <p class="card-text">
+              </p>
+          </a>
+        </div>
+      </div>
+
+      <div class="col-md-4 item">
+        <div class="card" style="margin: 10px;">
+          <a href='{{ route("making_now.show") }}' class="w-100 h-100">
+            <img src='{{ asset("/image/sec2_image/製作中ページ.jpg") }}' class="card-img" alt="...">
               <h3 class="card-title">【導入編】テキストテキスト</h3>
               <p class="card-text">
               </p>
@@ -55,20 +122,12 @@
         </div>
       </div>
 
-      <div class="col-md-3 col-6 item">
-        <div class="card" style="margin: 10px;">
-          <a href='{{ route("contents_sec.select", ["page_number"=>104]) }}' class="w-100 h-100">
-            <img src='{{ asset("/image/ストレスと心理_HOME.jpg")}}' class="card-img" alt="...">
-              <h3 class="card-title">【導入編】テキストテキスト</h3>
-              <p class="card-text">
-              </p>
-          </a>
-        </div>
-      </div>
+
+
       <div class="w-100" style="height: 50px;">
       </div>
 
-      <!--@endfor -->
+      {{-- <!--@endfor --> --}}
     </div>
   </div>
 </div>
