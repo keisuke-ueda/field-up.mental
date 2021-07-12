@@ -34,8 +34,8 @@
       <div class="col-md-4 item">
         <div class="card" style="margin: 10px;">
           <a href='{{ route("making_now.show") }}' class="w-100 h-100">
-            <img src='{{ asset("/image/sec4_image/製作中ページ.jpg") }}' class="card-img" alt="...">
-              <h3 class="card-title">【導入編】テキストテキスト</h3>
+            <img src='{{ asset("/image/製作中ページ.jpg") }}' class="card-img" alt="...">
+              <h3 class="card-title">【準備中】ちょっと待っててね</h3>
               <p class="card-text">
               </p>
           </a>
@@ -48,8 +48,8 @@
       <div class="col-md-4 item">
         <div class="card" style="margin: 10px;">
           <a href='{{ route("making_now.show") }}' class="card w-100 h-100">
-            <img src='{{ asset("/image/sec4_image/製作中ページ.jpg") }}' class="card-img" alt="...">
-              <h3 class="card-title">【導入編】テキストテキスト</h3>
+            <img src='{{ asset("/image/製作中ページ.jpg") }}' class="card-img" alt="...">
+              <h3 class="card-title">【準備中】ちょっと待っててね</h3>
               <p class="card-text">
               </p>
           </a>
@@ -59,8 +59,8 @@
       <div class="col-md-4 item">
         <div class="card" style="margin: 10px;">
           <a href='{{ route("making_now.show") }}' class="w-100 h-100">
-            <img src='{{ asset("/image/sec4_image/製作中ページ.jpg") }}' class="card-img" alt="...">
-              <h3 class="card-title">【導入編】テキストテキスト</h3>
+            <img src='{{ asset("/image/製作中ページ.jpg") }}' class="card-img" alt="...">
+              <h3 class="card-title">【準備中】ちょっと待っててね</h3>
               <p class="card-text">
               </p>
           </a>
@@ -70,8 +70,8 @@
       <div class="col-md-4 item">
         <div class="card" style="margin: 10px;">
           <a href='{{ route("making_now.show") }}' class="w-100 h-100">
-            <img src='{{ asset("/image/sec4_image/製作中ページ.jpg") }}' class="card-img" alt="...">
-              <h3 class="card-title">【導入編】テキストテキスト</h3>
+            <img src='{{ asset("/image/製作中ページ.jpg") }}' class="card-img" alt="...">
+              <h3 class="card-title">【準備中】ちょっと待っててね</h3>
               <p class="card-text">
               </p>
           </a>
@@ -81,8 +81,8 @@
       <div class="col-md-4 item">
         <div class="card" style="margin: 10px;">
           <a href='{{ route("making_now.show") }}' class="w-100 h-100">
-            <img src='{{ asset("/image/sec4_image/製作中ページ.jpg") }}' class="card-img" alt="...">
-              <h3 class="card-title">【導入編】テキストテキスト</h3>
+            <img src='{{ asset("/image/製作中ページ.jpg") }}' class="card-img" alt="...">
+              <h3 class="card-title">【準備中】ちょっと待っててね</h3>
               <p class="card-text">
               </p>
           </a>
@@ -92,8 +92,8 @@
       <div class="col-md-4 item">
         <div class="card" style="margin: 10px;">
           <a href='{{ route("making_now.show") }}' class="w-100 h-100">
-            <img src='{{ asset("/image/sec4_image/製作中ページ.jpg") }}' class="card-img" alt="...">
-              <h3 class="card-title">【導入編】テキストテキスト</h3>
+            <img src='{{ asset("/image/製作中ページ.jpg") }}' class="card-img" alt="...">
+              <h3 class="card-title">【準備中】ちょっと待っててね</h3>
               <p class="card-text">
               </p>
           </a>
@@ -103,8 +103,8 @@
       <div class="col-md-4 item">
         <div class="card" style="margin: 10px;">
           <a href='{{ route("making_now.show") }}' class="w-100 h-100">
-            <img src='{{ asset("/image/sec4_image/製作中ページ.jpg") }}' class="card-img" alt="...">
-              <h3 class="card-title">【導入編】テキストテキスト</h3>
+            <img src='{{ asset("/image/製作中ページ.jpg") }}' class="card-img" alt="...">
+              <h3 class="card-title">【準備中】ちょっと待っててね</h3>
               <p class="card-text">
               </p>
           </a>
@@ -114,20 +114,17 @@
             <div class="col-md-4 item">
         <div class="card" style="margin: 10px;">
           <a href='{{ route("making_now.show") }}' class="w-100 h-100">
-            <img src='{{ asset("/image/sec4_image/製作中ページ.jpg") }}' class="card-img" alt="...">
-              <h3 class="card-title">【導入編】テキストテキスト</h3>
+            <img src='{{ asset("/image/製作中ページ.jpg") }}' class="card-img" alt="...">
+              <h3 class="card-title">【準備中】ちょっと待っててね</h3>
               <p class="card-text">
               </p>
           </a>
         </div>
       </div>
 
-
-
       <div class="w-100" style="height: 50px;">
       </div>
 
-      
       {{-- <!--@endfor --> --}}
     </div>
   </div>
