@@ -1,6 +1,29 @@
 @extends('layouts.common')
 
 @section('content')
+
+<div class="contacts_faq">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-12" style="height: 50px;">
+        </div>
+        <div class="col-md-7 page_title">
+          <h1 class="text-center">よくある質問</h1>
+          <p class="">Q.</p>
+          <p class="">A.</p>
+          <p class="">Q.</p>
+          <p class="">A.</p>
+          <p class="">Q.</p>
+          <p class="">A.</p>
+          <p class="">Q.</p>
+          <p class="">A.</p>
+        </div>
+        <div class="col-md-12" style="height: 50px;">
+        </div>
+      </div>
+    </div>
+</div>
+
 <div class="contacts_faq">
   <div class="container">
     <div class="row justify-content-center">
@@ -32,27 +55,6 @@
     </form>
   </div>
 
-  <div class="contacts_faq">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-md-12" style="height: 50px;">
-        </div>
-        <div class="col-md-7 page_title">
-          <h1 class="text-center">よくある質問</h1>
-          <p class="">Q.</p>
-          <p class="">A.</p>
-          <p class="">Q.</p>
-          <p class="">A.</p>
-          <p class="">Q.</p>
-          <p class="">A.</p>
-          <p class="">Q.</p>
-          <p class="">A.</p>
-        </div>
-        <div class="col-md-12" style="height: 50px;">
-        </div>
-      </div>
-    </div>
-</div>
 @endsection
 
 @section('js')
