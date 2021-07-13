@@ -38,7 +38,6 @@ body {
   color: white;
 }
 
-
 .div-link .link{
   display: block;
   position: absolute;
@@ -88,7 +87,7 @@ h1 {
 
 #introduction {
   background-image: url('../image/背景テスト8.jpg');
-  background-color:rgba(255,255,255,0.3);
+  background-color:rgba(255,255,255,0.4);
 }
 @media screen and (max-width:798px){
   #introduction {
@@ -111,7 +110,7 @@ h1 {
 
 #mental_care_contents {
   background-image: url('../image/背景テスト3.jpg');
-  background-color:rgba(255,255,255,0.3);
+  background-color:rgba(255,255,255,0.5);
 }
 @media screen and (max-width:798px){
   #mental_care_contents {
@@ -133,7 +132,7 @@ h1 {
 
 #psychology_test {
   background-image: url('../image/背景テスト6.jpg');
-  background-color:rgba(255,255,255,0.3);
+  background-color:rgba(255,255,255,0.5);
 }
 @media screen and (max-width:798px){
   #psychology_test {
@@ -155,7 +154,7 @@ h1 {
 
 #care {
   background-image: url('../image/背景テスト4.jpg');
-  background-color:rgba(255,255,255,0.3);
+  background-color:rgba(255,255,255,0.5);
 }
 @media screen and (max-width:798px){
   #care {
@@ -177,7 +176,7 @@ h1 {
 
 #news {
   background-image: url('../image/背景テスト7.jpg');
-  background-color:rgba(255,255,255,0.3);
+  background-color:rgba(255,255,255,0.5);
 }
 @media screen and (max-width:798px){
   #news {
