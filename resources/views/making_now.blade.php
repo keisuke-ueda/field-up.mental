@@ -2,36 +2,20 @@
 
 @section('content')
 
-
-
-    <div id="psychology_test">
-        <div class="pt-5">
-            <div class="contents-bg">
-                <div class="d-flex align-items-center justify-content-center" style="height:300px;">
-                    <p class="h2">現在サイトの一部コンテンツなどの開発中につき
-                        <br>閲覧ができないぺーがあります。</p>        
-                </div>
+    <div id="psychology_test" class="row">
+        <div class="container pt-5">
+            <div class="col-md-12 justify-content-center rounded-pill m-5 p-5" style="background-color: rgba(140, 167, 225, 0.7);">
+                <p class="h2 text-center">現在サイトの一部コンテンツなどの開発中につき
+                <br>閲覧ができないぺーがあります。</p>        
             </div>
         </div>
-            <div class="pb-5">
-                <div class="d-flex align-items-center justify-content-center">
-                    <img src="../image/製作中ページイラスト.jpg" alt="test" width="1000"> 
-                </div>
-            </div>
+        <div class="col-md-12 justify-content-center m-5 p-5">
+            <img src="../image/製作中ページイラスト.jpg" alt="..." class="col-md-11 m-5 m-5"> 
+        </div>
     </div>
-
 
 @endsection
 
 @section('style')
-<style type="text/css">
-    .contents-bg{
-        background-color: rgba(193,193,193,0.4);
-        /* border: solid 10px rgb(255,230,0); */
-        border-radius: 1000px;
-        width: 1000px;
-        margin: 0 auto;
-        margin-bottom: 40px;
-    }
-</style>
+
 @endsection
