@@ -11,7 +11,6 @@
 
   <div class="container">
     <div class="row">
-
       <div class="col-md-4 item mb-5">
         <div class="card" style="margin: 10px;">
           <a href='{{ route("contents_sec.select", ["page_number"=>501])}}' class="w-100 h-100">
@@ -20,7 +19,7 @@
           </a>
         </div>
       </div>
-      
+
       <div class="col-md-4 item mb-5">
         <div class="card" style="margin: 10px;">
           <a href='{{ route("making_now.show") }}' class="w-100 h-100">
@@ -29,7 +28,7 @@
           </a>
         </div>
       </div>
-      
+
       <div class="col-md-4 item mb-5">
         <div class="card" style="margin: 10px;">
           <a href='{{ route("making_now.show") }}' class="w-100 h-100">
