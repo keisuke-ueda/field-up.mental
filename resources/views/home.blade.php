@@ -14,45 +14,29 @@
   背景テスト9:0.3
 -->
 
-  <div class="container-fruid">
-    <div class="row">
-      <div class="col-md-12" style="height: 50px;">
-      </div>
-      <div class="col-md-12 item div-link" style="height: 250px;">
-        <p>心理テストへ遷移</p>
-        <a class ="link" href="{{ route('psychology_test.show') }}"></a>
-      </div>
-      <div class="col-md-12" style="height: 50px;">
-      </div>
+<div class="container-fruid">
+  <div class="row">
+    <div class="col-md-12 div-link mt-5 pb-5">
+      <img src='{{ asset("/image/サイト画像(心理テスト).jpg") }}' class="card-img" alt="...">
+      <a class ="link" href="{{ route('psychology_test.show') }}"></a>
     </div>
   </div>
 
-  <div class="container-fruid">
-    <div class="row">
-      <div class="col-md-12" style="height: 50px;">
-      </div>
-      <div class="col-md-12 item div-link" style="height: 250px;">
-        <p>コンテンツへ遷移</p>
-        <a class ="link" href="{{ route('contents_list.show') }}"></a>
-      </div>
-      <div class="col-md-12" style="height: 50px;">
-      </div>
+  <div class="row">
+    <div class="col-md-12 div-link mt-5 pb-5">
+      <img src='{{ asset("/image/サイト画像(コンテンツ).jpg") }}' class="card-img" alt="...">
+      <a class ="link" href="{{ route('contents_list.show') }}"></a>
     </div>
   </div>
 
-  <div class="container-fruid">
-    <div class="row">
-      <div class="col-md-12" style="height: 50px;">
-      </div>
-      <div class="col-md-12 item div-link" style="height: 250px;">
-        <p>ケアページへ遷移</p>
-        <a class ="link" href="{{ route('care.show') }}"></a>
-      </div>
-      <div class="col-md-12" style="height: 50px;">
-      </div>
+  <div class="row">
+    <div class="col-md-12 div-link mt-5 pb-5">
+      <img src='{{ asset("/image/サイト画像(お問合せ&FAQ).jpg") }}' class="card-img" alt="...">
+      <a class ="link" href="{{ route('contacts_faq.show') }}"></a>
     </div>
   </div>
 </div>
+
 @endsection
 
 @section('js')
