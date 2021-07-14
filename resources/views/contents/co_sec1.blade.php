@@ -14,9 +14,9 @@
       
       <div class="col-md-4 item mb-5">
         <div class="card" style="margin: 10px;">
-          <a href='{{ route("making_now.show") }}' class="w-100 h-100">
-            <img src='{{ asset("/image/sec1_image/製作中ページ.jpg") }}' class="card-img" alt="...">
-            <h3 class="card-title">【導入編】テキストテキストテキスト</h3>
+          <a href='{{ route("contents_sec.select", ["page_number"=>101])}}' class="w-100 h-100">
+            <img src='{{ asset("/image/sec1_image/本能とは(1).jpg") }}' class="card-img" alt="...">
+            <h3 class="card-title">【本能とは？】自我って何なんだろう？本能の関りは？</h3>
           </a>
         </div>
       </div>
