@@ -39,7 +39,7 @@
           <a class="nav-link" href="{{ route('contacts_faq.show') }}">Contacts&FAQ</a>
         </li>
 
-        @guest
+        <!--@guest
           @if (Route::has('login'))
               <li class="nav-item">
                   <a class="nav-link" href='{{ route("making_now.show") }}'>{{ __('Login') }}</a>
@@ -69,7 +69,7 @@
                   </form>
               </div>
           </li>
-        @endguest
+        @endguest-->
       </ul>
     </div>
   </nav>

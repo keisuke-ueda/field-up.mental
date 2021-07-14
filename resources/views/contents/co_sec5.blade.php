@@ -14,8 +14,8 @@
       <div class="col-md-4 item mb-5">
         <div class="card" style="margin: 10px;">
           <a href='{{ route("contents_sec.select", ["page_number"=>501])}}' class="w-100 h-100">
-            <img src='{{ asset("/image/sec5_image/製作中ページ.jpg") }}' class="card-img" alt="...">
-            <h3 class="card-title">【導入編】テキストテキストテキスト</h3>
+            <img src='{{ asset("/image/sec5_image/チームとリスク(1).jpg") }}' class="card-img" alt="...">
+            <h3 class="card-title">【チームとリスク】どんなチームやリスクがあるのかな？</h3>
           </a>
         </div>
       </div>
