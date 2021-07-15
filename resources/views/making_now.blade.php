@@ -6,7 +6,7 @@
         <div class="container pt-5">
             <div class="col-md-12 justify-content-center rounded-pill m-5 p-5" style="background-color: rgba(140, 167, 225, 0.7);">
                 <p class="h2 text-center">現在サイトの一部コンテンツなどの開発中につき
-                <br>閲覧ができないぺーがあります。</p>        
+                <br>閲覧ができないぺージがあります。</p>        
             </div>
         </div>
         <div class="col-md-12 justify-content-center m-5 p-5">
