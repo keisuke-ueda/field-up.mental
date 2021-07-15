@@ -10,7 +10,7 @@
             </div>
         </div>
         <div class="col-md-12 justify-content-center m-5 p-5">
-            <img src="../image/製作中ページイラスト.jpg" alt="..." class="col-md-11 m-5 m-5"> 
+            <img src='{{ asset("/image/製作中ページイラスト.jpg") }}' alt="..." class="col-md-11 m-5 m-5"> 
         </div>
     </div>
 
