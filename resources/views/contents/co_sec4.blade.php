@@ -15,8 +15,8 @@
       <div class="col-md-4 item mb-5">
         <div class="card" style="margin: 10px;">
           <a href='{{ route("contents_sec.select", ["page_number"=>401])}}' class="w-100 h-100">
-            <img src='{{ asset("/image/sec4_image/製作中ページ.jpg") }}' class="card-img" alt="...">
-            <h3 class="card-title">【導入編】テキストテキストテキスト</h3>
+            <img src='{{ asset("/image/sec4_image/周りの評価と成果の関係(1).jpg") }}' class="card-img" alt="...">
+            <h3 class="card-title">【周りの評価と成果の関係】実力を出し切れないのは意外な部分に原因が!?</h3>
           </a>
         </div>
       </div>
