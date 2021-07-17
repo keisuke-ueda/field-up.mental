@@ -7,7 +7,7 @@
     <div class="row justify-content-center">
       <div class="col-md-12" style="height: 50px;">
       </div>
-      <div class="col-md-7 page_title">
+      <div class="col-md-7 page-title">
         <h1 class="text-center">エゴグラム</h1>
         <p class="text-center">あなたの特性を知ろう！！</p>
       </div>
@@ -23,7 +23,9 @@
           <table class="table text-white">
             <tbody>
               <tr>
-                <th colspan='3'><h3>○ = 当てはまる、<br class="br-sp"/>△ = どちらでもない、<br class="br-sp"/>✗ = 当てはまらない、<br/>で質問に答えていこう</h3></th>
+                <th colspan='3'>
+                  <h3>○ = 当てはまる、<br class="br-sp" />△ = どちらでもない、<br class="br-sp" />✗ = 当てはまらない、<br />で質問に答えていこう</h3>
+                </th>
               </tr>
               <tr>
                 <th>質問</th>
@@ -105,7 +107,7 @@
 @section('style')
 <style type="text/css">
   .item {
-    background-color: rgba(17, 168, 80, 0.5)!important;
+    background-color: rgba(17, 168, 80, 0.5) !important;
   }
 </style>
 @endsection
