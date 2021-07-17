@@ -10,11 +10,14 @@
 
   <div class="row justify-content-center container mx-auto">
     <div class="col-md-10 item mt-3 pb-3">
-      <p>リード文と要約</p>
+      <p>社会生活を営む上で「集団」に属するわけですが、その中で様々なストレスが生まれてきます<br>
+        社会集団としてメジャーな「職場」の問題にフォーカスして、<br>
+        職場意識の変化や起こりうる摩擦、その対処法を解説します
+      </p>
     </div>
 
     <div class="col-md-10 item text-center youtube mb-5">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/PwvpsjrXTGU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/hKWSlNAG7QM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
     <div class="container row">

@@ -10,11 +10,13 @@
 
   <div class="row justify-content-center container mx-auto">
     <div class="col-md-10 item mt-3 pb-3">
-      <p>リード文と要約</p>
+      <p>人生において「仕事」の比重はとても高く、ストレス要因も仕事に関係することが多いです<br>
+        仕事からくるストレスにはどういったものがあるかを理解し、<br>
+        環境改善に働きかけ、働きやすい状態に近づけるためにできることを知りましょう</p>
     </div>
 
     <div class="col-md-10 item text-center youtube mb-5">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/PwvpsjrXTGU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/pWhaNW47KlQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
     <div class="container row">
