@@ -11,9 +11,20 @@
 }
 
 body {
-  /*
-  font-family: honokamarugo;
-  */
+  font-family: "serif";
+}
+
+.page-title p{
+  color : #fff;
+  background-color: rgba(16, 182, 255, 0.6);
+  font-size: larger;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.service-contents p{
+  text-align: center;
+  font-size: large;
 }
 
 /* スマホのみ改行 */

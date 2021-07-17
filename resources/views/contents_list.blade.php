@@ -3,7 +3,7 @@
 @section('content')
 <div id="mental_care_contents">
     <div class="row justify-content-center container mx-auto">
-      <div class="col-md-7 page_title mt-5 pb-3">
+      <div class="col-md-7 page-title mt-5 pb-3">
         <h1 class="text-center"><br class="br-sp"/>コンテンツライブラリ</h1>
         <p class="text-center">動画でわかりやすく解説<br>難しい専門用語も、動画でなら簡単に覚えられるよ</p>
       </div>
