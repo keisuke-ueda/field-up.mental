@@ -10,11 +10,13 @@
 
   <div class="row justify-content-center container mx-auto">
     <div class="col-md-10 item mt-3 pb-3">
-      <p>リード文と要約</p>
+      <p>ものの考え方や感情の動き方は人によって大きく違ってきます<br>
+        自分の性格や傾向をしっかり把握することが重要です<br>
+        弱い面や強みを理解した上で前向きになれる考え方を紹介します</p>
     </div>
 
     <div class="col-md-10 item text-center youtube mb-5">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/PwvpsjrXTGU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/C85QNRQ1omQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
     <div class="container row">

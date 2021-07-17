@@ -10,11 +10,13 @@
 
   <div class="row justify-content-center container mx-auto">
     <div class="col-md-10 item mt-3 pb-3">
-      <p>リード文と要約</p>
+      <p>強いストレスや継続にストレスに晒されると重大な健康障害を引き起こすことがあります<br>
+        大事な人や、まわりの人たちに目を向けたときに、<br>
+        行き詰っているサインに気付き、してあげられることをしてあげましょう</p>
     </div>
 
     <div class="col-md-10 item text-center youtube mb-5">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/PwvpsjrXTGU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/6HHdgVcCJf0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
     <div class="container row">
