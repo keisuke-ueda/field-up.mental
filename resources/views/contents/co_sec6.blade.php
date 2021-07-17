@@ -3,7 +3,7 @@
 @section('content')
 <div id="mental_care_contents">
   <div class="row justify-content-center container mx-auto">
-    <div class="col-md-7 page_title mt-5 pb-3">
+    <div class="col-md-7 page-title mt-5 pb-3">
       <h1 class="text-center"><br class="br-sp"/>遊びと心理</h1>
       <p class="text-center">テキストテキスト</p>
     </div>
