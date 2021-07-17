@@ -11,9 +11,8 @@
   </div>
 
   <div class="container mt-5 pb-5">
-    <div class="row justify-content-center mt-5 pd-5">
-      <!--@for ($i = 0; $i < 1; $i++)-->
-      <div class="card border-dark col-sm-10 item　mt-5">
+    <div class="row justify-content-center mt-5 mb-5 pd-5">
+      <div class="card border-dark col-sm-10 item　mt-5 mb-5">
           <div class="card-body text-dark">
             <p>2021/8/1 日曜日</p><br>
             <h5>サイトリニューアル</h5><br>
@@ -21,7 +20,25 @@
             完成までしばしお待ちください</p>
           </div>
       </div>
-      <!--@endfor-->
+
+      <div class="card border-dark col-sm-10 item　mt-5 mb-5">
+          <div class="card-body text-dark">
+            <p>20--/--/-- --曜日</p><br>
+            <h5>---</h5><br>
+            <p>----<br>
+            ----</p>
+          </div>
+      </div>
+
+      <div class="card border-dark col-sm-10 item　mt-5 mb-5">
+          <div class="card-body text-dark">
+            <p>20--/--/-- --曜日</p><br>
+            <h5>---</h5><br>
+            <p>----<br>
+            ----</p>
+          </div>
+      </div>
+
     </div>
   </div>
 </div>
