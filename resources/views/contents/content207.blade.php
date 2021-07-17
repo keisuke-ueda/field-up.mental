@@ -9,7 +9,7 @@
   </div>
 
   <div class="row justify-content-center container mx-auto">
-    <div class="col-md-10 item mt-3 pb-3">
+    <div style="background:rgba(255, 255, 255, 0.7)" class="lead col-md-10 item mt-3 mb-3 pb-3 pt-3">
       <p>人生において「仕事」の比重はとても高く、ストレス要因も仕事に関係することが多いです<br>
         仕事からくるストレスにはどういったものがあるかを理解し、<br>
         環境改善に働きかけ、働きやすい状態に近づけるためにできることを知りましょう</p>
