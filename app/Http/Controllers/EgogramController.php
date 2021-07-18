@@ -7,7 +7,10 @@ use Illuminate\Http\Request;
 class EgogramController extends Controller
 {
     public function show() {
-        $array = [
+        $big_question = [
+            
+        ];
+        $arrays = [
             ['id' => '1_1', 'question' => '①どんなことでもちゃんとしないと気がすまない。'],
             ['id' => '1_2', 'question' => '②人の過ちをなかなか許せない。'],
             ['id' => '1_3', 'question' => '③責任感は強いほうだ。'],
@@ -64,7 +67,10 @@ class EgogramController extends Controller
             ['id' => '5_10', 'question' => '⑩自分はいつも損ばかりしていると思う。'],
         ];
  
-        return view('psychology_test/egogram')->with('arrays',$array);
+        return view('psychology_test/egogram')->with([
+            'arrays' => $arrays,
+            'big_question' => $big_question        
+        ]);
  
     }
 }

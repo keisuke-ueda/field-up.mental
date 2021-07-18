@@ -6,7 +6,7 @@
       </div>
       <div class="col-md-5 d-none d-md-block" style="height: 150px;">
         <div class="float-right">
-          <img src="{{ asset('/image/test_gif.gif') }}" alt="" style="height: 150px;"/>
+          <img src="{{ asset('/image/gif_test.gif') }}" alt="" style="height: 150px;"/>
         </div>
       </div>
     </div>
