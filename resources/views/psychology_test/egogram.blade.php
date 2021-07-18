@@ -15,10 +15,23 @@
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-md-12 item">
-        <h3>○ = 当てはまる、<br class="br-sp" />△ = どちらでもない、<br class="br-sp" />✗ = 当てはまらない、<br />で質問に答えていこう</h3>
+        <h3 class="text-center">○ = 当てはまる、<br class="br-sp" />△ = どちらでもない、<br class="br-sp" />✗ = 当てはまらない、<br />で質問に答えていこう</h3>
       </div>
       @for($i = 0; $i < 5; $i++)
         <div class="item col-md-5 mr-5 mt-5">
+          <h3>エリア
+            @if($i == 0)
+              {{"Ⅰ"}}
+            @elseif($i == 1)
+              {{"Ⅱ"}}
+            @elseif($i == 2)
+              {{"Ⅲ"}}
+            @elseif($i == 3)
+              {{"Ⅳ"}}
+            @elseif($i == 4)
+              {{"Ⅴ"}}
+            @endif
+          </h3>
           <table class="table text-white">
             <tbody>
               {{--
@@ -53,25 +66,17 @@
         </div>
           @endfor
       </div>
-      <div class="w-100 " style="height: 50px;">
-      </div>
     </div>
-  </div>
-
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-md-10 overflow-auto" style="height: 400px; background-color:rgb(226, 235, 232);">
-        <canvas id="ex_chart"></canvas>
+    
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-10 overflow-auto mb-5 mt-5" style="height: 400px; background-color:rgb(226, 235, 232);">
+          <canvas id="ex_chart"></canvas>
+        </div>
+        <div class="w-100 mb-5">
+          <button type="button" class="btn btn-secondary mx-auto d-block btn-lg" id="openModal">分析してみよう</button>
+        </div>
       </div>
-      <div class="w-100 " style="height: 50px;">
-      </div>
-      <div class="w-100">
-        <button type="button" class="btn btn-secondary mx-auto d-block btn-lg" id="openModal">分析してみよう</button>
-      </div>
-      <div class="col-md-2">
-      </div>
-    </div>
-    <div class="col-md-12" style="height: 50px;">
     </div>
   </div>
 
