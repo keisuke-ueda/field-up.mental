@@ -10,7 +10,11 @@
 
   <div class="row justify-content-center container mx-auto">
     <div class="col-md-10 item content-lead-text mt-3 pb-3">
-      <p>リード文と要約</p>
+      <p>
+        今回は本能というものについて紐解きます
+        生の本能、死の本能の対比から始まり、リビドーやカタルシスなどなんとなく聞いたことのある言葉を交えて、<br>
+        フロイトの夢分析のように興味深い理論も紹介していきます
+      </p>
     </div>
 
     <div class="col-md-10 item text-center youtube mb-5">
