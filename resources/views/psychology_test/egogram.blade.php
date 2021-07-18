@@ -5,28 +5,25 @@
 
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col-md-12" style="height: 50px;">
-      </div>
-      <div class="col-md-7 page-title">
+      <div class="col-md-7 page-title mt-5 pb-3">
         <h1 class="text-center">エゴグラム</h1>
         <p class="text-center">あなたの特性を知ろう！！</p>
-      </div>
-      <div class="col-md-12" style="height: 50px;">
       </div>
     </div>
   </div>
 
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col-md-10 item" style="background-color: rgb(199, 114, 185);">
+      <?php
+        $i = 1;
+      ?>
+      <div class="col-md-12 item">
+        <h3>○ = 当てはまる、<br class="br-sp" />△ = どちらでもない、<br class="br-sp" />✗ = 当てはまらない、<br />で質問に答えていこう</h3>
+      </div>
+      <div class="col-md-5 item" style="background-color: rgb(199, 114, 185);">
         <form action="#" method="post">
           <table class="table text-white">
             <tbody>
-              <tr>
-                <th colspan='3'>
-                  <h3>○ = 当てはまる、<br class="br-sp" />△ = どちらでもない、<br class="br-sp" />✗ = 当てはまらない、<br />で質問に答えていこう</h3>
-                </th>
-              </tr>
               <tr>
                 <th>質問</th>
                 <th>○</th>

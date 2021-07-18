@@ -41,7 +41,7 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}?ver1.0.6" rel="stylesheet">
-    <link href="{{ asset('css/common.css') }}?ver1.0.7" rel="stylesheet">
+    <link href="{{ asset('css/common.css') }}?ver20210718" rel="stylesheet">
     @yield('style')
 </head>
 
