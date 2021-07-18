@@ -9,31 +9,33 @@
   </div>
 
   <div class="row justify-content-center container mx-auto">
-    <div class="col-md-10 item mt-3 pb-3">
+    <div class="col-md-10 item content-lead-text mt-3 pb-3">
       <p>ストレスを抱えている現代人はたくさんいます<br>
         ストレスと戦うためには正しい知識が必要です<br>
         ストレスと向き合うために、ストレスの原因や発生の仕組み、対処の基本をお伝えします</p>
     </div>
 
     <div class="col-md-10 item text-center youtube mb-5">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/eIvxgSz-9zU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/eIvxgSz-9zU" title="YouTube video player"
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
     </div>
 
     <div class="container row">
       <div class="col m-4" style="height: 250px;">
-        <img class="h-100" src="{{ asset('image/contents_img/content201/1-1.jpg')}}"/>
+        <img class="h-100" src="{{ asset('image/contents_img/content201/1-1.jpg')}}" />
       </div>
 
       <div class="col m-4" style="height: 250px;">
-        <img class="h-100" src="{{ asset('image/contents_img/content201/1-2.jpg')}}"/>
+        <img class="h-100" src="{{ asset('image/contents_img/content201/1-2.jpg')}}" />
       </div>
 
       <div class="col m-4" style="height: 250px;">
-        <img class="h-100" src="{{ asset('image/contents_img/content201/1-3.jpg')}}"/>
+        <img class="h-100" src="{{ asset('image/contents_img/content201/1-3.jpg')}}" />
       </div>
 
       <div class="col m-4" style="height: 250px;">
-        <img class="h-100" src="{{ asset('image/contents_img/content201/1-4.jpg')}}"/>
+        <img class="h-100" src="{{ asset('image/contents_img/content201/1-4.jpg')}}" />
       </div>
     </div>
 
