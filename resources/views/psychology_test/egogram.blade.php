@@ -14,24 +14,28 @@
 
   <div class="container">
     <div class="row justify-content-center">
-      <?php
-        $i = 1;
-      ?>
       <div class="col-md-12 item">
         <h3>○ = 当てはまる、<br class="br-sp" />△ = どちらでもない、<br class="br-sp" />✗ = 当てはまらない、<br />で質問に答えていこう</h3>
       </div>
-      <div class="col-md-5 item" style="background-color: rgb(199, 114, 185);">
-        <form action="#" method="post">
+      @for($i = 0; $i < 5; $i++)
+        <div class="item col-md-5 mr-5 mt-5">
           <table class="table text-white">
             <tbody>
-              <tr>
+              {{--
+                <tr>
+                  <td>{{ $big_question[$i] }}</td>
+                </tr>
+                <tr>
+                --}}
                 <th>質問</th>
                 <th>○</th>
                 <th>△</th>
                 <th>✗</th>
               <tr>
-                @foreach($arrays as $array)
+          @for ($j = 1; $j % 11 != 0; $j++)
               <tr>
+                <?php
+                  $array = $arrays[$i*10 + ($j-1)]; ?>
                 <td>{{ $array['question'] }}</td>
                 <td>
                   <input type="radio" onclick="onClick()" value="round_count" name="ego<?=$array['id']?>" />
@@ -43,10 +47,11 @@
                   <input type="radio" onclick="onClick()" value="cross_count" name="ego<?=$array['id']?>" />
                 </td>
               </tr>
-              @endforeach
+              @endfor
             </tbody>
           </table>
-        </form>
+        </div>
+          @endfor
       </div>
       <div class="w-100 " style="height: 50px;">
       </div>
