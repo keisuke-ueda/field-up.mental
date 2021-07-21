@@ -10,7 +10,7 @@
 
   <div class="row justify-content-center container mx-auto">
     <div class="col-md-10 item content-lead-text mt-3 pb-3">
-      <p>リード文と要約</p>
+      <p></p>
     </div>
 
     <div class="col-md-10 item text-center youtube mb-5">
