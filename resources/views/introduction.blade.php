@@ -9,7 +9,7 @@
         <div class="col-md-12 page-title mt-5 pb-5">
           <h1 class="text-center"><br class="br-sp"/>事業紹介</h1>
           <div class="col-md-12 rounded" style="background-color: rgba(16, 182, 225, 0.5)">
-            <img src='{{ asset("/image/事業デザイン.jpg") }}' alt="..." class="col-md-12 mt-5 mb-5">
+            <img src='{{ asset("/image/事業デザイン.png") }}' alt="..." class="col-md-12 mt-5 mb-5">
           </div>
         </div>
       </div>
