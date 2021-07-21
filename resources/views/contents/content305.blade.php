@@ -13,11 +13,9 @@
 
   <div class="row justify-content-center container mx-auto">
     <div class="col-md-10 item content-lead-text mt-3 pb-3">
-      <p>
-        お腹が痛い、腰が痛い、などカラダに違和感を感じることがあると思います<br>
+      <p>お腹が痛い、腰が痛い、などカラダに違和感を感じることがあると思います<br>
         副交感神経・迷走神経というものを主題に、<br>
-        カラダをリラックスさせる重要性とその方法について学びましょう
-      </p>
+        カラダをリラックスさせる重要性とその方法について学びましょう</p>
     </div>
 
     <div class="col-md-10 item text-center youtube mb-5">

@@ -10,8 +10,7 @@
 
   <div class="row justify-content-center container mx-auto">
     <div class="col-md-10 item content-lead-text mt-3 pb-3">
-      <p>
-        仕事をする上でほとんどの場合、チームを形成すると思います<br>
+      <p>仕事をする上でほとんどの場合、チームを形成すると思います<br>
         職務集団の特性、リーダーのタイプなど基本的な知識から、<br>
         そこで起こってくるリスクやそのマネジメントについて学んでいきましょう
       </p>

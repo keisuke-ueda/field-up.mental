@@ -5,7 +5,9 @@
   <div class="row justify-content-center container mx-auto">
     <div class="col-md-7 page-title mt-5 pb-3">
       <h1 class="text-center"><br class="br-sp"/>悩みと心理</h1>
-      <p class="text-center">テキストテキスト</p>
+      <p class="text-center">人間関係、仕事、家族、子育て、友人<br>
+      悩みの種は至る所にあり、それらすべてを除外することはできません<br>
+      悩みとどう向き合うかのコツは意外なところにあるかもしれません</p>
     </div>
   </div>
 

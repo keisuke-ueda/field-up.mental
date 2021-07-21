@@ -5,7 +5,9 @@
   <div class="row justify-content-center container mx-auto">
     <div class="col-md-7 page-title mt-5 pb-3">
       <h1 class="text-center"><br class="br-sp"/>遊びと心理</h1>
-      <p class="text-center">テキストテキスト</p>
+      <p class="text-center">身近なものに心理学は多く隠れています<br>
+      日常的に触れているものが実は人の心を映し出す鏡だったとしると<br>
+      ちょっと毎日が楽しくなるかも♪</p>
     </div>
   </div>
 
@@ -16,7 +18,7 @@
         <div class="card" style="margin: 10px;">
           <a href='{{ route("contents_sec.select", ["page_number"=>601])}}' class="w-100 h-100">
             <img src='{{ asset("/image/sec6_image/色とイメージ(1).jpg") }}' class="card-img" alt="...">
-            <h3 class="card-title">【色とイメージ】テキストテキスト</h3>
+            <h3 class="card-title">【色とイメージ】みんなは色にどんなイメージを持っていますか？</h3>
           </a>
         </div>
       </div>

@@ -10,8 +10,7 @@
 
   <div class="row justify-content-center container mx-auto">
     <div class="col-md-10 item content-lead-text mt-3 pb-3">
-      <p>
-        わたしたちは多くの人と共に生きています<br>
+      <p>わたしたちは多くの人と共に生きています<br>
         周りからの反応が自身のやる気に深く係っているだけではなく、<br>
         成果にも周りの評価が関係していること、心理効果をうまく使っていく方法を勉強しましょう
       </p>

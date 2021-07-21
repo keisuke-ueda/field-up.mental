@@ -5,7 +5,10 @@
   <div class="row justify-content-center container mx-auto">
     <div class="col-md-7 page-title mt-5 pb-3">
       <h1 class="text-center"><br class="br-sp"/>心理の本質</h1>
-      <p class="text-center">テキストテキスト</p>
+      <p class="text-center">ココロは、見えないものだからどんなものを知ることはたいへんです<br>
+      でも、ココロの動きはあなたのしぐさや、性格<br>
+      夢などいろんなモノに現れてきます<br>
+      ココロとは何か一緒に見てみましょう</p>
     </div>
   </div>
 
@@ -20,7 +23,7 @@
           </a>
         </div>
       </div>
-      
+
       <div class="col-md-4 item mb-5">
         <div class="card" style="margin: 10px;">
           <a href='{{ route("making_now.show") }}' class="w-100 h-100">

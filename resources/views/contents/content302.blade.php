@@ -12,11 +12,9 @@
 
   <div class="row justify-content-center container mx-auto">
     <div class="col-md-10 item content-lead-text mt-3 pb-3">
-      <p>
-        ストレスは様々な病気の原因になります<br>
+      <p>ストレスは様々な病気の原因になります<br>
         今回は高血圧に関連した知識を勉強していきましょう<br>
-        原因と仕組み、食事の際に気をつけることなどを解説します
-      </p>
+        原因と仕組み、食事の際に気をつけることなどを解説します</p>
     </div>
 
     <div class="col-md-10 item text-center youtube mb-5">
