@@ -5,7 +5,9 @@
   <div class="row justify-content-center container mx-auto">
     <div class="col-md-7 page-title mt-5 pb-3">
       <h1 class="text-center"><br class="br-sp"/>ココロとカラダ</h1>
-      <p class="text-center">テキストテキスト</p>
+      <p class="text-center">最近なんだか調子がよくない...<br>
+      疲れやすいし、気持ちが沈んでなんだか嫌だ<br>
+      もしかしたらそれ、メンタルが原因かも!?</p>
     </div>
   </div>
 

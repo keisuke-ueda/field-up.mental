@@ -5,7 +5,9 @@
   <div class="row justify-content-center container mx-auto">
     <div class="col-md-7 page-title mt-5 pb-3">
       <h1 class="text-center"><br class="br-sp"/>ストレスと心理</h1>
-      <p class="text-center">リード文</p>
+      <p class="text-center">ストレスフリーな生活をしたい!!<br>
+      そんな人は多いのではないですか？<br>
+      どんなことがストレスになるかがわかれば、対策が見えてきますよ</p>
     </div>
   </div>
 
