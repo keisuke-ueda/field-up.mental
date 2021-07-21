@@ -10,13 +10,13 @@
 
   <div class="row justify-content-center container mx-auto">
     <div class="col-md-10 item content-lead-text mt-3 pb-3">
-      <p>リード文と要約</p>
+      <p>コミュニケーションというものは送り方、受け方どちらも重要なものです。<br>
+        人間の最大の強みである「言葉」を使って感情を表現することだけでなく、<br>
+        表情や口調でも表現することでコミュニケーションを円滑に進めることができます。</p>
     </div>
 
     <div class="col-md-10 item text-center youtube mb-5">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/PwvpsjrXTGU" title="YouTube video player"
-        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/CvG-8gLf6w4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
     <div class="container row">

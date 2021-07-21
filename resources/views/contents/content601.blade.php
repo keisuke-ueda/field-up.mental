@@ -10,13 +10,13 @@
 
   <div class="row justify-content-center container mx-auto">
     <div class="col-md-10 item content-lead-text mt-3 pb-3">
-      <p>リード文と要約</p>
+      <p>色が与えるイメージは心理に大きい影響を与えます<br>
+        何色が好きかは他人によって異なりますが、色の与えるイメージには傾向があります<br>
+        服装や部屋の生活空間のカラーコーデなどに活かせる色の勉強をしましょう</p>
     </div>
 
     <div class="col-md-10 item text-center youtube mb-5">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/PwvpsjrXTGU" title="YouTube video player"
-        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/tOmDUGmqh1c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
     <div class="container row">

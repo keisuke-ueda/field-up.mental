@@ -77,9 +77,9 @@
 
       <div class="col-md-4 item mb-5">
         <div class="card" style="margin: 10px;">
-          <a href='{{ route("contents_sec.select", ["page_number"=>208])}}' class="w-100 h-100">
-            <img src='{{ asset("/image/sec2_image/脳の中で起きていること(8).jpg")}}' class="card-img" alt="...">
-              <h3 class="card-title">【脳の中で起きていること】目で見あないけど、実際起きてるよ</h3>
+          <a href='{{ route("making_now.show") }}' class="w-100 h-100">
+            <img src='{{ asset("/image/製作中ページ.jpg") }}' class="card-img" alt="...">
+              <h3 class="card-title">【準備中】ちょっと待っててね</h3>
           </a>
         </div>
       </div>
