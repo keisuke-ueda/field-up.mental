@@ -83,7 +83,7 @@
           <input type="email" name="kakunin" class="form-control" placeholder="*確認のためもう一度入力下さい">
         </div>
         <div class="form-group">
-          <input type="text" name="kanji" class="form-control" placeholder="お名前">
+          <input type="text" name="kanji" class="form-control" placeholder="名前">
         </div>
         <div class="form-group">
           <textarea rows="4" cols="50" placeholder="質問などはこちらへお願い致します" name="message" type="text"
