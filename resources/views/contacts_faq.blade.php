@@ -64,7 +64,8 @@
     </div>
   </div>
 
-  <div class="contacts_faq">
+  
+  <div class="contacts_faq pb-5">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-md-7 page-title">
@@ -73,25 +74,30 @@
       </div>
     </div>
 
-    <div class="container my-5">
-      <form method="post" action="">
+    <div class="container">
+      <form method="post" action="test_mail.php" method="post">
         <div class="form-group">
-          <input type="email" name="email" class="form-control" placeholder="メールアドレス">
+          <input type="email" name="to" class="form-control" placeholder="メールアドレス">
         </div>
         <div class="form-group">
-          <input type="text" name="name" class="form-control" placeholder="お名前">
+          <input type="email" name="kakunin" class="form-control" placeholder="*確認のためもう一度入力下さい">
         </div>
         <div class="form-group">
-          <textarea rows="4" cols="50" placeholder="質問などはこちらへお願い致します。" name="" type="text"
+          <input type="text" name="kanji" class="form-control" placeholder="お名前">
+        </div>
+        <div class="form-group">
+          <textarea rows="4" cols="50" placeholder="質問などはこちらへお願い致します。" name="message" type="text"
             class="form-control"></textarea>
         </div>
         <div class="text-center">
-          <button type="submit" class="btn btn-primary">送信</button> 
+          <button type="submit" class="send" style="font-size: 1.5rem; display: background: rgba(20,100,255,0.2); color: rgba(255, 255, 255, 1); inline-block; padding: 0.5em 1em; border-bottom: solid 3px #627295; border-radius: 20px; font-weight: bold; text-shadow: -1px -1px rgba(255, 255, 255, 0.44), 1px 1px rgba(0, 0, 0, 0.38);">送信</button> 
         </div>
       </form>
+      
     </div>
   </div>
 </div>
+
 @endsection
 
 @section('js')
