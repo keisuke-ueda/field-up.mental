@@ -75,7 +75,7 @@
     </div>
 
     <div class="container">
-      <form method="post" action="test_mail.php" method="post">
+      <form method="post" action="{{asset('faq/test_mail.php')}}" method="post">
         <div class="form-group row justify-content-center">
           <input type="email" name="to" class="form-control" placeholder="メールアドレス">
           <input type="email" name="kakunin" class="form-control" placeholder="*確認のためもう一度入力下さい">
