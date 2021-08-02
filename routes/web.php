@@ -52,3 +52,5 @@ Route::get('/result/ajax', [App\Http\Controllers\ChatCareController::class, 'get
 
 // 作成中ページ　by並木
 Route::get('/making_now', [App\Http\Controllers\MakingNowController::class, 'show'])-> name('making_now.show');
+
+Route::post('/send_contacts', [App\Http\Controllers\SendContactsController::class, 'send'])->name('send_contacts.send');
