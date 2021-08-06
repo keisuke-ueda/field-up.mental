@@ -11,7 +11,7 @@
   <div class="row justify-content-center container mx-auto">
     <div class="col-md-10 item content-lead-text mt-3 pb-3">
       <p>色が与えるイメージは心理に大きい影響を与えます<br>
-        何色が好きかは他人によって異なりますが、色の与えるイメージには傾向があります<br>
+        何色が好きかは、他人によって異なりますが、色の与えるイメージには傾向があります<br>
         服装や部屋の生活空間のカラーコーデなどに活かせる色の勉強をしましょう</p>
     </div>
 
