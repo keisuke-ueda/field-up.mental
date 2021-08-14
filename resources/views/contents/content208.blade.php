@@ -10,13 +10,12 @@
 
   <div class="row justify-content-center container mx-auto">
     <div class="col-md-10 item content-lead-text mt-3 pb-3">
-      <p>リード文と要約</p>
+      <p>私たちの脳の中では、ストレスを受けたときにどんなことが起きているのでしょうか？<br>
+      ストレスに対してどうとらえたり、どんな栄養素がいいかをわかりやすく解説します</p>
     </div>
 
     <div class="col-md-10 item text-center youtube mb-5">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/PwvpsjrXTGU" title="YouTube video player"
-        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/S5LXWfdJ5LE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
     <div class="container row">
