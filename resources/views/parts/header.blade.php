@@ -1,5 +1,4 @@
 <header style="background-color: #dcebf9;">
-<link rel="shortcut icon" href='{{ asset("/image/ファビコン.jpg")}}'>
   <div class="container-fruid">
     <div class="row">
       <div class="col-md-7" style="height: 150px;">  
