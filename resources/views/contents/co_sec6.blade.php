@@ -37,7 +37,7 @@
       <div class="col-md-4 item mb-5">
         <div class="card" style="margin: 10px;">
         <a href='{{ route("contents_sec.select", ["page_number"=>603])}}' class="w-100 h-100">
-            <img src='{{ asset("/image/色とデザイン(3).jpg") }}' class="card-img" alt="...">
+            <img src='{{ asset("/image/sec6_image/色とデザイン(3).jpg")}}' class="card-img" alt="...">
               <h3 class="card-title">【色とデザイン】デザインて実は心理学なんですよ♪♪</h3>
               <p class="card-text">
               </p>
