@@ -4,7 +4,7 @@
 <div id="mental_care_contents">
   <div class="row justify-content-center container mx-auto">
     <div class="col-md-7 page-title  mt-5 pb-3">
-      <h1 class="text-center">色の理論</h1>
+      <h1 class="text-center">色と理論</h1>
     </div>
   </div>
 

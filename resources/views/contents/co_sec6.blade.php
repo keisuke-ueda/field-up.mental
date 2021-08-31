@@ -37,8 +37,8 @@
       <div class="col-md-4 item mb-5">
         <div class="card" style="margin: 10px;">
           <a href='{{ route("making_now.show") }}' class="w-100 h-100">
-            <img src='{{ asset("/image/製作中ページ.jpg") }}' class="card-img" alt="...">
-              <h3 class="card-title">【準備中】ちょっと待っててね</h3>
+            <img src='{{ asset("/image/色とデザイン(3).jpg") }}' class="card-img" alt="...">
+              <h3 class="card-title">【色とデザイン】デザインて実は心理学なんですよ♪♪</h3>
               <p class="card-text">
               </p>
           </a>
