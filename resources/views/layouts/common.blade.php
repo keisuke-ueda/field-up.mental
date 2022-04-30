@@ -1,6 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="ja">
 
+
 <!doctype html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 
