@@ -9,7 +9,7 @@
         <aside class="widget widget_text" id="text-3"><h3 class="widget-title subSection-title text-center">会社情報</h3>
           <div class="textwidget border-top">
             <p>〒114-0011</p>
-            <p>東京都北区昭和町1-3-18</p>
+            <p>東京都北区昭和町1-4-7</p>
             <p>E-mail : keisuke.ueda@field-up.work</p>
           </div>
         </aside>

@@ -15,13 +15,11 @@
     <div class="col-md-10 item content-lead-text mt-3 pb-3">
       <p>ココロの反応とはどういうことなのか<br>
         体内で起きている脳や神経の働きについて見ていきましょう<br>
-        カラダのことを理解することで正しいアプローチの準備ができます</p>
+        カラダのことを理解することで正しいアプローチの準備ができますよ</p>
     </div>
 
     <div class="col-md-10 item text-center youtube mb-5">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/-SO5m9Pg4Es" title="YouTube video player"
-        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/-SO5m9Pg4Es" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
     <div class="container row">
