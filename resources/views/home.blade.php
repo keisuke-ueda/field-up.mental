@@ -4,9 +4,10 @@
 <div id="home">
   <div class="container-fruid">
 
-      <div class="col-md-12 item youtube">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/DSvMV7q22Lw?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
+
+    <div class="col-md-10 item youtube offset-md-1">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/DSvMV7q22Lw?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
 
     <div class="row">
       <div class="col-md-12 div-link mt-5 pb-5">

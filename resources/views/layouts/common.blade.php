@@ -8,6 +8,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="心理学,メンタル,ストレス,心理テスト,カウンセラー" />
     <link rel="shortcut icon" href='{{ asset("/image/ファビコン.png")}}'>
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
