@@ -112,5 +112,5 @@ test_cont.jpg
 @endsection
 
 @section('title')
-コンテンツ一覧
+ココロとカラダ
 @endsection

@@ -50,5 +50,5 @@
 @endsection
 
 @section('title')
-ココロとカラダの関係
+好きなものを食べられないときのストレス(高血圧)
 @endsection

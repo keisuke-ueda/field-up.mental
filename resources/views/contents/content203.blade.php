@@ -48,5 +48,5 @@
 @endsection
 
 @section('title')
-ココロとカラダの関係
+感じ方は人それぞれ
 @endsection

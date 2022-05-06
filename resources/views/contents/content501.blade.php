@@ -47,5 +47,5 @@
 @endsection
 
 @section('title')
-ココロとカラダの関係
+チームとリスク
 @endsection

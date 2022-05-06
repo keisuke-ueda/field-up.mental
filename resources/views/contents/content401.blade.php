@@ -47,5 +47,5 @@
 @endsection
 
 @section('title')
-ココロとカラダの関係
+周りの評価と成果の関係
 @endsection
