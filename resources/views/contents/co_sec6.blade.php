@@ -125,5 +125,5 @@ test_cont.jpg
 @endsection
 
 @section('title')
-コンテンツ一覧
+遊びと心理
 @endsection

@@ -109,5 +109,5 @@ test_cont.jpg
 @endsection
 
 @section('title')
-コンテンツ一覧
+悩みと心理
 @endsection

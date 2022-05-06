@@ -48,5 +48,5 @@
 @endsection
 
 @section('title')
-ココロとカラダの関係
+不安とは何か?
 @endsection

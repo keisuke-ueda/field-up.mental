@@ -45,5 +45,5 @@
 @endsection
 
 @section('title')
-ココロとカラダの関係
+脳内で起きていること
 @endsection

@@ -49,5 +49,5 @@
 @endsection
 
 @section('title')
-ココロとカラダの関係
+カラダを動かさないとココロも動かない(若々しいカラダづくり)
 @endsection

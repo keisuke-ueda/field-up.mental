@@ -49,5 +49,5 @@
 @endsection
 
 @section('title')
-ココロとカラダの関係
+職場で生じるストレスダメージ
 @endsection

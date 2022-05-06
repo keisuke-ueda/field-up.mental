@@ -112,5 +112,5 @@ test_cont.jpg
 @endsection
 
 @section('title')
-コンテンツ一覧
+心理の本質
 @endsection

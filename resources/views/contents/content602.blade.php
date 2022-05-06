@@ -46,5 +46,5 @@
 @endsection
 
 @section('title')
-ココロとカラダの関係
+色と理論
 @endsection
