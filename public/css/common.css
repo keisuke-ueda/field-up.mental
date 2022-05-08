@@ -92,6 +92,25 @@ h1 {
    0px -2px 1px rgba(102, 102, 255, 0.30);        /* 文字の影 */
 }
 
+h2 {
+  color          : #ffffff;            /* 文字の色 */
+  letter-spacing : 4px;                /* 文字間 */
+  text-shadow    : 
+  2px  2px 1px rgba(102, 102, 255, 0.30),
+  -2px  2px 1px rgba(102, 102, 255, 0.30),
+   2px -2px 1px rgba(102, 102, 255, 0.30),
+  -2px -2px 1px rgba(102, 102, 255, 0.30),
+   2px  0px 1px rgba(102, 102, 255, 0.30),
+   0px  2px 1px rgba(102, 102, 255, 0.30),
+  -2px  0px 1px rgba(102, 102, 255, 0.30),
+   0px -2px 1px rgba(102, 102, 255, 0.30);        /* 文字の影 */
+}
+
+.f1 {
+  font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+
 /*******************/
 /* 各ページの背景設定 */
 /*******************/
