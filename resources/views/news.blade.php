@@ -33,7 +33,7 @@
 
       <div class="card border-dark col-sm-10 item mt-5 mb-5">
       <div class="card-body text-dark bg-light">
-          <p>2022/12/1 水曜日</p><br>
+          <p>2022/5/1 日曜日</p><br>
           <h5>夢分析ショート動画配信開始!!</h5><br>
           <p>ユング心理学で有名な夢分析をショート動画でシリーズ化<br>
             気軽に楽しんで下さい<br>
