@@ -62,7 +62,7 @@
           <h1 class="text-center"><br class="br-sp"/>会社情報</h1>
           <div class="rounded mt-5 p-5" style="background-color: rgba(16, 182, 225, 0.5);">
             <h2 class="p-3">会社名：Field-UP</h2>
-            <h2 class="p-3">所在地：〒114-0011 東京都北区昭和町1-3-18</h2>
+            <h2 class="p-3">所在地：〒114-0011 東京都北区昭和町1-4-7</h2>
             <h2 class="p-3">代表者名：上田　敬介</h2>
             <h2 class="p-3">設立年月日：2020年6月1日</h2>
             <h2 class="p-3">従業員数：1名</h2>
