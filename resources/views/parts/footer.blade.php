@@ -9,7 +9,7 @@
         <aside class="widget widget_text" id="text-3"><h3 class="widget-title subSection-title text-center">システム事業</h3>
           <div class="textwidget border-top">
             <p>世にないアプリやシステム開発や、開発手段の方法は是非ご相談ください</p>
-            <p>システム開発に興味が少しでも興味のある方は<a href="https://www.field-up.work/field-up.tec/home.html/" target="_blank" rel="noopener noreferrer"><strong>こちら</strong></a>
+            <p>システム開発に興味が少しでも興味のある方は<a href="https://www.field-up.work/field-up.tec/home.html" target="_blank" rel="noopener noreferrer"><strong>こちら</strong></a>
           </div>
         </aside>
       </div>
