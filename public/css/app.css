@@ -87,7 +87,6 @@ hr {
 }
 
 h1,
-h2,
 h3,
 h4,
 h5,
@@ -372,7 +371,6 @@ template {
 }
 
 h1,
-h2,
 h3,
 h4,
 h5,
@@ -10880,13 +10878,11 @@ a.text-dark:focus {
   }
 
   p,
-  h2,
   h3 {
     orphans: 3;
     widows: 3;
   }
 
-  h2,
   h3 {
     page-break-after: avoid;
   }
@@ -11015,3 +11011,4 @@ h1:after {
 h1 {
   font-weight: bold;
 }
+
