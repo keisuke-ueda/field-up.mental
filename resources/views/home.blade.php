@@ -14,27 +14,9 @@
 <div class="row">
     <div class="container">
       <video src='{{ asset("/image/OP_rev1.mp4")}}' controls muted autoplay playsinline loop style="width: 100%;"></video>
-    </div>
-  </div>
-
-  <div class="row mt-5">
-    <div class="col-md-12 div-link mt-5 pb-5">
-      <img src='{{ asset("/image/サイト画像(心理テスト).jpg") }}' class="card-img" alt="...">
-      <a class ="link" href="{{ route('psychology_test.show') }}"></a>
-    </div>
-  </div>
-
-  <div class="row">
-    <div class="col-md-12 div-link mt-5 pb-5">
-      <img src='{{ asset("/image/サイト画像(コンテンツ).jpg") }}' class="card-img" alt="...">
-      <a class ="link" href="{{ route('contents_list.show') }}"></a>
-    </div>
-  </div>
-
-  <div class="row">
-    <div class="col-md-12 div-link mt-5 pb-5">
-      <img src='{{ asset("/image/サイト画像(お問合せ&FAQ).jpg") }}' class="card-img" alt="...">
-      <a class ="link" href="{{ route('contacts_faq.show') }}"></a>
+      <a class ="link" href="{{ route('psychology_test.show') }}"><img src='{{ asset("/image/サイトページ心理テストrev1.png")}}' class="card-img mt-5 d-block mx-auto img-fluid" alt="..." style="width: 80%;"></a>
+      <a class ="link" href="{{ route('contents_list.show') }}"><img src='{{ asset("/image/サイトページ画像コンテンツrev1.png")}}' class="card-img mt-5 d-block mx-auto img-fluid" alt="..." style="width: 80%;"></a>
+      <a class ="link" href="{{ route('contacts_faq.show') }}"><img src='{{ asset("/image/サイトページ画像お問合せFAQrev1.png")}}' class="card-img mt-5 mb-5 d-block mx-auto img-fluid" alt="..." style="width: 80%;"></a>
     </div>
   </div>
 </div>
