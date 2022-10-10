@@ -7,35 +7,36 @@
 <div class="row">
   <div class="col-md-12 mt-5 mb-5">
     <h2 class="f1 text-center">心理学って面白い!!<br>
-  前に向かって一緒に進んでいこう!!</h2>
+    前に向かって一緒に進んでいこう!!</h2>
   </div>
 </div>
 
-
-    <div class="col-md-10 item youtube offset-md-1">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/DSvMV7q22Lw?autoplay=1&mute=1&loop=1&playlist=DSvMV7q22Lw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="row">
+    <div class="container">
+      <video src='{{ asset("/image/OP_rev1.mp4")}}' controls muted autoplay playsinline loop style="width: 100%;"></video>
     </div>
+  </div>
 
-    <div class="row">
-      <div class="col-md-12 div-link mt-5 pb-5">
-        <img src='{{ asset("/image/サイト画像(心理テスト).jpg") }}' class="card-img" alt="...">
-        <a class ="link" href="{{ route('psychology_test.show') }}"></a>
-      </div>
+  <div class="row mt-5">
+    <div class="col-md-12 div-link mt-5 pb-5">
+      <img src='{{ asset("/image/サイト画像(心理テスト).jpg") }}' class="card-img" alt="...">
+      <a class ="link" href="{{ route('psychology_test.show') }}"></a>
     </div>
+  </div>
 
-    <div class="row">
-      <div class="col-md-12 div-link mt-5 pb-5">
-        <img src='{{ asset("/image/サイト画像(コンテンツ).jpg") }}' class="card-img" alt="...">
-        <a class ="link" href="{{ route('contents_list.show') }}"></a>
-      </div>
+  <div class="row">
+    <div class="col-md-12 div-link mt-5 pb-5">
+      <img src='{{ asset("/image/サイト画像(コンテンツ).jpg") }}' class="card-img" alt="...">
+      <a class ="link" href="{{ route('contents_list.show') }}"></a>
     </div>
+  </div>
 
-    <div class="row">
-      <div class="col-md-12 div-link mt-5 pb-5">
-        <img src='{{ asset("/image/サイト画像(お問合せ&FAQ).jpg") }}' class="card-img" alt="...">
-        <a class ="link" href="{{ route('contacts_faq.show') }}"></a>
-      </div>
+  <div class="row">
+    <div class="col-md-12 div-link mt-5 pb-5">
+      <img src='{{ asset("/image/サイト画像(お問合せ&FAQ).jpg") }}' class="card-img" alt="...">
+      <a class ="link" href="{{ route('contacts_faq.show') }}"></a>
     </div>
+  </div>
 </div>
 
 @endsection
