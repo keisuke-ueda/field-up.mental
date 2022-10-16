@@ -1,5 +1,5 @@
 @extends('layouts.common')
-
+<meta name="description" content="ダイエットをしている女性はとても多いです。ほどほどならよいのですが、過剰なダイエットで生活や、その後の人生に影響を及ぼしてしまう方もいます。正しいダイエット方法を学んで、ストレスなく美味しいものを食べましょう。">
 @section('content')
 <div id="mental_care_contents">
   <div class="row justify-content-center container mx-auto">
@@ -25,19 +25,19 @@
 
     <div class="container row">
       <div class="col m-4" style="height: 250px;">
-        <img class="h-100" src="{{ asset('image/contents_img/content304/1-1.jpg')}}" />
+        <img class="h-100" alt="ダイエット1" src="{{ asset('image/contents_img/content304/1-1.jpg')}}" />
       </div>
 
       <div class="col m-4" style="height: 250px;">
-        <img class="h-100" src="{{ asset('image/contents_img/content304/1-2.jpg')}}" />
+        <img class="h-100" alt="ダイエット2" src="{{ asset('image/contents_img/content304/1-2.jpg')}}" />
       </div>
 
       <div class="col m-4" style="height: 250px;">
-        <img class="h-100" src="{{ asset('image/contents_img/content304/1-3.jpg')}}" />
+        <img class="h-100" alt="ダイエット3" src="{{ asset('image/contents_img/content304/1-3.jpg')}}" />
       </div>
 
       <div class="col m-4" style="height: 250px;">
-        <img class="h-100" src="{{ asset('image/contents_img/content304/1-4.jpg')}}" />
+        <img class="h-100" alt="ダイエット4" src="{{ asset('image/contents_img/content304/1-4.jpg')}}" />
       </div>
     </div>
 
@@ -50,5 +50,5 @@
 @endsection
 
 @section('title')
-好きなものを食べられないときのストレス(ダイエット)
+ダイエット|Field-UP 心理事業
 @endsection

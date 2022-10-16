@@ -1,5 +1,5 @@
 @extends('layouts.common')
-
+<meta name="description" content="頑張ったのに評価してもらえない。成果として認めてくれない。そんことがあるととても悲しくなってしまいますよね。今の年代は絶対評価で育ってきたため、相対評価の社会でストレスを感じる方は多くいます。周りが認めてくれなくても自分だけは自分を褒めてあげてください。必ず報われます。">
 @section('content')
 <div id="mental_care_contents">
   <div class="row justify-content-center container mx-auto">
@@ -22,19 +22,19 @@
 
     <div class="container row">
       <div class="col m-4" style="height: 250px;">
-        <img class="h-100" src="{{ asset('image/contents_img/content401/1-1.jpg')}}" />
+        <img class="h-100" alt="評価と成果1" src="{{ asset('image/contents_img/content401/1-1.jpg')}}" />
       </div>
 
       <div class="col m-4" style="height: 250px;">
-        <img class="h-100" src="{{ asset('image/contents_img/content401/1-2.jpg')}}" />
+        <img class="h-100" alt="評価と成果2" src="{{ asset('image/contents_img/content401/1-2.jpg')}}" />
       </div>
 
       <div class="col m-4" style="height: 250px;">
-        <img class="h-100" src="{{ asset('image/contents_img/content401/1-3.jpg')}}" />
+        <img class="h-100" alt="評価と成果3" src="{{ asset('image/contents_img/content401/1-3.jpg')}}" />
       </div>
 
       <div class="col m-4" style="height: 250px;">
-        <img class="h-100" src="{{ asset('image/contents_img/content401/1-4.jpg')}}" />
+        <img class="h-100" alt="評価と成果4" src="{{ asset('image/contents_img/content401/1-4.jpg')}}" />
       </div>
     </div>
 
@@ -47,5 +47,5 @@
 @endsection
 
 @section('title')
-周りの評価と成果の関係
+評価と成果|Field-UP 心理事業
 @endsection

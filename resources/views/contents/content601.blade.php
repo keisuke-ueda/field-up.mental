@@ -1,5 +1,5 @@
 @extends('layouts.common')
-
+<meta name="description" content="赤いモノを見ると興奮する。青色は心が落ち着く。紫はなんだか高級感がある。色はそれだけで人のココロに何らかの印象を残す効果があります。まさにそれが心理学の真骨頂。なぜ人はそのように感じるのでしょう。">
 @section('content')
 <div id="mental_care_contents">
   <div class="row justify-content-center container mx-auto">
@@ -21,19 +21,19 @@
 
     <div class="container row">
       <div class="col m-4" style="height: 250px;">
-        <img class="h-100" src="{{ asset('image/contents_img/content601/1-1.jpg')}}" />
+        <img class="h-100" alt="色とイメージ1" src="{{ asset('image/contents_img/content601/1-1.jpg')}}" />
       </div>
 
       <div class="col m-4" style="height: 250px;">
-        <img class="h-100" src="{{ asset('image/contents_img/content601/1-2.jpg')}}" />
+        <img class="h-100" alt="色とイメージ2" src="{{ asset('image/contents_img/content601/1-2.jpg')}}" />
       </div>
 
       <div class="col m-4" style="height: 250px;">
-        <img class="h-100" src="{{ asset('image/contents_img/content601/1-3.jpg')}}" />
+        <img class="h-100" alt="色とイメージ3" src="{{ asset('image/contents_img/content601/1-3.jpg')}}" />
       </div>
 
       <div class="col m-4" style="height: 250px;">
-        <img class="h-100" src="{{ asset('image/contents_img/content601/1-4.jpg')}}" />
+        <img class="h-100" alt="色とイメージ4" src="{{ asset('image/contents_img/content601/1-4.jpg')}}" />
       </div>
     </div>
 
@@ -46,5 +46,5 @@
 @endsection
 
 @section('title')
-色とイメージ
+色とイメージ|Field-UP 心理事業
 @endsection

@@ -1,5 +1,5 @@
 @extends('layouts.common')
-
+<meta name="description" content="エゴグラムとは自分の特性を知るための心理テストです。このテストの結果にいい悪いはありません。自分がどんなタイプなのかをきちんと知ることによって、身分で走れなかった自分を知ることができます。是非やってみてください。">
 @section('content')
 <div id="psychology_test">
 
@@ -14,11 +14,11 @@
 
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col-md-12 item">
-        <h3 class="text-center">○ = 当てはまる、<br class="br-sp" />△ = どちらでもない、<br class="br-sp" />✗ = 当てはまらない、<br />で質問に答えていこう</h3>
+      <div class="col-md-12">
+        <h3 class="text-center mx-2 p-2 item">○ = 当てはまる、<br class="br-sp" />△ = どちらでもない、<br class="br-sp" />✗ = 当てはまらない、<br />で質問に答えていこう</h3>
       </div>
       @for($i = 0; $i < 5; $i++)
-        <div class="item col-md-5 mr-5 mt-5">
+        <div class="col-md-5 mr-5 mt-5 mx-auto">
           <h3>エリア
             @if($i == 0)
               {{"Ⅰ"}}
@@ -32,7 +32,7 @@
               {{"Ⅴ"}}
             @endif
           </h3>
-          <table class="table text-white">
+          <table class="table text-white mx-2 p-2 item mx-auto">
             <tbody>
               {{--
                 <tr>
@@ -85,13 +85,13 @@
     <div id="modalBg" class="modalBg"></div>
     <div class="modalWrapper">
       <div class="modalContents">
-        <h1>診断結果一覧</h1>
+        <h2 class="h1">診断結果一覧</h2>
         <button id="result-1">結果1</button>
         <div id="result_content-1" class="result_content-1">
           <div id="modalBg" class="modalBg"></div>
           <div class="modalWrapper">
             <div class="modalContents">
-              <h1>結果1内容</h1>
+              <h2 class="h1">結果1内容</h2>
             </div>
           </div>
         </div>
@@ -114,11 +114,11 @@
 @section('style')
 <style type="text/css">
   .item {
-    background-color: rgba(17, 168, 80, 0.5) !important;
+    background-color: rgba(17, 168, 80, 0.7) !important;
   }
 </style>
 @endsection
 
 @section('title')
-エゴグラム
+エゴグラム|Field-UP 心理事業
 @endsection

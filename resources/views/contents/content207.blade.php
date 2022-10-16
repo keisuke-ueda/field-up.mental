@@ -1,5 +1,5 @@
 @extends('layouts.common')
-
+<meta name="description" content="生活していくうえで仕事は必須です。ですが仕事をするために無理をして体調を崩したり、メンタル不調になっては言語道断です。あなたの身を本当に守れるのはあなたしかいません。もし辛いと感じたときは、仕事の仲間に助けを求めたり、カウンセラーに相談もして下さい。">
 @section('content')
 <div id="mental_care_contents">
   <div class="row justify-content-center container mx-auto">
@@ -23,19 +23,19 @@
 
     <div class="container row">
       <div class="col m-4" style="height: 250px;">
-        <img class="h-100" src="{{ asset('image/contents_img/content207/1-1.jpg')}}" />
+        <img class="h-100" alt="仕事によるストレス1" src="{{ asset('image/contents_img/content207/1-1.jpg')}}" />
       </div>
 
       <div class="col m-4" style="height: 250px;">
-        <img class="h-100" src="{{ asset('image/contents_img/content207/1-2.jpg')}}" />
+        <img class="h-100" alt="仕事によるストレス2" src="{{ asset('image/contents_img/content207/1-2.jpg')}}" />
       </div>
 
       <div class="col m-4" style="height: 250px;">
-        <img class="h-100" src="{{ asset('image/contents_img/content207/1-3.jpg')}}" />
+        <img class="h-100" alt="仕事によるストレス3" src="{{ asset('image/contents_img/content207/1-3.jpg')}}" />
       </div>
 
       <div class="col m-4" style="height: 250px;">
-        <img class="h-100" src="{{ asset('image/contents_img/content207/1-4.jpg')}}" />
+        <img class="h-100" alt="仕事によるストレス4" src="{{ asset('image/contents_img/content207/1-4.jpg')}}" />
       </div>
     </div>
 
@@ -48,5 +48,5 @@
 @endsection
 
 @section('title')
-仕事によるストレス
+仕事によるストレス|Field-UP 心理事業
 @endsection

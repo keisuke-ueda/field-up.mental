@@ -1,5 +1,5 @@
 @extends('layouts.common')
-
+<meta name="description" content="カラダが何に反応してリラックスしていくかの理屈がわかると意外と簡単にリラックスってできるのです。緊張しっぱなしの時に効率よくリラックスする豊富をアニメーション動画でご覧ください。">
 @section('content')
 <div id="mental_care_contents">
   <div class="row justify-content-center container mx-auto">
@@ -26,19 +26,19 @@
 
     <div class="container row">
       <div class="col m-4" style="height: 250px;">
-        <img class="h-100" src="{{ asset('image/contents_img/content305/1-1.jpg')}}" />
+        <img class="h-100" alt="迷走神経とリラックス1" src="{{ asset('image/contents_img/content305/1-1.jpg')}}" />
       </div>
 
       <div class="col m-4" style="height: 250px;">
-        <img class="h-100" src="{{ asset('image/contents_img/content305/1-2.jpg')}}" />
+        <img class="h-100" alt="迷走神経とリラックス2" src="{{ asset('image/contents_img/content305/1-2.jpg')}}" />
       </div>
 
       <div class="col m-4" style="height: 250px;">
-        <img class="h-100" src="{{ asset('image/contents_img/content305/1-3.jpg')}}" />
+        <img class="h-100" alt="迷走神経とリラックス3" src="{{ asset('image/contents_img/content305/1-3.jpg')}}" />
       </div>
 
       <div class="col m-4" style="height: 250px;">
-        <img class="h-100" src="{{ asset('image/contents_img/content305/1-4.jpg')}}" />
+        <img class="h-100" alt="迷走神経とリラックス4" src="{{ asset('image/contents_img/content305/1-4.jpg')}}" />
       </div>
     </div>
 
@@ -51,5 +51,5 @@
 @endsection
 
 @section('title')
-カラダを動かさないとココロも動かない(迷走神経とリラックス)
+迷走神経とリラックス|Field-UP` 心理事業
 @endsection

@@ -1,5 +1,5 @@
 @extends('layouts.common')
-
+<meta name="description" content="甘いものは美味しいですよね。疲れたときにはもってこいです。でも食べ過ぎてしまうと大変なことに。それでも甘いものは食べたい!!そんな人はこの動画を見て下さい。食べても血糖値が上がりづらい甘いものがあるんです。">
 @section('content')
 <div id="mental_care_contents">
   <div class="row justify-content-center container mx-auto">
@@ -23,19 +23,19 @@
 
     <div class="container row">
       <div class="col m-4" style="height: 250px;">
-        <img class="h-100" src="{{ asset('image/contents_img/content306/1-1.jpg')}}" />
+        <img class="h-100" alt="高血糖1"src="{{ asset('image/contents_img/content306/1-1.jpg')}}" />
       </div>
 
       <div class="col m-4" style="height: 250px;">
-        <img class="h-100" src="{{ asset('image/contents_img/content306/1-2.jpg')}}" />
+        <img class="h-100" alt="高血糖2" src="{{ asset('image/contents_img/content306/1-2.jpg')}}" />
       </div>
 
       <div class="col m-4" style="height: 250px;">
-        <img class="h-100" src="{{ asset('image/contents_img/content306/1-3.jpg')}}" />
+        <img class="h-100" alt="高血糖3" src="{{ asset('image/contents_img/content306/1-3.jpg')}}" />
       </div>
 
       <div class="col m-4" style="height: 250px;">
-        <img class="h-100" src="{{ asset('image/contents_img/content306/1-4.jpg')}}" />
+        <img class="h-100" alt="高血糖4" src="{{ asset('image/contents_img/content306/1-4.jpg')}}" />
       </div>
     </div>
 
@@ -48,5 +48,5 @@
 @endsection
 
 @section('title')
-好きなものを食べられないときのストレス(高血糖)
+高血糖|Field-UP 心理事業
 @endsection

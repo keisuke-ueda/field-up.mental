@@ -1,5 +1,5 @@
 @extends('layouts.common')
-
+<meta name="description" content="Field-UPの最新ニュースを紹介しています。世の中の状況に合わせていろんな形でコンテンツを配信していく予定なので、是非チェックしてください。">
 @section('content')
 <div id="news">
   <div class="container">
@@ -32,12 +32,22 @@
       </div>
 
       <div class="card border-dark col-sm-10 item mt-5 mb-5">
-      <div class="card-body text-dark bg-light">
+        <div class="card-body text-dark bg-light">
           <p>2022/5/1 日曜日</p><br>
           <h5>夢分析ショート動画配信開始!!</h5><br>
           <p>ユング心理学で有名な夢分析をショート動画でシリーズ化<br>
             気軽に楽しんで下さい<br>
             <a href= "https://www.youtube.com/shorts/RglDIfyJfmA" >動画はこちらから</a></p>
+        </div>
+      </div>
+
+      <div class="card border-dark col-sm-10 item mt-5 mb-5">
+        <div class="card-body text-dark bg-light">
+          <p>2022/10/17 月曜日</p><br>
+          <h5>Field-UP　総合サイト開設</h5><br>
+          <p>Field-UPの事業全体を紹介したサイトが開設しました。
+            <br>いろんなコンテンツを掲載しているので、是非見てください。
+            <a href= "https://www.field-up.work/" >サイトはこちらから</a></p>
         </div>
       </div>
 
@@ -50,5 +60,5 @@
 @endsection
 
 @section('title')
-ニュース
+ニュース|FIeld-UP 心理事業
 @endsection
