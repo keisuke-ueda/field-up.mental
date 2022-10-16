@@ -1,5 +1,5 @@
 @extends('layouts.common')
-
+<meta name="description" content="本能は人が人として生まれたときから備わっているものです。これは精神論でどうにかなる代物ではありません。あなたの抱えている悩みの本質はもしかしたら本能が関わっているのかも知れません。">
 @section('content')
 <div id="mental_care_contents">
   <div class="row justify-content-center container mx-auto">
@@ -21,19 +21,19 @@
 
     <div class="container row">
       <div class="col m-4" style="height: 250px;">
-        <img class="h-100" src="{{ asset('image/contents_img/content101/1-1.jpg')}}" />
+        <img class="h-100" alt="本能とは1" src="{{ asset('image/contents_img/content101/1-1.jpg')}}" />
       </div>
 
       <div class="col m-4" style="height: 250px;">
-        <img class="h-100" src="{{ asset('image/contents_img/content101/1-2.jpg')}}" />
+        <img class="h-100" alt="本能とは2" src="{{ asset('image/contents_img/content101/1-2.jpg')}}" />
       </div>
 
       <div class="col m-4" style="height: 250px;">
-        <img class="h-100" src="{{ asset('image/contents_img/content101/1-3.jpg')}}" />
+        <img class="h-100" alt="本能とは3" src="{{ asset('image/contents_img/content101/1-3.jpg')}}" />
       </div>
 
       <div class="col m-4" style="height: 250px;">
-        <img class="h-100" src="{{ asset('image/contents_img/content101/1-4.jpg')}}" />
+        <img class="h-100" salt="本能とは4" src="{{ asset('image/contents_img/content101/1-4.jpg')}}" />
       </div>
     </div>
 
@@ -46,5 +46,5 @@
 @endsection
 
 @section('title')
-本能とは？
+本能とは？|Field-UP 心理事業
 @endsection

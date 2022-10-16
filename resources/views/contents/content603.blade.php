@@ -1,5 +1,5 @@
 @extends('layouts.common')
-
+<meta name="description" content="デザインをするうえで色選びはとても大事です。目にぱっと飛び込んでくるのは形もそうですが色の印象がかなり大きいです。綺麗な色だからといって組み合わせによっては合わないことだってあります。どんな色の相性がいいのかを見てみましょう。">
 @section('content')
 <div id="mental_care_contents">
   <div class="row justify-content-center container mx-auto">
@@ -22,19 +22,19 @@
 
     <div class="container row">
       <div class="col m-4" style="height: 250px;">
-        <img class="h-100" src="{{ asset('image/contents_img/content603/1-1.jpg')}}" />
+        <img class="h-100" alt="色とデザイン1" src="{{ asset('image/contents_img/content603/1-1.jpg')}}" />
       </div>
 
       <div class="col m-4" style="height: 250px;">
-        <img class="h-100" src="{{ asset('image/contents_img/content603/1-2.jpg')}}" />
+        <img class="h-100" alt="色とデザイン2" src="{{ asset('image/contents_img/content603/1-2.jpg')}}" />
       </div>
 
       <div class="col m-4" style="height: 250px;">
-        <img class="h-100" src="{{ asset('image/contents_img/content603/1-3.jpg')}}" />
+        <img class="h-100" alt="色とデザイン3" src="{{ asset('image/contents_img/content603/1-3.jpg')}}" />
       </div>
 
       <div class="col m-4" style="height: 250px;">
-        <img class="h-100" src="{{ asset('image/contents_img/content603/1-4.jpg')}}" />
+        <img class="h-100" alt="色とデザイン4" src="{{ asset('image/contents_img/content603/1-4.jpg')}}" />
       </div>
     </div>
 
@@ -47,5 +47,5 @@
 @endsection
 
 @section('title')
-ココロとカラダの関係
+色とデザイン|Field-UP 心理事業
 @endsection

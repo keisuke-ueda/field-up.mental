@@ -1,5 +1,5 @@
 @extends('layouts.common')
-
+<meta name="description" content="ストレスや不安を感じたとき、いったい脳内ではどんなことが起きているか知っていますか?少しでもその部分がわかってくるとどうすれば気持ちが楽になるかがわかってくるかもしれません。動画で確認してみましょう。">
 @section('content')
 <div id="mental_care_contents">
   <div class="row justify-content-center container mx-auto">
@@ -20,19 +20,19 @@
 
     <div class="container row">
       <div class="col m-4" style="height: 250px;">
-        <img class="h-100" src="{{ asset('image/contents_img/content208/1-1.jpg')}}" />
+        <img class="h-100" alt="脳内で起きていること1" src="{{ asset('image/contents_img/content208/1-1.jpg')}}" />
       </div>
 
       <div class="col m-4" style="height: 250px;">
-        <img class="h-100" src="{{ asset('image/contents_img/content208/1-2.jpg')}}" />
+        <img class="h-100" alt="脳内で起きていること2" src="{{ asset('image/contents_img/content208/1-2.jpg')}}" />
       </div>
 
       <div class="col m-4" style="height: 250px;">
-        <img class="h-100" src="{{ asset('image/contents_img/content208/1-3.jpg')}}" />
+        <img class="h-100" alt="脳内で起きていること3" src="{{ asset('image/contents_img/content208/1-3.jpg')}}" />
       </div>
 
       <div class="col m-4" style="height: 250px;">
-        <img class="h-100" src="{{ asset('image/contents_img/content208/1-4.jpg')}}" />
+        <img class="h-100" alt="脳内で起きていること4" src="{{ asset('image/contents_img/content208/1-4.jpg')}}" />
       </div>
     </div>
 
@@ -45,5 +45,5 @@
 @endsection
 
 @section('title')
-脳内で起きていること
+脳内で起きていること|Field-UP 心理事業
 @endsection

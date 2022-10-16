@@ -1,5 +1,5 @@
 @extends('layouts.common')
-
+<meta name="description" content="職場でのストレスあるというのが日本の方がとても多いです。それは真面目に働く日本の方の良さでもあります。一生懸命に働いているからこそ、衝突もしますし、自分の力のなさに悔し涙を流す方も多いと思います。そんな時はこのページの動画を見てください。">
 @section('content')
 <div id="mental_care_contents">
   <div class="row justify-content-center container mx-auto">
@@ -17,7 +17,7 @@
       <div class="col-md-4 item mb-5">
         <div class="card" style="margin: 10px;">
           <a href='{{ route("contents_sec.select", ["page_number"=>501])}}' class="w-100 h-100">
-            <img src='{{ asset("/image/sec5_image/チームとリスク(1).jpg") }}' class="card-img" alt="...">
+            <img src='{{ asset("/image/sec5_image/チームとリスク(1).jpg") }}' class="card-img" alt="チームとリスク">
             <h3 class="card-title">【チームとリスク】どんなチームやリスクがあるのかな？</h3>
           </a>
         </div>
@@ -26,7 +26,7 @@
       <div class="col-md-4 item mb-5">
         <div class="card" style="margin: 10px;">
           <a href='{{ route("making_now.show") }}' class="w-100 h-100">
-            <img src='{{ asset("/image/製作中ページ.jpg") }}' class="card-img" alt="...">
+            <img src='{{ asset("/image/製作中ページ.jpg") }}' class="card-img" alt="開設準備中">
             <h3 class="card-title">【準備中】ちょっと待っててね</h3>
           </a>
         </div>
@@ -35,7 +35,7 @@
       <div class="col-md-4 item mb-5">
         <div class="card" style="margin: 10px;">
           <a href='{{ route("making_now.show") }}' class="w-100 h-100">
-            <img src='{{ asset("/image/製作中ページ.jpg") }}' class="card-img" alt="...">
+            <img src='{{ asset("/image/製作中ページ.jpg") }}' class="card-img" alt="開設準備中">
             <h3 class="card-title">【準備中】ちょっと待っててね</h3>
           </a>
         </div>
@@ -44,7 +44,7 @@
       <div class="col-md-4 item mb-5">
         <div class="card" style="margin: 10px;">
           <a href='{{ route("making_now.show") }}' class="w-100 h-100">
-            <img src='{{ asset("/image/製作中ページ.jpg") }}' class="card-img" alt="...">
+            <img src='{{ asset("/image/製作中ページ.jpg") }}' class="card-img" alt="開設準備中">
             <h3 class="card-title">【準備中】ちょっと待っててね</h3>
           </a>
         </div>
@@ -53,7 +53,7 @@
       <div class="col-md-4 item mb-5">
         <div class="card" style="margin: 10px;">
           <a href='{{ route("making_now.show") }}' class="w-100 h-100">
-            <img src='{{ asset("/image/製作中ページ.jpg") }}' class="card-img" alt="...">
+            <img src='{{ asset("/image/製作中ページ.jpg") }}' class="card-img" alt="開設準備中">
             <h3 class="card-title">【準備中】ちょっと待っててね</h3>
           </a>
         </div>
@@ -62,7 +62,7 @@
       <div class="col-md-4 item mb-5">
         <div class="card" style="margin: 10px;">
           <a href='{{ route("making_now.show") }}' class="w-100 h-100">
-            <img src='{{ asset("/image/製作中ページ.jpg") }}' class="card-img" alt="...">
+            <img src='{{ asset("/image/製作中ページ.jpg") }}' class="card-img" alt="開設準備中">
             <h3 class="card-title">【準備中】ちょっと待っててね</h3>
           </a>
         </div>
@@ -71,7 +71,7 @@
       <div class="col-md-4 item mb-5">
         <div class="card" style="margin: 10px;">
           <a href='{{ route("making_now.show") }}' class="w-100 h-100">
-            <img src='{{ asset("/image/製作中ページ.jpg") }}' class="card-img" alt="...">
+            <img src='{{ asset("/image/製作中ページ.jpg") }}' class="card-img" alt="開設準備中">
             <h3 class="card-title">【準備中】ちょっと待っててね</h3>
           </a>
         </div>
@@ -80,7 +80,7 @@
       <div class="col-md-4 item mb-5">
         <div class="card" style="margin: 10px;">
           <a href='{{ route("making_now.show") }}' class="w-100 h-100">
-            <img src='{{ asset("/image/製作中ページ.jpg") }}' class="card-img" alt="...">
+            <img src='{{ asset("/image/製作中ページ.jpg") }}' class="card-img" alt="開設準備中">
             <h3 class="card-title">【準備中】ちょっと待っててね</h3>
           </a>
         </div>
@@ -89,7 +89,7 @@
       <div class="col-md-4 item mb-5">
         <div class="card" style="margin: 10px;">
           <a href='{{ route("making_now.show") }}' class="w-100 h-100">
-            <img src='{{ asset("/image/製作中ページ.jpg") }}' class="card-img" alt="...">
+            <img src='{{ asset("/image/製作中ページ.jpg") }}' class="card-img" alt="開設準備中">
             <h3 class="card-title">【準備中】ちょっと待っててね</h3>
           </a>
         </div>
@@ -110,4 +110,4 @@ test_cont.jpg
 
 @section('title')
 仕事と心理
-@endsection
+@endsection|Field-UP 心理事業

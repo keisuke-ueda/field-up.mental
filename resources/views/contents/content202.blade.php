@@ -1,5 +1,5 @@
 @extends('layouts.common')
-
+<meta name="description" content="いきなりですが不安と恐怖の違いはわかりますか?この動画を見るとその違いがよくわかります。実はその違いことが不安をなくすための一番の近道になります。是非見てください。">
 @section('content')
 <div id="mental_care_contents">
   <div class="row justify-content-center container mx-auto">
@@ -23,19 +23,19 @@
 
     <div class="container row">
       <div class="col m-4" style="height: 250px;">
-        <img class="h-100" src="{{ asset('image/contents_img/content202/1-1.jpg')}}" />
+        <img class="h-100" alt="不安とは何か1" src="{{ asset('image/contents_img/content202/1-1.jpg')}}" />
       </div>
 
       <div class="col m-4" style="height: 250px;">
-        <img class="h-100" src="{{ asset('image/contents_img/content202/1-2.jpg')}}" />
+        <img class="h-100" alt="不安とは何か2" src="{{ asset('image/contents_img/content202/1-2.jpg')}}" />
       </div>
 
       <div class="col m-4" style="height: 250px;">
-        <img class="h-100" src="{{ asset('image/contents_img/content202/1-3.jpg')}}" />
+        <img class="h-100" alt="不安とは何か3"src="{{ asset('image/contents_img/content202/1-3.jpg')}}" />
       </div>
 
       <div class="col m-4" style="height: 250px;">
-        <img class="h-100" src="{{ asset('image/contents_img/content202/1-4.jpg')}}" />
+        <img class="h-100" alt="不安とは何か4" src="{{ asset('image/contents_img/content202/1-4.jpg')}}" />
       </div>
     </div>
 
@@ -48,5 +48,5 @@
 @endsection
 
 @section('title')
-不安とは何か?
+不安とは何か?|Field-UP 心理事業
 @endsection

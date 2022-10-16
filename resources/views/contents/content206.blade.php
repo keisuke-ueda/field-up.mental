@@ -1,5 +1,5 @@
 @extends('layouts.common')
-
+<meta name="description" content="周りの人がすごくストレスを抱えているのも見ると自分まで滅入ってくるという方もいるのではないですか？それが友人や知人、家族であれば尚のことです。あなたもその人たちのためにできることがあります。この動画を見て声をかけてあげてください。">
 @section('content')
 <div id="mental_care_contents">
   <div class="row justify-content-center container mx-auto">
@@ -23,19 +23,19 @@
 
     <div class="container row">
       <div class="col m-4" style="height: 250px;">
-        <img class="h-100" src="{{ asset('image/contents_img/content206/1-1.jpg')}}" />
+        <img class="h-100" alt="周りのためにできること1" src="{{ asset('image/contents_img/content206/1-1.jpg')}}" />
       </div>
 
       <div class="col m-4" style="height: 250px;">
-        <img class="h-100" src="{{ asset('image/contents_img/content206/1-2.jpg')}}" />
+        <img class="h-100" alt="周りのためにできること2" src="{{ asset('image/contents_img/content206/1-2.jpg')}}" />
       </div>
 
       <div class="col m-4" style="height: 250px;">
-        <img class="h-100" src="{{ asset('image/contents_img/content206/1-3.jpg')}}" />
+        <img class="h-100" alt="周りのためにできること3" src="{{ asset('image/contents_img/content206/1-3.jpg')}}" />
       </div>
 
       <div class="col m-4" style="height: 250px;">
-        <img class="h-100" src="{{ asset('image/contents_img/content206/1-4.jpg')}}" />
+        <img class="h-100" alt="周りのためにできること4" src="{{ asset('image/contents_img/content206/1-4.jpg')}}" />
       </div>
     </div>
 
@@ -48,5 +48,5 @@
 @endsection
 
 @section('title')
-周りのためにできること
+周りのためにできること|Field-UP 心理事業
 @endsection

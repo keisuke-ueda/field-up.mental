@@ -1,5 +1,5 @@
 @extends('layouts.common')
-
+<meta name="description" content="心理学をもっと身近に感じてもらいたいというのが私たちの願いです。近年ストレスを感じている方がとても多い中でField-UPはそんなメンタルの問題に立ち向かっていきます。">
 @section('content')
 <div id="introduction">
 
@@ -7,9 +7,9 @@
     <div class="container">
       <div class="justify-content-center mx-auto">
         <div class="col-md-12 page-title mt-5 pb-5">
-          <h1 class="text-center"><br class="br-sp"/>事業紹介</h1>
+          <h1 class="text-center"><br class="br-sp"/>心理事業紹介</h1>
           <div class="col-md-12 rounded" style="background-color: rgba(16, 182, 225, 0.5)">
-            <img src='{{ asset("/image/事業デザイン.png") }}' alt="..." class="col-md-12 mt-5 mb-5">
+            <img src='{{ asset("/image/事業デザイン.png") }}' alt="Field-UP心理事業紹介" class="col-md-12 mt-5 mb-5">
           </div>
         </div>
       </div>
@@ -18,7 +18,7 @@
     <div class="container">
       <div class="justify-content-center mx-auto">
         <div class="col-md-12 page-title pb-5">
-          <h1 class="text-center"><br class="br-sp"/>サービス紹介</h1>
+          <h2 class="text-center h1"><br class="br-sp"/>サービス紹介</h2>
         </div>
       </div>
     </div>
@@ -59,7 +59,7 @@
     <div class="container">
       <div class="justify-content-center mx-auto">
         <div class="col-md-12 mt-5 pb-5">
-          <h1 class="text-center"><br class="br-sp"/>会社情報</h1>
+          <h2 class="text-center h1"><br class="br-sp"/>会社情報</h2>
           <div class="rounded mt-5 p-5" style="background-color: rgba(255, 255, 255, 1);">
             <p class="">会社名：Field-UP</p>
             <p class="">所在地：〒114-0011 東京都北区昭和町1-4-7</p>
@@ -111,5 +111,5 @@
 @endsection
 
 @section('title')
-事業紹介
+心理事業紹介|Field-UP 心理事業
 @endsection

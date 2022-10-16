@@ -1,5 +1,5 @@
 @extends('layouts.common')
-
+<meta name="description" content="コミュニケーションに悩んでいる方は多いのではないでしょうか？人と人とがわかり合うためには言葉が必須です。言葉なしに本当の意味で分かり合うことはごく稀です。どんな言葉や姿勢で相手に自分の気持ちを伝えればいいかを見てみましょう。">
 @section('content')
 <div id="mental_care_contents">
   <div class="row justify-content-center container mx-auto">
@@ -21,19 +21,19 @@
 
     <div class="container row">
       <div class="col m-4" style="height: 250px;">
-        <img class="h-100" src="{{ asset('image/contents_img/content204/1-1.jpg')}}" />
+        <img class="h-100" alt="コミュニケーション1" src="{{ asset('image/contents_img/content204/1-1.jpg')}}" />
       </div>
 
       <div class="col m-4" style="height: 250px;">
-        <img class="h-100" src="{{ asset('image/contents_img/content204/1-2.jpg')}}" />
+        <img class="h-100" alt="コミュニケーション2" src="{{ asset('image/contents_img/content204/1-2.jpg')}}" />
       </div>
 
       <div class="col m-4" style="height: 250px;">
-        <img class="h-100" src="{{ asset('image/contents_img/content204/1-3.jpg')}}" />
+        <img class="h-100" salt="コミュニケーション3" rc="{{ asset('image/contents_img/content204/1-3.jpg')}}" />
       </div>
 
       <div class="col m-4" style="height: 250px;">
-        <img class="h-100" src="{{ asset('image/contents_img/content204/1-4.jpg')}}" />
+        <img class="h-100" alt="コミュニケーション4" src="{{ asset('image/contents_img/content204/1-4.jpg')}}" />
       </div>
     </div>
 
@@ -46,5 +46,5 @@
 @endsection
 
 @section('title')
-よりよいコミュニケーション
+よりよいコミュニケーション|Field-UP 心理事業
 @endsection

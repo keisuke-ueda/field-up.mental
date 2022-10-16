@@ -1,5 +1,5 @@
 @extends('layouts.common')
-
+<meta name="description" content="職場にはストレスとなるストレッサーが多くあります。そもそもストレッサーって何と思った方は是非この動画を最後まで見て下さい。ストレスを感じる対象が明確になります。">
 @section('content')
 <div id="mental_care_contents">
   <div class="row justify-content-center container mx-auto">
@@ -24,19 +24,19 @@
 
     <div class="container row">
       <div class="col m-4" style="height: 250px;">
-        <img class="h-100" src="{{ asset('image/contents_img/content205/1-1.jpg')}}" />
+        <img class="h-100" alt="職場で生じるストレス1"src="{{ asset('image/contents_img/content205/1-1.jpg')}}" />
       </div>
 
       <div class="col m-4" style="height: 250px;">
-        <img class="h-100" src="{{ asset('image/contents_img/content205/1-2.jpg')}}" />
+        <img class="h-100" alt="職場で生じるストレス2" src="{{ asset('image/contents_img/content205/1-2.jpg')}}" />
       </div>
 
       <div class="col m-4" style="height: 250px;">
-        <img class="h-100" src="{{ asset('image/contents_img/content205/1-3.jpg')}}" />
+        <img class="h-100" alt="職場で生じるストレス3" src="{{ asset('image/contents_img/content205/1-3.jpg')}}" />
       </div>
 
       <div class="col m-4" style="height: 250px;">
-        <img class="h-100" src="{{ asset('image/contents_img/content205/1-4.jpg')}}" />
+        <img class="h-100" alt="職場で生じるストレス4" src="{{ asset('image/contents_img/content205/1-4.jpg')}}" />
       </div>
     </div>
 
@@ -49,5 +49,5 @@
 @endsection
 
 @section('title')
-職場で生じるストレスダメージ
+職場で生じるストレスダメージ|Field-UP 心理事業
 @endsection

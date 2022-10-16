@@ -8,7 +8,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="keywords" content="心理学,メンタル,ストレス,心理テスト,カウンセラー" />
+    <meta name="keywords" content="心理学,メンタル,ストレス,心理テスト,カウンセラー,Field-UP,心理事業" />
     <link rel="shortcut icon" href='{{ asset("/image/ファビコン.png")}}'>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

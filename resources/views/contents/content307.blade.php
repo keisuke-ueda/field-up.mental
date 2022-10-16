@@ -1,5 +1,5 @@
 @extends('layouts.common')
-
+<meta name="description" content="若いころはあんなに動けたのに...。そんなことを思ったことはありませんか?それがストレスになってしまうこともあるともいます。でも!!それに気づいたのであれば大丈夫です。今からでも運動すれば、元通りというわけではないですがどんどん動けるようになっていきます。継続は力なり!!">
 @section('content')
 <div id="mental_care_contents">
   <div class="row justify-content-center container mx-auto">
@@ -24,19 +24,19 @@
 
     <div class="container row">
       <div class="col m-4" style="height: 250px;">
-        <img class="h-100" src="{{ asset('image/contents_img/content307/1-1.jpg')}}" />
+        <img class="h-100" alt="若々しいカラダづくり1" src="{{ asset('image/contents_img/content307/1-1.jpg')}}" />
       </div>
 
       <div class="col m-4" style="height: 250px;">
-        <img class="h-100" src="{{ asset('image/contents_img/content307/1-2.jpg')}}" />
+        <img class="h-100" alt="若々しいカラダづくり2" src="{{ asset('image/contents_img/content307/1-2.jpg')}}" />
       </div>
 
       <div class="col m-4" style="height: 250px;">
-        <img class="h-100" src="{{ asset('image/contents_img/content307/1-3.jpg')}}" />
+        <img class="h-100" alt="若々しいカラダづくり3" src="{{ asset('image/contents_img/content307/1-3.jpg')}}" />
       </div>
 
       <div class="col m-4" style="height: 250px;">
-        <img class="h-100" src="{{ asset('image/contents_img/content307/1-4.jpg')}}" />
+        <img class="h-100" alt="若々しいカラダづくり4" src="{{ asset('image/contents_img/content307/1-4.jpg')}}" />
       </div>
     </div>
 
@@ -49,5 +49,5 @@
 @endsection
 
 @section('title')
-カラダを動かさないとココロも動かない(若々しいカラダづくり)
+若々しいカラダづくり|Field-UP 心理事業
 @endsection

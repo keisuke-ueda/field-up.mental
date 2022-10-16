@@ -1,10 +1,10 @@
 @extends('layouts.common')
-
+<meta name="description" content="ココロとカラダは繋がっています。どちらかが悪くなると引っ張られて両方が悪くなっていきます。それに気づいていない方が意外と多いです。その仕組みをアニメーションでお伝えします。">
 @section('content')
 <div id="mental_care_contents">
   <div class="row justify-content-center container mx-auto">
     <div class="col-md-7 page-title  mt-5 pb-3">
-      <h1 class="text-center">導入編</h1>
+      <h1 class="text-center">ココロとカラダ導入編</h1>
     </div>
   </div>
 
@@ -23,19 +23,19 @@
 
     <div class="container row">
       <div class="col m-4" style="height: 250px;">
-        <img class="h-100" src="{{ asset('image/contents_img/content301/1-1.jpg')}}" />
+        <img class="h-100" alt="ココロとカラダ導入編1" src="{{ asset('image/contents_img/content301/1-1.jpg')}}" />
       </div>
 
       <div class="col m-4" style="height: 250px;">
-        <img class="h-100" src="{{ asset('image/contents_img/content301/1-2.jpg')}}" />
+        <img class="h-100" alt="ココロとカラダ導入編2" src="{{ asset('image/contents_img/content301/1-2.jpg')}}" />
       </div>
 
       <div class="col m-4" style="height: 250px;">
-        <img class="h-100" src="{{ asset('image/contents_img/content301/1-3.jpg')}}" />
+        <img class="h-100" alt="ココロとカラダ導入編3" src="{{ asset('image/contents_img/content301/1-3.jpg')}}" />
       </div>
 
       <div class="col m-4" style="height: 250px;">
-        <img class="h-100" src="{{ asset('image/contents_img/content301/1-4.jpg')}}" />
+        <img class="h-100" alt="ココロとカラダ導入編4" src="{{ asset('image/contents_img/content301/1-4.jpg')}}" />
       </div>
     </div>
 
@@ -48,5 +48,5 @@
 @endsection
 
 @section('title')
-導入編
+ココロとカラダ 導入編|Field-UP 心理事業
 @endsection
