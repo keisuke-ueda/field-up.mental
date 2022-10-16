@@ -3,7 +3,7 @@
 @section('content')
 <div id="home">
   <div class="container-fruid">
-h
+
 <div class="row">
   <div class="col-md-12 mt-5 mb-5">
     <h2 class="f1 text-center">心理学って面白い!!<br>
