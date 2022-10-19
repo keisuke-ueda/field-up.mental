@@ -14,7 +14,7 @@
   </div>
 
     <div class="row">
-        <video src='{{ asset("/image/main_site.mp4")}}' muted autoplay playsinline loop style="width: 100%;"></video>
+        <video src='{{ asset("/image/mental_site.mp4")}}' muted autoplay playsinline loop style="width: 100%;"></video>
     </div>
 
   <div class="container">
