@@ -27,7 +27,7 @@
         <a href="{{ route('contents_list.show') }}"><img src='{{ asset("/image/サイトページ画像コンテンツrev1.png")}}' class="mt-4 link d-block mx-auto" alt="メンタルコンテンツ" style="width:100%;"><h2 class="text-center f2">↑ためになる動画が盛りだくさん♪</h2></a>
       </div>
       <div class="col-6 d-block mx-auto box1">
-      <img src='{{ asset("/image/psychology_test_img/製作中ページ.jpg") }}' class="card-img" alt="開設準備中">
+      <img src='{{ asset("/image/psychology_test_img/製作中ページ.jpg") }}' class="card-img d-block mx-auto" alt="開設準備中" style="width: 60%;">
       </div>
       <div class="col-6 d-block mx-auto box2">
         <a href="{{ route('contacts_faq.show') }}"><img src='{{ asset("/image/サイトページ画像お問合せFAQrev1.png")}}' class="mt-4 link d-block mx-auto" alt="お問い合わせ" style="width:100%;"><h2 class="text-center f2">↑気軽に相談してください</h2></a>
