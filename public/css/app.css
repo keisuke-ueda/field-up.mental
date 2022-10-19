@@ -2578,7 +2578,7 @@ textarea.form-control.is-invalid {
 
   .form-inline .form-group {
     display: flex;
-    flex: 0 0 auto;
+    flex: 0 0 auto;item
     flex-flow: row wrap;
     align-items: center;
     margin-bottom: 0;
@@ -10985,9 +10985,9 @@ a.text-dark:focus {
   color: white;
 }
 
-#introduction * .item {
+/* #introduction * .item {
   background-color: rgba(98, 199, 205, 0.7);
-}
+} */
 
 .page-title {
   color: #ffffff;

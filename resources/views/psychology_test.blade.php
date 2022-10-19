@@ -2,10 +2,10 @@
 <meta name="description" content="皆さんは心理テストは好きですか？世の中にはいろんな心理テストがあります。このページではそんな心理テストをいくつか紹介していきますので、試してみて下さい。">
 @section('content')
 <div id="psychology_test">
-  <div class="row justify-content-center container mx-auto">
-    <div class="col-md-7 page-title mt-5 pb-3">
-      <h1 class="text-center">心理テスト</h1>
-      <p class="text-center">手軽に心理テストができちゃう<br>どんな結果が出るかな？</p>
+  <div class="row justify-content-center mx-auto">
+    <div class="col-7 page-title mt-3 pb-3">
+      <h1 class="text-center f1">心理テスト</h1>
+      <p class="text-center text01">手軽に心理テストができちゃう<br>どんな結果が出るかな？</p>
     </div>
   </div>
 
