@@ -1,16 +1,18 @@
-<header style="background-color: #dcebf9;">
+<header>
   <div class="container-fruid">
-    <div class="row">
-      <div class="col-md-7" style="height: 150px;">  
-        <a href="{{ route('home') }}"><img src="{{ asset('/image/屋号ロゴ.png') }}" alt="" width="300px" height="" style="margin-left: 25px; margin-top: 50px;"/></a>
+
+    <div class="row" style="height:150px;">
+      <div class="col-6">
+        <a href="{{ route('home') }}"><img src="{{ asset('/image/屋号ロゴ.png') }}" alt="屋号ロゴ" width="300px" height="" style="margin-left: 25px; margin-top: 50px;"/></a>
       </div>
-      <div class="col-md-5 d-none d-md-block" style="height: 150px;">
-        <div class="float-right">
-          <img src="{{ asset('/image/gif_test.gif') }}" alt="" style="height: 150px;"/>
+      <div class="col-6 f-container sp-none">
+        <div>
+          <img src="{{ asset('/image/gif_test.gif') }}" alt="心理さんアニメーション" style="height: 150px;"/>
         </div>
       </div>
     </div>
   </div>
+  
   <nav class="navbar navbar-expand-md navbar-light" style="background-color: #8ca7e1;">
     <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>

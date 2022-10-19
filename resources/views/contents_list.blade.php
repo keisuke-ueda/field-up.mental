@@ -2,14 +2,15 @@
 <meta name="description" content="心理学をもっとよくしてもらうためにアニメーション動画で心理学についてまとめてみました。各分野ごとに分けて作っていますので、気になるものがあれば是非ご覧ください。">
 @section('content')
 <div id="mental_care_contents">
-    <div class="row justify-content-center container mx-auto">
-      <div class="col-md-7 page-title mt-5 pb-3">
-        <h1 class="text-center"><br class="br-sp"/>コンテンツライブラリ</h1>
-        <p class="text-center">動画でわかりやすく解説<br>難しい専門用語も、動画でなら簡単に覚えられるよ</p>
-      </div>
-  </div>
-
   <div class="container">
+
+    <div class="row mx-auto">
+      <div class="col-md-7 page-title pt-5 pb-3 d-block mx-auto">
+        <h1 class="text-center f1">コンテンツライブラリ</h1>
+        <p class="text-center text01">動画でわかりやすく解説<br>難しい専門用語も、動画でなら簡単に覚えられるよ</p>
+      </div>
+    </div>
+  
     <div class="row">
 
       <div class="col-md-4 item mb-5">

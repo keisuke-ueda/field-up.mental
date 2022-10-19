@@ -20,6 +20,7 @@
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-167968304-5"></script>
+    
     <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
@@ -58,8 +59,12 @@
         integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 
     <!-- Styles -->
-    <link href="{{ asset('css/app.css') }}?ver1.0.6" rel="stylesheet">
+    <!-- <link href="{{ asset('css/app.css') }}?ver1.0.6" rel="stylesheet"> -->
     <link href="{{ asset('css/common.css') }}?ver202107181220" rel="stylesheet">
+
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c" rel="stylesheet">
+
     @yield('style')
 </head>
 

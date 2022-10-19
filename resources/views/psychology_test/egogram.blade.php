@@ -2,23 +2,19 @@
 <meta name="description" content="エゴグラムとは自分の特性を知るための心理テストです。このテストの結果にいい悪いはありません。自分がどんなタイプなのかをきちんと知ることによって、身分で走れなかった自分を知ることができます。是非やってみてください。">
 @section('content')
 <div id="psychology_test">
+  <div class="container pb-3">
 
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-md-7 page-title mt-5 pb-3">
+      <div class="col-7 page-title pt-5 pb-3 d-block mx-auto">
         <h1 class="text-center">エゴグラム</h1>
-        <p class="text-center">あなたの特性を知ろう！！</p>
+        <p class="text-center text01">あなたの特性を知ろう！！</p>
       </div>
-    </div>
-  </div>
 
-  <div class="container">
     <div class="row justify-content-center">
-      <div class="col-md-12">
-        <h3 class="text-center mx-2 p-2 item">○ = 当てはまる、<br class="br-sp" />△ = どちらでもない、<br class="br-sp" />✗ = 当てはまらない、<br />で質問に答えていこう</h3>
+      <div class="col-12">
+        <h3 class="text-center mx-2 p-2 eg-back">○ = 当てはまる、<br class="br-sp" />△ = どちらでもない、<br class="br-sp" />✗ = 当てはまらない、<br />で質問に答えていこう</h3>
       </div>
       @for($i = 0; $i < 5; $i++)
-        <div class="col-md-5 mr-5 mt-5 mx-auto">
+        <div class="col-md-6 mr-3 mt-3 mx-auto">
           <h3>エリア
             @if($i == 0)
               {{"Ⅰ"}}
@@ -32,8 +28,8 @@
               {{"Ⅴ"}}
             @endif
           </h3>
-          <table class="table text-white mx-2 p-2 item mx-auto">
-            <tbody>
+          <table class="table text-white mx-2 p-2 mx-auto">
+            <tbody class="table-back p-4">
               {{--
                 <tr>
                   <td>{{ $big_question[$i] }}</td>
@@ -66,19 +62,22 @@
         </div>
           @endfor
       </div>
-    </div>
-    
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-md-10 overflow-auto mb-5 mt-5" style="height: 400px; background-color:rgb(226, 235, 232);">
+
+
+        <div class="col-10 mb-3 p-3 justify-content-center eg-back d-block mx-auto">
           <canvas id="ex_chart"></canvas>
         </div>
-        <div class="w-100 mb-5">
+
+        <div class="w-100">
           <button type="button" class="btn btn-secondary mx-auto d-block btn-lg" id="openModal">分析してみよう</button>
         </div>
+ 
       </div>
+      
+
     </div>
-  </div>
+
+
 
   <!-- モーダルエリアここから -->
   <section id="modalArea" class="modalArea">
@@ -102,6 +101,8 @@
     </div>
   </section>
   <!-- モーダルエリアここまで -->
+
+
 </div>
 @endsection
 
@@ -109,14 +110,6 @@
 <script src="//cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js"></script>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="{{ asset('/js/egogram.js') }}" defer></script>
-@endsection
-
-@section('style')
-<style type="text/css">
-  .item {
-    background-color: rgba(17, 168, 80, 0.7) !important;
-  }
-</style>
 @endsection
 
 @section('title')
