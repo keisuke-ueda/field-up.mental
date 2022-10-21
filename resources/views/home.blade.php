@@ -5,20 +5,14 @@
   <div class="container">
 
     <div class="row">
-      <div class="col-md-12 mt-5 mb-5">
+      <div class="col-md-12 mt-5 mb-2">
         <h2 class="f1 text-center">心理学って面白い!!<br>
         前に向かって一緒に進んでいこう!!</h2>
       </div>
     </div>
 
-  </div>
-
-    <div class="row">
-        <video src='{{ asset("/image/mental_site.mp4")}}' muted autoplay playsinline loop style="width: 100%;"></video>
-    </div>
-
-  <div class="container">
-
+      <video src='{{ asset("/image/mental_site.mp4")}}' muted autoplay playsinline loop style="width: 100%;"></video>
+    
     <div class="row flexbox">
       <div class="col-6 d-block mx-auto box1">
         <a href="{{ route('psychology_test.show') }}"><img src='{{ asset("/image/サイトページ心理テストrev1.png")}}' class="mt-4 link d-block mx-auto" alt="心理テスト" style="width:100%;"><h2 class="text-center f2">↑あなたはどんな結果かな？</h2></a>
