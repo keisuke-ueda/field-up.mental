@@ -9,7 +9,7 @@
   </div>
 
   <div class="row justify-content-center container mx-auto">
-    <div style="background:rgba(255, 255, 255, 0.7)" class="lead col-md-10 item content-lead-text mt-3 mb-3 pb-3 pt-3">
+    <div class="lead col-md-10 item content-lead-text m-3 pb-3 pt-3">
       <p>人生において「仕事」の比重はとても高く、ストレス要因も仕事に関係することが多いです<br>
         仕事からくるストレスにはどういったものがあるかを理解し、<br>
         環境改善に働きかけ、働きやすい状態に近づけるためにできることを知りましょう</p>
@@ -21,21 +21,21 @@
         allowfullscreen></iframe>
     </div>
 
-    <div class="container row">
-      <div class="col m-4" style="height: 250px;">
-        <img class="h-100" alt="仕事によるストレス1" src="{{ asset('image/contents_img/content207/1-1.jpg')}}" />
+    <div class="container row flexbox">
+      <div class="col-6 mb-3 box1">
+        <img class="d-block mx-auto" alt="仕事によるストレス1" src="{{ asset('image/contents_img/content207/1-1.jpg')}}" style="width:100%;"/>
       </div>
 
-      <div class="col m-4" style="height: 250px;">
-        <img class="h-100" alt="仕事によるストレス2" src="{{ asset('image/contents_img/content207/1-2.jpg')}}" />
+      <div class="col-6 mb-3 box2">
+        <img class="d-block mx-auto" alt="仕事によるストレス2" src="{{ asset('image/contents_img/content207/1-2.jpg')}}" style="width:100%;"/>
       </div>
 
-      <div class="col m-4" style="height: 250px;">
-        <img class="h-100" alt="仕事によるストレス3" src="{{ asset('image/contents_img/content207/1-3.jpg')}}" />
+      <div class="col-6 mb-3 box1">
+        <img class="d-block mx-auto" alt="仕事によるストレス3" src="{{ asset('image/contents_img/content207/1-3.jpg')}}" style="width:100%;"/>
       </div>
 
-      <div class="col m-4" style="height: 250px;">
-        <img class="h-100" alt="仕事によるストレス4" src="{{ asset('image/contents_img/content207/1-4.jpg')}}" />
+      <div class="col-6 mb-3 box2">
+        <img class="d-block mx-auto" alt="仕事によるストレス4" src="{{ asset('image/contents_img/content207/1-4.jpg')}}" style="width:100%;"/>
       </div>
     </div>
 

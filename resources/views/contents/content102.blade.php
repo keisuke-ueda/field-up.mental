@@ -9,7 +9,7 @@
   </div>
 
   <div class="row justify-content-center container mx-auto">
-    <div class="col-md-10 item content-lead-text mt-3 pb-3">
+    <div class="col-md-10 item content-lead-text m-3 pb-3">
       <p></p>
     </div>
 
@@ -19,21 +19,21 @@
         allowfullscreen></iframe>
     </div>
 
-    <div class="container row">
-      <div class="col m-4" style="height: 250px;">
-        <img class="h-100" src="{{ asset('image/contents_img/content101/1-1.jpg')}}" />
+    <div class="container row flexbox">
+      <div class="col-6 mb-3 box1" style="height: 250px;">
+        <img class="h-100 d-block mx-auto" src="{{ asset('image/contents_img/content101/1-1.jpg')}}" />
       </div>
 
-      <div class="col m-4" style="height: 250px;">
-        <img class="h-100" src="{{ asset('image/contents_img/content101/1-2.jpg')}}" />
+      <div class="col-6 mb-3 box2" style="height: 250px;">
+        <img class="h-100 d-block mx-auto" src="{{ asset('image/contents_img/content101/1-2.jpg')}}" />
       </div>
 
-      <div class="col m-4" style="height: 250px;">
-        <img class="h-100" src="{{ asset('image/contents_img/content101/1-3.jpg')}}" />
+      <div class="col-6 mb-3 box1" style="height: 250px;">
+        <img class="h-100 d-block mx-auto" src="{{ asset('image/contents_img/content101/1-3.jpg')}}" />
       </div>
 
-      <div class="col m-4" style="height: 250px;">
-        <img class="h-100" src="{{ asset('image/contents_img/content101/1-4.jpg')}}" />
+      <div class="col-6 mb-3 box2" style="height: 250px;">
+        <img class="h-100 d-block mx-auto" src="{{ asset('image/contents_img/content101/1-4.jpg')}}" />
       </div>
     </div>
 

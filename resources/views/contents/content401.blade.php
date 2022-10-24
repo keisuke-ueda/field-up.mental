@@ -9,7 +9,7 @@
   </div>
 
   <div class="row justify-content-center container mx-auto">
-    <div class="col-md-10 item content-lead-text mt-3 pb-3">
+    <div class="col-md-10 item content-lead-text m-3 pb-3">
       <p>わたしたちは多くの人と共に生きています<br>
         周りからの反応が自身のやる気に深く係っているだけではなく、<br>
         成果にも周りの評価が関係していること、心理効果をうまく使っていく方法を勉強しましょう
@@ -20,21 +20,21 @@
       <iframe width="560" height="315" src="https://www.youtube.com/embed/deD8U0XxDJQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
-    <div class="container row">
-      <div class="col m-4" style="height: 250px;">
-        <img class="h-100" alt="評価と成果1" src="{{ asset('image/contents_img/content401/1-1.jpg')}}" />
+    <div class="container row flexbox">
+      <div class="col-6 mb-3 box1">
+        <img class="d-block mx-auto" alt="評価と成果1" src="{{ asset('image/contents_img/content401/1-1.jpg')}}" style="width:100%;"/>
       </div>
 
-      <div class="col m-4" style="height: 250px;">
-        <img class="h-100" alt="評価と成果2" src="{{ asset('image/contents_img/content401/1-2.jpg')}}" />
+      <div class="col-6 mb-3 box2">
+        <img class="d-block mx-auto" alt="評価と成果2" src="{{ asset('image/contents_img/content401/1-2.jpg')}}" style="width:100%;"/>
       </div>
 
-      <div class="col m-4" style="height: 250px;">
-        <img class="h-100" alt="評価と成果3" src="{{ asset('image/contents_img/content401/1-3.jpg')}}" />
+      <div class="col-6 mb-3 box1">
+        <img class="d-block mx-auto" alt="評価と成果3" src="{{ asset('image/contents_img/content401/1-3.jpg')}}" style="width:100%;"/>
       </div>
 
-      <div class="col m-4" style="height: 250px;">
-        <img class="h-100" alt="評価と成果4" src="{{ asset('image/contents_img/content401/1-4.jpg')}}" />
+      <div class="col-6 mb-3 box2">
+        <img class="d-block mx-auto" alt="評価と成果4" src="{{ asset('image/contents_img/content401/1-4.jpg')}}" style="width:100%;"/>
       </div>
     </div>
 

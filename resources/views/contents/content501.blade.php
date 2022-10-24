@@ -9,7 +9,7 @@
   </div>
 
   <div class="row justify-content-center container mx-auto">
-    <div class="col-md-10 item content-lead-text mt-3 pb-3">
+    <div class="col-md-10 item content-lead-text m-3 pb-3">
       <p>仕事をする上でほとんどの場合、チームを形成すると思います<br>
         職務集団の特性、リーダーのタイプなど基本的な知識から、<br>
         そこで起こってくるリスクやそのマネジメントについて学んでいきましょう
@@ -20,21 +20,21 @@
       <iframe width="560" height="315" src="https://www.youtube.com/embed/HUKT1nUH7ck" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
-    <div class="container row">
-      <div class="col m-4" style="height: 250px;">
-        <img class="h-100" alt="チームとリスク1" src="{{ asset('image/contents_img/content501/1-1.jpg')}}" />
+    <div class="container row flexbox">
+      <div class="col-6 mb-3 box1">
+        <img class="d-block mx-auto" alt="チームとリスク1" src="{{ asset('image/contents_img/content501/1-1.jpg')}}" style="width:100%;"/>
       </div>
 
-      <div class="col m-4" style="height: 250px;">
-        <img class="h-100" alt="チームとリスク2" src="{{ asset('image/contents_img/content501/1-2.jpg')}}" />
+      <div class="col-6 mb-3 box2">
+        <img class="d-block mx-auto" alt="チームとリスク2" src="{{ asset('image/contents_img/content501/1-2.jpg')}}" style="width:100%;"/>
       </div>
 
-      <div class="col m-4" style="height: 250px;">
-        <img class="h-100" alt="チームとリスク3" src="{{ asset('image/contents_img/content501/1-3.jpg')}}" />
+      <div class="col-6 mb-3 box1">
+        <img class="d-block mx-auto" alt="チームとリスク3" src="{{ asset('image/contents_img/content501/1-3.jpg')}}" style="width:100%;"/>
       </div>
 
-      <div class="col m-4" style="height: 250px;">
-        <img class="h-100" alt="チームとリスク4" src="{{ asset('image/contents_img/content501/1-4.jpg')}}" />
+      <div class="col-6 mb-3 box2">
+        <img class="d-block mx-auto" alt="チームとリスク4" src="{{ asset('image/contents_img/content501/1-4.jpg')}}" style="width:100%;"/>
       </div>
     </div>
 

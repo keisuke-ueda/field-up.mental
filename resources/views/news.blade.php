@@ -45,6 +45,18 @@
             </p>
         </div>
       </div>
+
+      <div class="border-dark col-sm-10 item m-3">
+        <div class="card text-dark bg-light p-3">
+            <p class="text01">2022/10/25 : <b>心理テストページ・ケアページ更新</b>
+              <br>本サイトのコンテンツを更新しました。
+              <br>今後もどんどん面白いコンテンツを増やしていきますので楽しみにお待ちください。
+            </p>
+        </div>
+      </div>
+
+
+
 <!-- ニュース end -->
 
     </div>

@@ -35,7 +35,7 @@
           <a class="nav-link" href=" {{ route('contents_list.show') }}">Content</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href='{{ route("making_now.show") }}'>Care</a>
+          <a class="nav-link" href='{{ route("care.show") }}'>Care</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="{{ route('contacts_faq.show') }}">Contacts&FAQ</a>

@@ -9,7 +9,7 @@
   </div>
 
   <div class="row justify-content-center container mx-auto">
-    <div class="col-md-10 item content-lead-text mt-3 pb-3">
+    <div class="col-md-10 item content-lead-text m-3 pb-3">
       <p>今回は本能というものについて紐解きます
         生の本能、死の本能の対比から始まり、リビドーやカタルシスなどなんとなく聞いたことのある言葉を交えて、<br>
         フロイトの夢分析のように興味深い理論も紹介していきます</p>
@@ -19,21 +19,21 @@
       <iframe width="560" height="315" src="https://www.youtube.com/embed/RCc0NS9VdCE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
-    <div class="container row">
-      <div class="col m-4" style="height: 250px;">
-        <img class="h-100" alt="本能とは1" src="{{ asset('image/contents_img/content101/1-1.jpg')}}" />
+    <div class="container row flexbox">
+      <div class="col-6 mb-3 box1">
+        <img class="d-block mx-auto" alt="本能とは1" src="{{ asset('image/contents_img/content101/1-1.jpg')}}" style="width:100%;"/>
       </div>
 
-      <div class="col m-4" style="height: 250px;">
-        <img class="h-100" alt="本能とは2" src="{{ asset('image/contents_img/content101/1-2.jpg')}}" />
+      <div class="col-6 mb-3 box2">
+        <img class="d-block mx-auto" alt="本能とは2" src="{{ asset('image/contents_img/content101/1-2.jpg')}}" style="width:100%;"/>
       </div>
 
-      <div class="col m-4" style="height: 250px;">
-        <img class="h-100" alt="本能とは3" src="{{ asset('image/contents_img/content101/1-3.jpg')}}" />
+      <div class="col-6 mb-3 box1">
+        <img class="d-block mx-auto" alt="本能とは3" src="{{ asset('image/contents_img/content101/1-3.jpg')}}" style="width:100%;"/>
       </div>
 
-      <div class="col m-4" style="height: 250px;">
-        <img class="h-100" salt="本能とは4" src="{{ asset('image/contents_img/content101/1-4.jpg')}}" />
+      <div class="col-6 mb-3 box2">
+        <img class="d-block mx-auto" salt="本能とは4" src="{{ asset('image/contents_img/content101/1-4.jpg')}}" style="width:100%;"/>
       </div>
     </div>
 

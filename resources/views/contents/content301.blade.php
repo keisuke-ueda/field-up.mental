@@ -9,7 +9,7 @@
   </div>
 
   <div class="row justify-content-center container mx-auto">
-    <div class="col-md-10 item content-lead-text mt-3 pb-3">
+    <div class="col-md-10 item content-lead-text m-3 pb-3">
       <p>体と心は密接に関係しています<br>
         健康になるための行動を取るためには心身のことをよく理解する必要があります<br>
         よりよい生活を送るために勉強していきましょう</p>
@@ -21,21 +21,21 @@
         allowfullscreen></iframe>
     </div>
 
-    <div class="container row">
-      <div class="col m-4" style="height: 250px;">
-        <img class="h-100" alt="ココロとカラダ導入編1" src="{{ asset('image/contents_img/content301/1-1.jpg')}}" />
+    <div class="container row flexbox">
+      <div class="col-6 mb-3 box1">
+        <img class="d-block mx-auto" alt="ココロとカラダ導入編1" src="{{ asset('image/contents_img/content301/1-1.jpg')}}" style="width:100%;"/>
       </div>
 
-      <div class="col m-4" style="height: 250px;">
-        <img class="h-100" alt="ココロとカラダ導入編2" src="{{ asset('image/contents_img/content301/1-2.jpg')}}" />
+      <div class="col-6 mb-3 box1">
+        <img class="d-block mx-auto" alt="ココロとカラダ導入編2" src="{{ asset('image/contents_img/content301/1-2.jpg')}}" style="width:100%;"/>
       </div>
 
-      <div class="col m-4" style="height: 250px;">
-        <img class="h-100" alt="ココロとカラダ導入編3" src="{{ asset('image/contents_img/content301/1-3.jpg')}}" />
+      <div class="col-6 mb-3 box1">
+        <img class="d-block mx-auto" alt="ココロとカラダ導入編3" src="{{ asset('image/contents_img/content301/1-3.jpg')}}" style="width:100%;"/>
       </div>
 
-      <div class="col m-4" style="height: 250px;">
-        <img class="h-100" alt="ココロとカラダ導入編4" src="{{ asset('image/contents_img/content301/1-4.jpg')}}" />
+      <div class="col-6 mb-3 box1">
+        <img class="d-block mx-auto" alt="ココロとカラダ導入編4" src="{{ asset('image/contents_img/content301/1-4.jpg')}}" style="width:100%;"/>
       </div>
     </div>
 

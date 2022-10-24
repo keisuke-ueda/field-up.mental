@@ -11,7 +11,7 @@
   </div>
 
   <div class="row justify-content-center container mx-auto">
-    <div class="col-md-10 item content-lead-text mt-3 pb-3">
+    <div class="col-md-10 item content-lead-text m-3 pb-3">
       <p>高血糖とは血液中の糖濃度が高い状態です<br>
         日本人は主食がお米のため多くの人が高血糖状態になりやすいです<br>
         高血糖について知ることで高血糖に対する恐怖をなくしていきましょう</p>
@@ -21,21 +21,21 @@
     <iframe width="560" height="315" src="https://www.youtube.com/embed/-T1dGR-7HA8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
-    <div class="container row">
-      <div class="col m-4" style="height: 250px;">
-        <img class="h-100" alt="高血糖1"src="{{ asset('image/contents_img/content306/1-1.jpg')}}" />
+    <div class="container row flexbox">
+      <div class="col-6 mb-3 box1">
+        <img class="d-block mx-auto" alt="高血糖1"src="{{ asset('image/contents_img/content306/1-1.jpg')}}" style="width:100%;"/>
       </div>
 
-      <div class="col m-4" style="height: 250px;">
-        <img class="h-100" alt="高血糖2" src="{{ asset('image/contents_img/content306/1-2.jpg')}}" />
+      <div class="col-6 mb-3 box2">
+        <img class="d-block mx-auto" alt="高血糖2" src="{{ asset('image/contents_img/content306/1-2.jpg')}}" style="width:100%;"/>
       </div>
 
-      <div class="col m-4" style="height: 250px;">
-        <img class="h-100" alt="高血糖3" src="{{ asset('image/contents_img/content306/1-3.jpg')}}" />
+      <div class="col-6 mb-3 box1">
+        <img class="d-block mx-auto" alt="高血糖3" src="{{ asset('image/contents_img/content306/1-3.jpg')}}" style="width:100%;"/>
       </div>
 
-      <div class="col m-4" style="height: 250px;">
-        <img class="h-100" alt="高血糖4" src="{{ asset('image/contents_img/content306/1-4.jpg')}}" />
+      <div class="col-6 mb-3 box2">
+        <img class="d-block mx-auto" alt="高血糖4" src="{{ asset('image/contents_img/content306/1-4.jpg')}}" style="width:100%;"/>
       </div>
     </div>
 

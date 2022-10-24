@@ -78,11 +78,11 @@
 <img src='{{ asset("/image/foam1.png")}}' class="foam01" alt="泡1" style="width:20%;">
 <img src='{{ asset("/image/foam2.png")}}' class="foam02" alt="泡2" style="width:30%;">
 <img src='{{ asset("/image/foam3.png")}}' class="foam03" alt="泡3" style="width:30%;">
-<img src='{{ asset("/image/foam4.png")}}' class="foam04" alt="泡4" style="width:30%;">
+<img src='{{ asset("/image/foam4.png")}}' class="foam04" alt="泡4" style="width:15%;">
 <img src='{{ asset("/image/foam1.png")}}' class="foam05" alt="泡1" style="width:10%;">
-<img src='{{ asset("/image/foam2.png")}}' class="foam06" alt="泡2" style="width:30%;">
-<img src='{{ asset("/image/foam3.png")}}' class="foam07" alt="泡3" style="width:30%;">
-<img src='{{ asset("/image/foam4.png")}}' class="foam08" alt="泡4" style="width:60%;">
+<img src='{{ asset("/image/foam2.png")}}' class="foam06" alt="泡2" style="width:15%;">
+<img src='{{ asset("/image/foam3.png")}}' class="foam07" alt="泡3" style="width:20%;">
+<img src='{{ asset("/image/foam4.png")}}' class="foam08" alt="泡4" style="width:20%;">
 
 <script>
   window.addEventListener('load', (event) => {

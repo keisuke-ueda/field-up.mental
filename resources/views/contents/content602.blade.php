@@ -9,7 +9,7 @@
   </div>
 
   <div class="row justify-content-center container mx-auto">
-    <div class="col-md-10 item content-lead-text mt-3 pb-3">
+    <div class="col-md-10 item content-lead-text m-3 pb-3">
       <p>どのように色をつかってけばいのかがわからない<br>
         デザインの仕方がわからないといったようなことはありませんか？<br>
         同じ赤色でもトーンを変えていくと印象が全然変わりますよ</p>
@@ -19,21 +19,21 @@
     <iframe width="560" height="315" src="https://www.youtube.com/embed/ctEaEn6Atok" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
-    <div class="container row">
-      <div class="col m-4" style="height: 250px;">
-        <img class="h-100" alt="色と心理1" src="{{ asset('image/contents_img/content602/1-1.jpg')}}" />
+    <div class="container row flexbox">
+      <div class="col-6 mb-3 box1">
+        <img class="d-block mx-auto" alt="色と心理1" src="{{ asset('image/contents_img/content602/1-1.jpg')}}" style="width:100%;"/>
       </div>
 
-      <div class="col m-4" style="height: 250px;">
-        <img class="h-100" alt="色と心理2" src="{{ asset('image/contents_img/content602/1-2.jpg')}}" />
+      <div class="col-6 mb-3 box2">
+        <img class="d-block mx-auto" alt="色と心理2" src="{{ asset('image/contents_img/content602/1-2.jpg')}}" style="width:100%;"/>
       </div>
 
-      <div class="col m-4" style="height: 250px;">
-        <img class="h-100" alt="色と心理3" src="{{ asset('image/contents_img/content602/1-3.jpg')}}" />
+      <div class="col-6 mb-3 box1">
+        <img class="d-block mx-auto" alt="色と心理3" src="{{ asset('image/contents_img/content602/1-3.jpg')}}" style="width:100%;"/>
       </div>
 
-      <div class="col m-4" style="height: 250px;">
-        <img class="h-100" alt="色と心理4" src="{{ asset('image/contents_img/content602/1-4.jpg')}}" />
+      <div class="col-6 mb-3 box2">
+        <img class="d-block mx-auto" alt="色と心理4" src="{{ asset('image/contents_img/content602/1-4.jpg')}}" style="width:100%;"/>
       </div>
     </div>
 

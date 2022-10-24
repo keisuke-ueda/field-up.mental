@@ -12,7 +12,7 @@
   </div>
 
   <div class="row justify-content-center container mx-auto">
-    <div class="col-md-10 item content-lead-text mt-3 pb-3">
+    <div class="col-md-10 item content-lead-text m-3 pb-3">
       <p>お腹が痛い、腰が痛い、などカラダに違和感を感じることがあると思います<br>
         副交感神経・迷走神経というものを主題に、<br>
         カラダをリラックスさせる重要性とその方法について学びましょう</p>
@@ -24,21 +24,21 @@
         allowfullscreen></iframe>
     </div>
 
-    <div class="container row">
-      <div class="col m-4" style="height: 250px;">
-        <img class="h-100" alt="迷走神経とリラックス1" src="{{ asset('image/contents_img/content305/1-1.jpg')}}" />
+    <div class="container row flexbox">
+      <div class="col-6 mb-3 box1">
+        <img class="d-block mx-auto" alt="迷走神経とリラックス1" src="{{ asset('image/contents_img/content305/1-1.jpg')}}" style="width:100%;"/>
       </div>
 
-      <div class="col m-4" style="height: 250px;">
-        <img class="h-100" alt="迷走神経とリラックス2" src="{{ asset('image/contents_img/content305/1-2.jpg')}}" />
+      <div class="col-6 mb-3 box2">
+        <img class="d-block mx-auto" alt="迷走神経とリラックス2" src="{{ asset('image/contents_img/content305/1-2.jpg')}}" style="width:100%;"/>
       </div>
 
-      <div class="col m-4" style="height: 250px;">
-        <img class="h-100" alt="迷走神経とリラックス3" src="{{ asset('image/contents_img/content305/1-3.jpg')}}" />
+      <div class="col-6 mb-3 box1">
+        <img class="d-block mx-auto" alt="迷走神経とリラックス3" src="{{ asset('image/contents_img/content305/1-3.jpg')}}" style="width:100%;"/>
       </div>
 
-      <div class="col m-4" style="height: 250px;">
-        <img class="h-100" alt="迷走神経とリラックス4" src="{{ asset('image/contents_img/content305/1-4.jpg')}}" />
+      <div class="col-6 mb-3 box2">
+        <img class="d-block mx-auto" alt="迷走神経とリラックス4" src="{{ asset('image/contents_img/content305/1-4.jpg')}}" style="width:100%;"/>
       </div>
     </div>
 

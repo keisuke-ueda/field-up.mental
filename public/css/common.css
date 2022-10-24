@@ -271,7 +271,7 @@ footer {
 }
 
 #care {
-  background-image: url('../image/背景テスト4.jpg');
+  background-image: url('../image/beach-g936fec171_1920.jpg');
   background-attachment: fixed;
   background-size: cover;
 }
@@ -541,7 +541,7 @@ input[type=radio] {
 
 .foam02 {
   position: fixed;
-  left: 50vw;
+  left: 60vw;
   bottom: -50px;
   opacity: 0.6;
 }
