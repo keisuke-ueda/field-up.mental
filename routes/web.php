@@ -29,15 +29,19 @@ Route::get('/edit_member_info', [App\Http\Controllers\EditMemberInfoController::
 Route::get('/introduction', [App\Http\Controllers\IntroductionController::class, 'show'])-> name('introduction.show');
 Route::get('/news', [App\Http\Controllers\NewsController::class, 'show'])-> name('news.show');
 Route::get('/psychology_test', [App\Http\Controllers\PsychologyTestController::class, 'show'])-> name('psychology_test.show');
+Route::get("/psychology_test/egogram", [App\Http\Controllers\EgogramController::class, 'show'])-> name('egogram.show');
+Route::get("/psychology_test/dream_analysis", [App\Http\Controllers\Dream_analysisController::class, 'show'])-> name('dream_analysis.show');
+
 
 Route::get("/psychology_test/test{page_number}", [App\Http\Controllers\PsychologyTestController::class, 'select'])-> name('psychology_test.select');
-
-Route::get("/psychology_test/egogram", [App\Http\Controllers\EgogramController::class, 'show'])-> name('egogram.show');
-
 Route::get("/contents/co_sec{page_number}",[App\Http\Controllers\ContentsListController::class, 'select'])->name('contents_list.select');
 Route::get("/contents/content{page_number}",[App\Http\Controllers\ContentsController::class, 'select'])->name('contents_sec.select');
 
-Route::get('/psycology_test/egogram', [App\Http\Controllers\EgogramController::class, 'show'])->name('egogram.show');
+
+
+// Route::get('/psycology_test/egogram', [App\Http\Controllers\EgogramController::class, 'show'])->name('egogram.show');
+
+
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 

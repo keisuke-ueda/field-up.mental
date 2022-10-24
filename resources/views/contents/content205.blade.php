@@ -9,7 +9,7 @@
   </div>
 
   <div class="row justify-content-center container mx-auto">
-    <div class="col-md-10 item content-lead-text mt-3 pb-3">
+    <div class="col-md-10 item content-lead-text m-3 pb-3">
       <p>社会生活を営む上で「集団」に属するわけですが、その中で様々なストレスが生まれてきます<br>
         社会集団としてメジャーな「職場」の問題にフォーカスして、<br>
         職場意識の変化や起こりうる摩擦、その対処法を解説します
@@ -22,21 +22,21 @@
         allowfullscreen></iframe>
     </div>
 
-    <div class="container row">
-      <div class="col m-4" style="height: 250px;">
-        <img class="h-100" alt="職場で生じるストレス1"src="{{ asset('image/contents_img/content205/1-1.jpg')}}" />
+    <div class="container row flexbox">
+      <div class="col-6 mb-3 box1">
+        <img class="d-block mx-auto" alt="職場で生じるストレス1"src="{{ asset('image/contents_img/content205/1-1.jpg')}}" style="width:100%;"/>
       </div>
 
-      <div class="col m-4" style="height: 250px;">
-        <img class="h-100" alt="職場で生じるストレス2" src="{{ asset('image/contents_img/content205/1-2.jpg')}}" />
+      <div class="col-6 mb-3 box2">
+        <img class="d-block mx-auto" alt="職場で生じるストレス2" src="{{ asset('image/contents_img/content205/1-2.jpg')}}" style="width:100%;"/>
       </div>
 
-      <div class="col m-4" style="height: 250px;">
-        <img class="h-100" alt="職場で生じるストレス3" src="{{ asset('image/contents_img/content205/1-3.jpg')}}" />
+      <div class="col-6 mb-3 box1">
+        <img class="d-block mx-auto" alt="職場で生じるストレス3" src="{{ asset('image/contents_img/content205/1-3.jpg')}}" style="width:100%;"/>
       </div>
 
-      <div class="col m-4" style="height: 250px;">
-        <img class="h-100" alt="職場で生じるストレス4" src="{{ asset('image/contents_img/content205/1-4.jpg')}}" />
+      <div class="col-6 mb-3 box2">
+        <img class="d-block mx-auto" alt="職場で生じるストレス4" src="{{ asset('image/contents_img/content205/1-4.jpg')}}" style="width:100%;"/>
       </div>
     </div>
 

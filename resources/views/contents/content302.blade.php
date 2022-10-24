@@ -11,7 +11,7 @@
   </div>
 
   <div class="row justify-content-center container mx-auto">
-    <div class="col-md-10 item content-lead-text mt-3 pb-3">
+    <div class="col-md-10 item content-lead-text m-3 pb-3">
       <p>ストレスは様々な病気の原因になります<br>
         今回は高血圧に関連した知識を勉強していきましょう<br>
         原因と仕組み、食事の際に気をつけることなどを解説します</p>
@@ -23,21 +23,21 @@
         allowfullscreen></iframe>
     </div>
 
-    <div class="container row">
-      <div class="col m-4" style="height: 250px;">
-        <img class="h-100" alt="高血圧1" src="{{ asset('image/contents_img/content302/1-1.jpg')}}" />
+    <div class="container row flexbox">
+      <div class="col-6 mb-3 box1">
+        <img class="d-block mx-auto" alt="高血圧1" src="{{ asset('image/contents_img/content302/1-1.jpg')}}" style="width:100%;"/>
       </div>
 
-      <div class="col m-4" style="height: 250px;">
-        <img class="h-100" alt="高血圧2" src="{{ asset('image/contents_img/content302/1-2.jpg')}}" />
+      <div class="col-6 mb-3 box2">
+        <img class="d-block mx-auto" alt="高血圧2" src="{{ asset('image/contents_img/content302/1-2.jpg')}}" style="width:100%;"/>
       </div>
 
-      <div class="col m-4" style="height: 250px;">
-        <img class="h-100" alt="高血圧3" src="{{ asset('image/contents_img/content302/1-3.jpg')}}" />
+      <div class="col-6 mb-3 box1">
+        <img class="d-block mx-auto" alt="高血圧3" src="{{ asset('image/contents_img/content302/1-3.jpg')}}" style="width:100%;"/>
       </div>
 
-      <div class="col m-4" style="height: 250px;">
-        <img class="h-100" alt="高血圧4" src="{{ asset('image/contents_img/content302/1-4.jpg')}}" />
+      <div class="col-6 mb-3 box2">
+        <img class="d-block mx-auto" alt="高血圧4" src="{{ asset('image/contents_img/content302/1-4.jpg')}}" style="width:100%;"/>
       </div>
     </div>
 

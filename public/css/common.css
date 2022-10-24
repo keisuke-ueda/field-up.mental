@@ -28,9 +28,6 @@ body {
   }
 }
 
-
-
-
 .content-lead-text {
   background-color: rgba(255, 255, 255, 0.5);
 }
@@ -163,7 +160,7 @@ h3 {
 }
 
 .card01 {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 0.9);
   padding: 20px;
 }
 
@@ -274,7 +271,7 @@ footer {
 }
 
 #care {
-  background-image: url('../image/背景テスト4.jpg');
+  background-image: url('../image/beach-g936fec171_1920.jpg');
   background-attachment: fixed;
   background-size: cover;
 }
@@ -535,18 +532,69 @@ input[type=radio] {
   color: #a0a0a0;
 }
 
-
-
-
-
-#page_top{
-  width: 90px;
-  height: 60px;
+.foam01 {
   position: fixed;
-  right: 500px;
-  bottom: -80px;
+  left: 0vw;
+  bottom: 100px;
+  opacity: 1;
+}
+
+.foam02 {
+  position: fixed;
+  left: 60vw;
+  bottom: -50px;
   opacity: 0.6;
 }
+
+.foam03 {
+  position: fixed;
+  left: 80vw;
+  bottom: -250px;
+  opacity: 0.7;
+}
+
+.foam04 {
+  position: fixed;
+  left: 30vw;
+  bottom: -350px;
+  opacity: 0.7;
+}
+
+.foam05 {
+  position: fixed;
+  left: 80vw;
+  bottom: -450px;
+  opacity: 0.7;
+}
+
+.foam06 {
+  position: fixed;
+  left: 20vw;
+  bottom: -550px;
+  opacity: 0.6;
+}
+
+.foam07 {
+  position: fixed;
+  left: 80vw;
+  bottom: -650px;
+  opacity: 0.7;
+}
+
+.foam08 {
+  position: fixed;
+  left: 0vw;
+  bottom: -750px;
+  opacity: 0.5;
+}
+
+
+
+
+
+
+
+
 /* #page_top a{
   position: relative;
   display: block;

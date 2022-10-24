@@ -11,7 +11,7 @@
   </div>
 
   <div class="row justify-content-center container mx-auto">
-    <div class="col-md-10 item content-lead-text mt-3 pb-3">
+    <div class="col-md-10 item content-lead-text m-3 pb-3">
       <p>ダイエットは多くの人が気にしている課題です<br>
         ですが間違った方法をとってしまっている人がたくさんいるように思います<br>
         メタボリックシンドロームやBMIなどの知識をつけ、肥満予防の方法を学びましょう</p>
@@ -23,21 +23,21 @@
         allowfullscreen></iframe>
     </div>
 
-    <div class="container row">
-      <div class="col m-4" style="height: 250px;">
-        <img class="h-100" alt="ダイエット1" src="{{ asset('image/contents_img/content304/1-1.jpg')}}" />
+    <div class="container row flexbox">
+      <div class="col-6 mb-3 box1">
+        <img class="d-block mx-auto" alt="ダイエット1" src="{{ asset('image/contents_img/content304/1-1.jpg')}}" style="width:100%;"/>
       </div>
 
-      <div class="col m-4" style="height: 250px;">
-        <img class="h-100" alt="ダイエット2" src="{{ asset('image/contents_img/content304/1-2.jpg')}}" />
+      <div class="col-6 mb-3 box2">
+        <img class="d-block mx-auto" alt="ダイエット2" src="{{ asset('image/contents_img/content304/1-2.jpg')}}" style="width:100%;"/>
       </div>
 
-      <div class="col m-4" style="height: 250px;">
-        <img class="h-100" alt="ダイエット3" src="{{ asset('image/contents_img/content304/1-3.jpg')}}" />
+      <div class="col-6 mb-3 box1">
+        <img class="d-block mx-auto" alt="ダイエット3" src="{{ asset('image/contents_img/content304/1-3.jpg')}}" style="width:100%;"/>
       </div>
 
-      <div class="col m-4" style="height: 250px;">
-        <img class="h-100" alt="ダイエット4" src="{{ asset('image/contents_img/content304/1-4.jpg')}}" />
+      <div class="col-6 mb-3 box2">
+        <img class="d-block mx-auto" alt="ダイエット4" src="{{ asset('image/contents_img/content304/1-4.jpg')}}" style="width:100%;"/>
       </div>
     </div>
 

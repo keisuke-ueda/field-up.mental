@@ -9,7 +9,7 @@
   </div>
 
   <div class="row justify-content-center container mx-auto">
-    <div class="col-md-10 item content-lead-text mt-3 pb-3">
+    <div class="col-md-10 item content-lead-text m-3 pb-3">
       <p>強いストレスや継続にストレスに晒されると重大な健康障害を引き起こすことがあります<br>
         大事な人や、まわりの人たちに目を向けたときに、<br>
         行き詰っているサインに気付き、してあげられることをしてあげましょう</p>
@@ -21,21 +21,21 @@
         allowfullscreen></iframe>
     </div>
 
-    <div class="container row">
-      <div class="col m-4" style="height: 250px;">
-        <img class="h-100" alt="周りのためにできること1" src="{{ asset('image/contents_img/content206/1-1.jpg')}}" />
+    <div class="container row flexbox">
+      <div class="col-6 mb-3 box1">
+        <img class="d-block mx-auto" alt="周りのためにできること1" src="{{ asset('image/contents_img/content206/1-1.jpg')}}" style="width:100%;"/>
       </div>
 
-      <div class="col m-4" style="height: 250px;">
-        <img class="h-100" alt="周りのためにできること2" src="{{ asset('image/contents_img/content206/1-2.jpg')}}" />
+      <div class="col-6 mb-3 box2">
+        <img class="d-block mx-auto" alt="周りのためにできること2" src="{{ asset('image/contents_img/content206/1-2.jpg')}}" style="width:100%;"/>
       </div>
 
-      <div class="col m-4" style="height: 250px;">
-        <img class="h-100" alt="周りのためにできること3" src="{{ asset('image/contents_img/content206/1-3.jpg')}}" />
+      <div class="col-6 mb-3 box1">
+        <img class="d-block mx-auto" alt="周りのためにできること3" src="{{ asset('image/contents_img/content206/1-3.jpg')}}" style="width:100%;"/>
       </div>
 
-      <div class="col m-4" style="height: 250px;">
-        <img class="h-100" alt="周りのためにできること4" src="{{ asset('image/contents_img/content206/1-4.jpg')}}" />
+      <div class="col-6 mb-3 box2">
+        <img class="d-block mx-auto" alt="周りのためにできること4" src="{{ asset('image/contents_img/content206/1-4.jpg')}}" style="width:100%;"/>
       </div>
     </div>
 
