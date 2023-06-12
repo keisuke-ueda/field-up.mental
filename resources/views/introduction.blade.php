@@ -10,40 +10,67 @@
       <img src='{{ asset("/image/事業デザイン.png") }}' alt="Field-UP心理事業紹介" class="col-12 mt-2 mb-2">
     </div>
 
+    <div class="row">
+      <h2 class="text-center f1">代表の思い</h2>
+      <div class="col-md-8">
+        <div class="card01 rounded p-3">
+          <p>メンタルは何事においてもとても大事です。<br>
+          自分本来の力を出すためには、安定したメンタルがとても大事です。</p>
+          <p>メンタルが不安定というだけで、本来の力が発揮できないだけでなく、次の挑戦の機械すら失ってしまいます。<br>
+          それは決して、その人が弱いからというわけではありません。メンタルの強度は人それぞれで、そこに良し悪しはありません。</p>
+          <p>ダメージに対して耐えられるということだけが強さではありません。一度落ちてしまってもまた回復できるための早さもまた強さです。心の強さというのは人それぞれで色んな形があります。</p>
+          <p>あなたなりの【心の強さ】や【メンタルの保ち方】を一緒に見つけてみませんか？</p>
+          <p>Field-UPはそんな方たちを応援しています。</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+      <img src='{{ asset("/image/ceo1.jpg") }}' alt="Field-UP心理事業紹介" class="col-12 mt-2 mb-2">
+      </div>
+    </div>
+
+
+
+
     <h2 class="text-center f1">サービス紹介</h2>
 
     <div class="row flexbox">
-
-      <h3 class="f3 text-center mt-4">メンタルヘルス関連業<br>(カウンセリングなど)</h3>
-      <div class="card01 rounded p-3">
-        <p class="text01">仕事の悩みから私生活の悩みまでご相談に乗ります<br>
-        今の辛い気持ちを一緒に解消しましょう</p>
+      <div class="col-md-6">
+        <h3 class="f3 text-center mt-4">メンタルヘルス関連業<br>(カウンセリングなど)</h3>
+        <div class="card01 rounded p-3">
+          <p class="text01">仕事の悩みから私生活の悩みまでご相談に乗ります<br>
+          今の辛い気持ちを一緒に解消しましょう</p>
+        </div>
       </div>
-
-      <h3 class="f3 text-center mt-4">健康予防に関する<br>情報の提供</h3>
-      <div class="card01 rounded p-3">
-        <p class="text01">予防の知識が意外と普及しきっていない現代<br>
-        健康予防管理専門士、予防医学の知識を持った専門家が<br>
-        健康の本質をお教えします</p>
+      <div class="col-md-6">
+        <h3 class="f3 text-center mt-4">健康予防に関する<br>情報の提供</h3>
+        <div class="card01 rounded p-3">
+          <p class="text01">予防の知識が意外と普及しきっていない現代<br>
+          健康予防管理専門士、予防医学の知識を持った専門家が<br>
+          健康の本質をお教えします</p>
+        </div>
       </div>
-
-      <h3 class="f3 text-center mt-4">仕事で使える<br>心理ノウハウ提供</h3>
-      <div class="card01 rounded p-3">
-        <p class="text01">仕事の失敗を引きずってしまう<br>
-        思った通りのパフォーマンスをすることができない<br>
-        メンタルコントールさえできれば<br>
-        あなたの本当の力を発揮することができます<br>
-        心の仕組みを日本とアメリカ2つのカレッジを出た講師が教えます</p>
+    </div>
+    <div class="row flexbox">
+      <div class="col-md-6">
+        <h3 class="f3 text-center mt-4">仕事で使える<br>心理ノウハウ提供</h3>
+        <div class="card01 rounded p-3">
+          <p class="text01">仕事の失敗を引きずってしまう<br>
+          思った通りのパフォーマンスをすることができない<br>
+          メンタルコントールさえできれば<br>
+          あなたの本当の力を発揮することができます<br>
+          心の仕組みを日本とアメリカ2つのカレッジを出た講師が教えます</p>
+        </div>
       </div>
+      <div class="col-md-6">
+        <h3 class="f3 text-center mt-4">ミニセミナー<br>コンテンツ公開</h3>
+        <div class="card01 rounded p-3">
 
-      <h3 class="f3 text-center mt-4">ミニセミナー<br>コンテンツ公開</h3>
-      <div class="card01 rounded p-3">
-
-        <p class="text01">会社の教育プログラムの一環や、オンライン講座<br>
-      アニメーション風の動画の投稿や、さらには今はやりのVRの導入も!?<br>
-      時代に合わせたコンテンツや、セミナーをどんどん公開していきます!!</p>
+          <p class="text01">会社の教育プログラムの一環や、オンライン講座<br>
+        アニメーション風の動画の投稿や、さらには今はやりのVRの導入も!?<br>
+        時代に合わせたコンテンツや、セミナーをどんどん公開していきます!!</p>
+        </div>
       </div>
-
+    </div>
 
     <div class="row flexbox mt-5 mb-4">
       <h2 class="text-center f1 text-center">会社情報</h2>
