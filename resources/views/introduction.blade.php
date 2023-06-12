@@ -24,7 +24,7 @@
         </div>
       </div>
       <div class="col-md-4">
-      <img src='{{ asset("/image/ceo1.jpg") }}' alt="Field-UP心理事業紹介" class="col-12 mt-2 mb-2">
+      <img src='{{ asset("/image/ceo1.jpg") }}' alt="Field-UP 代表上田敬介" class="col-12 mt-2 mb-2">
       </div>
     </div>
 
