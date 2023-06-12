@@ -2,8 +2,10 @@
 <meta name="description" content="フィールドアップ。東京都で、メンタルヘルスや、心理カウンセリングを初め様々なメンタルにかかわるサービスを行っています。さらに健康予防や、脳力向上のための方法などもレクチャーしています。悩みや不安を感じている方は是非一度お問い合わせ下さい。オンラインや、メールカウンセリングなども実施しております。">
 @section('content')
 <div id="home" class="pb-4">
-  <div class="container">
 
+<video src='{{ asset("/image/mental_site.mp4")}}' muted autoplay playsinline loop style="width: 100%;"></video>
+
+  <div class="container">
     <div class="row">
       <div class="col-md-12 mt-5 mb-2">
         <h2 class="f1 text-center">心理学って面白い!!<br>
@@ -11,8 +13,12 @@
       </div>
     </div>
 
-      <video src='{{ asset("/image/mental_site.mp4")}}' muted autoplay playsinline loop style="width: 100%;"></video>
-    
+    <div class="mt-3 ">
+        <a title="THE INNOVATOR Field-UP 上田敬介" href="https://the-innovator.jp/interviewees/ueda_keisuke/" target="_blank">
+            <img src="https://the-innovator.jp/img/banner/TI_banner01.jpg" alt="Field-UP 上田敬介" class="d-block mx-auto" width="50%"  border="0"/>
+        </a>
+    </div>
+
     <div class="row flexbox">
       <div class="col-6 d-block mx-auto box1">
         <a href="{{ route('psychology_test.show') }}"><img src='{{ asset("/image/サイトページ心理テストrev1.png")}}' class="mt-4 link d-block mx-auto" alt="心理テスト" style="width:100%;"><h2 class="text-center f2">↑あなたはどんな結果かな？</h2></a>
