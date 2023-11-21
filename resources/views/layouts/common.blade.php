@@ -69,10 +69,12 @@
 </head>
 
 <body>
-    <div class="wrapper w-100 overflow-hidden">
-        @include('parts.header')
+    <div class="wrapper overflow-hidden">
+        <div class="fit">
+            @include('parts.header')
+        </div>
         <div id="wait-load">
-            <div class="contents">
+            <div class="contents top-margin">
                 @yield('content')
             </div>
             @include('parts.footer')
