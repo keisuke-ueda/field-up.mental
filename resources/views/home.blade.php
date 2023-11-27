@@ -1,41 +1,100 @@
 @extends('layouts.common')
 <meta name="description" content="フィールドアップ。東京都で、メンタルヘルスや、心理カウンセリングを初め様々なメンタルにかかわるサービスを行っています。さらに健康予防や、脳力向上のための方法などもレクチャーしています。悩みや不安を感じている方は是非一度お問い合わせ下さい。オンラインや、メールカウンセリングなども実施しております。">
 @section('content')
+
 <div id="home" class="pb-4">
-
-<video src='{{ asset("/image/mental_site.mp4")}}' muted autoplay playsinline loop style="width: 100%;"></video>
-
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12 mt-5 mb-2">
-        <h2 class="f1 text-center">心理学って面白い!!<br>
-        前に向かって一緒に進んでいこう!!</h2>
-      </div>
+  <video src='{{ asset("/image/mental_site.mp4")}}' muted autoplay playsinline loop style="width: 100%;"></video>
+  <div class="row">
+    <div class="col-md-12 mt-5 mb-2">
+      <h2 class="f1 text-center">心理学って面白い!!<br>
+      前に向かって一緒に進んでいこう!!</h2>
     </div>
-
-    <div class="mt-3 ">
-        <a title="THE INNOVATOR Field-UP 上田敬介" href="https://the-innovator.jp/interviewees/ueda_keisuke/" target="_blank">
-            <img src="https://the-innovator.jp/img/banner/TI_banner01.jpg" alt="Field-UP 上田敬介" class="d-block mx-auto" width="50%"  border="0"/>
-        </a>
-    </div>
-
-    <div class="row flexbox">
-      <div class="col-6 d-block mx-auto box1">
-        <a href="{{ route('psychology_test.show') }}"><img src='{{ asset("/image/サイトページ心理テストrev1.png")}}' class="mt-4 link d-block mx-auto" alt="心理テスト" style="width:100%;"><h2 class="text-center f2">↑あなたはどんな結果かな？</h2></a>
-      </div>
-      <div class="col-6 d-block mx-auto box2">
-        <a href="{{ route('contents_list.show') }}"><img src='{{ asset("/image/サイトページ画像コンテンツrev1.png")}}' class="mt-4 link d-block mx-auto" alt="メンタルコンテンツ" style="width:100%;"><h2 class="text-center f2">↑ためになる動画が盛りだくさん♪</h2></a>
-      </div>
-      <div class="col-6 d-block mx-auto box1">
-      <img src='{{ asset("/image/psychology_test_img/製作中ページ.jpg") }}' class="card-img d-block mx-auto" alt="開設準備中" style="width: 60%;">
-      </div>
-      <div class="col-6 d-block mx-auto box2">
-        <a href="{{ route('contacts_faq.show') }}"><img src='{{ asset("/image/サイトページ画像お問合せFAQrev1.png")}}' class="mt-4 link d-block mx-auto" alt="お問い合わせ" style="width:100%;"><h2 class="text-center f2">↑気軽に相談してください</h2></a>
-      </div>
-    </div>
-
   </div>
-</div>
+  <div class="mt-3 ">
+    <a title="THE INNOVATOR Field-UP 上田敬介" href="https://the-innovator.jp/interviewees/ueda_keisuke/" target="_blank">
+        <img src="https://the-innovator.jp/img/banner/TI_banner01.jpg" alt="Field-UP 上田敬介" class="d-block mx-auto news1"/>
+    </a>
+    <a title="Qualitas Plus Field-UP 上田敬介" href="https://www.qualitas-web.com/book1vgdb.html" target="_blank" class="mt-4">
+      <img src="https://www.qualitas-web.com/banner/new-1-202309-m02zb.png" alt="Qualitas Plus Field-UP 上田敬介" width="350" height="240" border="0" class="d-block mx-auto mt-4"/>
+    </a>
+  </div>
+  
+  <div class="mt-4 mb-4 fadeUpTrigger">
+    <div class="in-content">
+      <h2 class="f1 top-text">心理テスト</h2>
+      <div class="bg-light p-4 text-dark bg-opacity-75 top-block text01">
+        <p>皆さんは心理テストは好きですか？<br><br>
+        心理テストの多くは【ユング心理学】がベースになっていて、その中の【象徴】や、【元型】という考え方がとても大事になっています。<br><br>
+        例えば、複数の動物の中から好きな動物を選んでくださいというテストがあったとします。その人の潜在意識、無意識下で、今の心情やあなたの特性によって選択される動物が違ってきたりもします。<br><br>
+        心理テストは、その時に自身の心の状態を確認するのにとても良い指標になるので、楽しみながらチェックしてみませんか？
+        </p>
+      </div>
+      <div class="d-flex align-items-center justify-content-center">
+        <a href="{{ route('psychology_test.show') }}" class="btn btn-info text01 text-light p-2 btnripple3">
+          →→簡単なテストを<br class="sp-br">やってみよう←←
+        </a>
+      </div>
+    </div>
+    <img src='{{ asset("/image/sea-4002951_1920.jpg")}}' class="context" alt="心理テスト">
+  </div>
+
+  <div class="mt-4 mb-4 fadeUpTrigger">
+    <div class="in-content">
+      <h2 class="f1 top-text">動画コンテンツ</h2>
+      <div class="bg-light p-4 text-dark bg-opacity-75 top-block text01">
+        <p>心理学を学んで、仕事や人間関係に生かしたいけど勉強方法が分からないし、難しい事ばかり書いてある本が多いから理解しづらい。そんな声をよく耳にします。<br><br>
+        心理学はどうしても【概念】のような話が多くて、例題みたいなケースで説明してもらわないとわかりづらいことが多いです。でも、そのケースも人それぞれ違っていて中々しっくりこないものです。<br><br>
+        Field-UPのYoutubeチャンネルやSNSの動画では、アニメーションやイラストを使って多くのケースを使って心理学の解説をしているので是非参考にしてみて下さい。
+        </p>
+      </div>
+      <div class="d-flex align-items-center justify-content-center">
+        <a href="{{ route('contents_list.show') }}" class="btn btn-info text01 text-light p-2 btnripple3">
+        →→動画で<br class="sp-br">楽しく心理学♪←←
+        </a>
+      </div>
+    </div>
+    <img src='{{ asset("/image/macey-bundt-AVXrEyc5ViE-unsplash.jpg")}}' class="context" alt="動画コンテンツ">
+  </div>
+
+  <div class="mt-4 mb-4 fadeUpTrigger">
+    <div class="in-content">
+      <h2 class="f1 top-text">ケア・カウンセリング</h2>
+      <div class="bg-light p-4 text-dark bg-opacity-75 top-block text01">
+        <p>悩み事は人それぞれ様々です。本当に自分自身の悩みを分かってくれる人は、自分以外にはいないのかもしれません。<br>
+        どれだけ多くのクライエントの相談を受けても、同じケースは１度もありません。それでも私たち心理カウンセラーを頼ってほしいです。<br><br>
+        数多くのケースを見て、聴いてきているからこそ今までと違った角度のアドバイスや、提案などをできる事には自信があります。<br><br>
+        心が疲れたときには誰かに話して、状況を整理してみるということも大事なことなので、どんなことでも気軽に相談してください。
+        </p>
+      </div>
+      <div class="d-flex align-items-center justify-content-center">
+        <a href="{{ route('care.show') }}" class="btn btn-info text01 text-light p-2 btnripple3">
+        →→カウンセラーに気軽に相談←←
+        </a>
+      </div>
+    </div>
+    <img src='{{ asset("/image/chirag-saini-AtUirmlqsVE-unsplash.jpg")}}' class="context" alt="動画コンテンツ">
+  </div>
+
+  <div class="mt-4 mb-4 fadeUpTrigger">
+    <div class="in-content">
+      <h2 class="f1 top-text">お問合せ＆FAQ</h2>
+      <div class="bg-light p-4 text-dark bg-opacity-75 top-block text01">
+        <p>悩み事は人それぞれ様々です。本当に自分自身の悩みを分かってくれる人は、自分以外にはいないのかもしれません。<br>
+        どれだけ多くのクライエントの相談を受けても、同じケースは１度もありません。それでも私たち心理カウンセラーを頼ってほしいです。<br><br>
+        数多くのケースを見て、聴いてきているからこそ今までと違った角度のアドバイスや、提案などをできる事には自信があります。<br><br>
+        心が疲れたときには誰かに話して、状況を整理してみるということも大事なことなので、どんなことでも気軽に相談してください。
+        </p>
+      </div>
+      <div class="d-flex align-items-center justify-content-center">
+        <a href="{{ route('contacts_faq.show') }}" class="btn btn-info text01 text-light p-2 btnripple3">
+        →→なんでも聴いてね←←
+        </a>
+      </div>
+    </div>
+    <img src='{{ asset("/image/devon-janse-van-rensburg-qjIzxfkoqrI-unsplash.jpg")}}' class="context" alt="お問い合わせ">
+  </div>
+
+
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
@@ -62,7 +121,7 @@
     var scroll_y = window.scrollY;
     window.addEventListener('scroll', (event) => {
       var scroll_y = window.scrollY;
-      console.log(scroll_y);
+      // console.log(scroll_y);
       foam01.stop().animate({
         'bottom': scroll_y + 100
         }, 300); 

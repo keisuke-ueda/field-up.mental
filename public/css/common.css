@@ -1,7 +1,4 @@
-/* オーバーバウンス無効(効かなかった) */
-/* body {
-  overscroll-behavior-y: none;
-} */
+@charset "utf-8";
 
 @font-face {
   font-family: honokamarugo;
@@ -13,81 +10,7 @@ body {
   font-size:20px;
 }
 
-.page-title .text01{
-  color : #fff;
-  background-color: rgba(16, 182, 255, 0.6);
-  font-size: larger;
-  padding-top: 3px;
-  padding-bottom: 3px;
-  font-size:24px;
-}
-
-@media screen and (max-width: 780px){
-  .page-title .text01{
-    font-size:13px;
-  }
-}
-
-.content-lead-text {
-  background-color: rgba(255, 255, 255, 0.5);
-}
-
-.content-lead-text p {
-  margin-top: 3px;
-  margin-bottom: 3px;
-  font-size: larger;
-}
-
-.service-contents h2 {
-  font-family: "Nico Moji";;
-  color: rgb(25, 109, 151);
-  text-shadow:0.5px 0.5px 0 #6478c8, -0.5px -0.5px 0 #6478c8,
-  -0.5px 0.5px 0 #6478c8, 0.5px -0.5px 0 #6478c8,
-  0px 0.5px 0 #6478c8,  0-0.5px 0 #6478c8,
-  -0.5px 0 0 #6478c8, 0.5px 0 0 #6478c8;
-}
-
-.service-contents p{
-  text-align: center;
-  font-size: large;
-}
-
-/* スマホのみ改行 */
-@media screen and (max-width: 780px){
-  .br-sp {
-    display: none;
-  }
-}
-
-.youtube {
-  position: relative;
-  width: 100%;/*横幅いっぱいにwidthを指定*/
-  height:0px;/*高さはpaddingで指定するため0*/
-  padding-top: 56.25%;/*高さを指定（padding-bottomでも同様)*/
-}
-.youtube iframe{
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  }
-  
-/* nav-itemの文字色 */
-.navbar .navbar-nav .nav-link{
-  color: white;
-  font-size: 30px;
-}
-@media screen and (max-width: 1200px){
-  .navbar .navbar-nav .nav-link{
-    font-size: 14px;
-  }
-}
-
-.link{
-  width: 80%;
-}
-
+/* テキスト情報 */
 h1,h2 {
   color          : #ffffff;
   letter-spacing : 4px;
@@ -101,21 +24,10 @@ h1,h2 {
   -2px  0px 1px rgba(102, 102, 255, 0.30),
    0px -2px 1px rgba(102, 102, 255, 0.30); 
 }
-
 h3 {
-  color          : #8feeff;
+  color          : #4e6b70;
   letter-spacing : 4px;
-  text-shadow    : 
-  2px  2px 1px rgba(13, 13, 153, 0.3),
-  -2px  2px 1px rgba(102, 102, 255, 0.30),
-   2px -2px 1px rgba(102, 102, 255, 0.30),
-  -2px -2px 1px rgba(102, 102, 255, 0.30),
-   2px  0px 1px rgba(102, 102, 255, 0.30),
-   0px  2px 1px rgba(102, 102, 255, 0.30),
-  -2px  0px 1px rgba(102, 102, 255, 0.30),
-   0px -2px 1px rgba(102, 102, 255, 0.30); 
 }
-
 .f1 {
   font-family: 'Mochiy Pop P One', sans-serif;
   font-size:50px;
@@ -125,7 +37,6 @@ h3 {
     font-size:20px;
   }
 }
-
 .f2 {
   font-family: 'Mochiy Pop P One', sans-serif;
   font-size:25px;
@@ -135,7 +46,6 @@ h3 {
     font-size:18px;
   }
 }
-
 .f3 {
   font-family: "M PLUS Rounded 1c";
   font-size:35px;
@@ -153,17 +63,261 @@ h3 {
     font-size:14px;
   }
 }
+.page-title .text01{
+  color : #fff;
+  background-color: rgba(16, 182, 255, 0.6);
+  font-size: larger;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  font-size:24px;
+  border-radius: 10px 10px 10px 10px;
+}
+@media screen and (max-width: 780px){
+  .page-title .text01{
+    font-size:13px;
+  }
+}
+.q-text {
+  color: rgb(247, 60, 100);
+  font-weight: bold;
+}
 
-.f-container {
-  display: flex;
-  justify-content: flex-end;
+
+/* スマホのみ改行 */
+.sp-br {
+  display: none;
+}
+@media screen and (max-width: 780px){
+  .sp-br {
+    display: inline-block;
+  }
+  .br-sp {
+    display: none;
+  }
+}
+
+/* ヘッダー調整要素 */
+.logo {
+  margin-top: 1%;
+  margin-left: 1%;
+  width:60%;
+}
+@media screen and (max-width: 780px){
+  .logo {
+    width:50%;
+  }
+}
+.fit {
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.top-margin {
+  margin-top: 10%;
+}
+@media screen and (max-width: 780px){
+  .top-margin {
+    margin-top: 30%;
+  }
+}
+
+/* ナビ要素 */
+.nav-center {
+  margin:  0 auto; 
+}
+.nav-item {
+  margin: 5px;
+}
+.nav-text {
+  font-size: 1.3vw;
+}
+@media screen and (max-width: 780px){
+  .nav-text {
+    font-size: 14px;
+  }
+  .nav-center  {
+    text-align: center;
+  }
+  .collapse {
+    background-color:#ffffffb9;
+  }
+}
+
+/* フッター */
+footer {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+/* ニュース欄 */
+.news1 {
+  width: 40%;
+}
+@media screen and (max-width: 780px){
+  .news1 {
+    width: 70%;
+  }
+}
+
+/* TOPコンテンツ */
+.in-content { 
+  position:absolute;
+  z-index:1;
+  width: 100%;
+}
+.context {
+  width: 100%;
+  height: 700px;
+  object-fit: cover;
+  position:relative;
+  opacity: 0.95;
+}
+@media screen and (max-width: 930px){
+  .context {
+    height: 800px;
+  }
+}
+@media screen and (max-width: 780px){
+  .context {
+    height: 500px;
+  }
+}
+.top-text {
+  margin:30px 0 0 30px;
+}
+@media screen and (max-width: 780px){
+  .top-text {
+    margin:10px 0 0 10px;
+  }
+}
+.top-block {
+  width: 85%;
+  margin: 50px auto 50px auto;
+}
+@media screen and (max-width: 780px){
+  .top-block {
+    width: 85%;
+    margin: 10px auto 10px auto;
+  }
+}
+
+/* アニメーション */
+/* fadeUp */
+.fadeUp {
+  -webkit-animation-name: fadeUpAnime;
+          animation-name: fadeUpAnime;    /*アニメーションの名前*/
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;         /*アニメーションの実行時間*/
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;  /*アニメーション後、要素が表示されたままにする*/
+}
+@-webkit-keyframes fadeUpAnime {
+  0% {
+    opacity: 0;                   /*非表示*/
+    -webkit-transform: translateY(100px);
+            transform: translateY(100px); /*縦方向に100pxずらす*/
+  }
+  100% {
+    opacity: 1;                   /*表示*/
+    -webkit-transform: translateY(0);
+            transform: translateY(0);     /*元の位置*/
+  }
+}
+@keyframes fadeUpAnime {
+  0% {
+    opacity: 0;                   /*非表示*/
+    -webkit-transform: translateY(100px);
+            transform: translateY(100px); /*縦方向に100pxずらす*/
+  }
+  100% {
+    opacity: 1;                   /*表示*/
+    -webkit-transform: translateY(0);
+            transform: translateY(0);     /*元の位置*/
+  }
+}
+.fadeUpTrigger {
+  opacity: 0;                     /*非表示*/
+}
+
+/* ボタンアニメ */
+/*== 波紋がふわっと広がる */
+.btnripple3{
+  /*波紋の基点とするためrelativeを指定*/
+  position: relative;
+    /*リンクの形状*/
+  display:inline-block;
+  margin:0 10px 20px 10px;
+  text-decoration: none;
+  color: #333;
+  outline: none;
+}
+/*波形の設定*/
+.btnripple3:hover::before {
+  content: '';
+  /*絶対配置で波形の位置を決める*/
+  position: absolute;
+  left:50%;
+  top:0;
+  /*波形の形状*/
+  border: 1px solid #31b2f2;
+  width: 100px;
+  height: 100px;
+  border-radius: 80%;
+  /*はじめは不透明*/
+  opacity:1;
+  /*アニメーションの設定*/
+  animation:1s circleanime3 forwards;
+}
+/*波形が広がるアニメーション*/
+@keyframes circleanime3{
+0%{
+  transform: scale(0);
+}
+100%{
+  transform:scale(2);
+  opacity: 0;
+}
+}
+
+
+
+/* 個別コンテンツ */
+.content-lead-text {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.content-lead-text p {
+  margin-top: 3px;
+  margin-bottom: 3px;
+  font-size: larger;
+}
+
+.youtube {
+  position: relative;
+  width: 100%;/*横幅いっぱいにwidthを指定*/
+  height:0px;/*高さはpaddingで指定するため0*/
+  padding-top: 56.25%;/*高さを指定（padding-bottomでも同様)*/
+}
+
+.youtube iframe{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  }
+  
+.link{
+  width: 80%;
 }
 
 .card01 {
   background-color: rgba(255, 255, 255, 0.9);
   padding: 20px;
 }
-
 
 @media screen and (min-width:300px) and ( max-width:780px) {
   .flexbox {
@@ -181,7 +335,6 @@ h3 {
       margin-left: auto;
       margin-right: auto;
   }
-
   .sp-none {
     display:none;
     margin-left: auto;
@@ -217,7 +370,7 @@ table .table-back {
 }
 
 .faq {
-  background-color: rgba(16, 182, 225, 0.8);
+  background-color: rgb(171, 240, 255);
   font-size: 25px;
 }
 @media screen and (max-width:780px){
@@ -238,54 +391,57 @@ table .table-back {
 }
 
 
-/* フッター */
-footer {
-  background-color: rgba(255, 255, 255, 1);
-}
 
 /*******************/
 /* 各ページの背景設定 */
 /*******************/
 #home {
-  background-image: url('../image/water-1330252_1920.jpg');
-  background-attachment: fixed;
-  background-size: cover;
+  /* background-image: url('../image/water-1330252_1920.jpg'); */
+  /* background-attachment: fixed; */
+  /* background-size: cover; */
+  background-color: rgb(240, 255, 250);
 }
 
 #introduction {
-  background-image: url('../image/beach-g936fec171_1920.jpg');
+  /* background-image: url('../image/beach-g936fec171_1920.jpg');
   background-attachment: fixed;
-  background-size: cover;
+  background-size: cover; */
+  background-color: rgb(233, 255, 248);
   }
 
 #mental_care_contents {
-  background-image: url('../image/sea-4002951_1920.jpg');
+  /* background-image: url('../image/sea-4002951_1920.jpg');
   background-attachment: fixed;
-  background-size: cover;
+  background-size: cover; */
+  background-color: rgb(233, 255, 248);
 }
 
 #psychology_test {
-  background-image: url('../image/devon-janse-van-rensburg-qjIzxfkoqrI-unsplash.jpg');
+  /* background-image: url('../image/devon-janse-van-rensburg-qjIzxfkoqrI-unsplash.jpg');
   background-attachment: fixed;
-  background-size: cover;
+  background-size: cover; */
+  background-color: rgb(233, 255, 248);
 }
 
 #care {
-  background-image: url('../image/beach-g936fec171_1920.jpg');
+  /* background-image: url('../image/beach-g936fec171_1920.jpg');
   background-attachment: fixed;
-  background-size: cover;
+  background-size: cover; */
+  background-color: rgb(233, 255, 248);
 }
 
 #news {
-  background-image: url('../image/tree-gca6b83ad3_1280.jpg');
+  /* background-image: url('../image/tree-gca6b83ad3_1280.jpg');
   background-attachment: fixed;
-  background-size: cover;
+  background-size: cover; */
+  background-color: rgb(233, 255, 248);
 }
 
 #contacts_faq {
-  background-image: url('../image/macey-bundt-AVXrEyc5ViE-unsplash.jpg');
+  /* background-image: url('../image/macey-bundt-AVXrEyc5ViE-unsplash.jpg');
   background-attachment: fixed;
-  background-size: cover;
+  background-size: cover; */
+  background-color: rgb(233, 255, 248);
 }
 
 input[type=radio] {
@@ -587,46 +743,3 @@ input[type=radio] {
   bottom: -750px;
   opacity: 0.5;
 }
-
-
-
-
-
-
-
-
-/* #page_top a{
-  position: relative;
-  display: block;
-  width: 90px;
-  height: 60px;
-  text-decoration: none;
-}
-#page_top a::before{
-  font-family: 'Font Awesome 5 Free';
-  font-weight: 900;
-  content: '\f062';
-  font-size: 25px;
-  color: #3f98ef;
-  position: absolute;
-  width: 25px;
-  height: 25px;
-  top: -25px;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  margin: auto;
-  text-align: center;
-}
-#page_top a::after{
-  content: 'PAGE TOP';
-  font-size: 13px;
-  color: #3f98ef;
-  position: absolute;
-  top: 38px;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  margin: auto;
-  text-align: center;
-} */
