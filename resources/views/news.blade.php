@@ -4,7 +4,7 @@
 <div id="news">
   <div class="container">
 
-    <h1 class="text-center pt-3">メンタルニュース</h1>
+    <h1 class="text-center f1 pt-3 mb-3">メンタルニュース</h1>
 
     <div class="row justify-content-center mt-2 mb-5 pd-5">
       <div class="border-dark col-sm-10 item m-3">

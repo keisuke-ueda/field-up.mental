@@ -16,7 +16,7 @@
         <div class="card" style="margin: 10px;">
           <a href='psychology_test/egogram' class="w-100 h-100">
             <img src='{{ asset("/image/psychology_test_img/心理テスト(エゴグラム).jpg") }}' class="card-img" alt="エゴグラム">
-            <h3 class="card-title">【エゴグラム】あなたはどんな特性があるのかな？</h3>
+            <h3 class="">【エゴグラム】あなたはどんな特性があるのかな？</h3>
           </a>
         </div>
       </div>
@@ -25,7 +25,7 @@
         <div class="card" style="margin: 10px;">
           <a href='psychology_test/dream_analysis' class="w-100 h-100">
             <img src='{{ asset("/image/psychology_test_img/夢分析.jpg") }}' class="card-img" alt="夢分析ページ">
-            <h3 class="card-title">【夢分析】その日見た夢にあなたの心が映る!?</h3>
+            <h3 class="">【夢分析】その日見た夢にあなたの心が映る!?</h3>
           </a>
         </div>
       </div>
@@ -34,7 +34,7 @@
         <div class="card" style="margin: 10px;">
           <a href='making_now' class="w-100 h-100">
             <img src='{{ asset("/image/psychology_test_img/製作中ページ.jpg") }}' class="card-img" alt="開設準備中">
-            <h3 class="card-title">【準備中】ちょっと待っててね</h3>
+            <h3 class="">【準備中】ちょっと待っててね</h3>
           </a>
         </div>
       </div>
@@ -43,7 +43,7 @@
         <div class="card" style="margin: 10px;">
           <a href='making_now' class="w-100 h-100">
             <img src='{{ asset("/image/psychology_test_img/製作中ページ.jpg") }}' class="card-img" alt="開設準備中">
-            <h3 class="card-title">【準備中】ちょっと待っててね</h3>
+            <h3 class="">【準備中】ちょっと待っててね</h3>
           </a>
         </div>
       </div>
@@ -52,7 +52,7 @@
         <div class="card" style="margin: 10px;">
           <a href='making_now' class="w-100 h-100">
             <img src='{{ asset("/image/psychology_test_img/製作中ページ.jpg") }}' class="card-img" alt="開設準備中">
-            <h3 class="card-title">【準備中】ちょっと待っててね</h3>
+            <h3 class="">【準備中】ちょっと待っててね</h3>
           </a>
         </div>
       </div>
@@ -61,7 +61,7 @@
         <div class="card" style="margin: 10px;">
           <a href='making_now' class="w-100 h-100">
             <img src='{{ asset("/image/psychology_test_img/製作中ページ.jpg") }}' class="card-img" alt="開設準備中">
-            <h3 class="card-title">【準備中】ちょっと待っててね</h3>
+            <h3 class="">【準備中】ちょっと待っててね</h3>
           </a>
         </div>
       </div>
@@ -70,7 +70,7 @@
         <div class="card" style="margin: 10px;">
           <a href='making_now' class="w-100 h-100">
             <img src='{{ asset("/image/psychology_test_img/製作中ページ.jpg") }}' class="card-img" alt="開設準備中">
-            <h3 class="card-title">【準備中】ちょっと待っててね</h3>
+            <h3 class="">【準備中】ちょっと待っててね</h3>
           </a>
         </div>
       </div>
@@ -79,7 +79,7 @@
         <div class="card" style="margin: 10px;">
           <a href='making_now' class="w-100 h-100">
             <img src='{{ asset("/image/psychology_test_img/製作中ページ.jpg") }}' class="card-img" alt="開設準備中">
-            <h3 class="card-title">【準備中】ちょっと待っててね</h3>
+            <h3 class="">【準備中】ちょっと待っててね</h3>
           </a>
         </div>
       </div>
@@ -88,7 +88,7 @@
         <div class="card" style="margin: 10px;">
           <a href='making_now' class="w-100 h-100">
             <img src='{{ asset("/image/psychology_test_img/製作中ページ.jpg") }}' class="card-img" alt="開設準備中">
-            <h3 class="card-title">【準備中】ちょっと待っててね</h3>
+            <h3 class="">【準備中】ちょっと待っててね</h3>
           </a>
         </div>
       </div>

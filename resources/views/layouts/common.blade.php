@@ -29,6 +29,11 @@
     gtag('config', 'UA-167968304-5');
     </script>
 
+
+    <!-- アニメーション -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="{{ asset('/js/fade.anime.js') }}"></script>
+
     <!-- Title -->
     <title>@yield('title')</title>
 
@@ -55,8 +60,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru&display=swap" rel="stylesheet">
 
     <!-- BootStrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+   
+    <!-- リセットCSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/destyle.css@3.0.2/destyle.css">
 
     <!-- Styles -->
     <!-- <link href="{{ asset('css/app.css') }}?ver1.0.6" rel="stylesheet"> -->
@@ -65,14 +72,17 @@
     <!-- google fonts -->
     <link href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c" rel="stylesheet">
 
+    
     @yield('style')
 </head>
 
 <body>
-    <div class="wrapper w-100 overflow-hidden">
-        @include('parts.header')
+    <div class="wrapper overflow-hidden">
+        <div class="fit">
+            @include('parts.header')
+        </div>
         <div id="wait-load">
-            <div class="contents">
+            <div class="contents top-margin">
                 @yield('content')
             </div>
             @include('parts.footer')
