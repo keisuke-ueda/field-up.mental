@@ -55,8 +55,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru&display=swap" rel="stylesheet">
 
     <!-- BootStrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+   
+    <!-- リセットCSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/destyle.css@3.0.2/destyle.css">
 
     <!-- Styles -->
     <!-- <link href="{{ asset('css/app.css') }}?ver1.0.6" rel="stylesheet"> -->
@@ -64,6 +66,9 @@
 
     <!-- google fonts -->
     <link href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c" rel="stylesheet">
+
+    <!-- アニメーション -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 
     @yield('style')
 </head>
@@ -86,6 +91,28 @@
     
     @yield('js_bottom')
 
+
+    <script>
+        // 動きのきっかけとなるアニメーションの名前を定義
+        function fadeAnime(){
+        $('.zoomInTrigger').each(function(){
+        var elemPos = $(this).offset().top-50;//要素より、50px上の
+        var scroll = $(window).scrollTop();
+        var windowHeight = $(window).height();
+        if (scroll >= elemPos - windowHeight){
+        $(this).addClass('zoomIn');// 画面内に入ったらfadeUpというクラス名を追記
+        }else{
+        $(this).removeClass('zoomIn');// 画面外に出たらfadeUpというクラス名を外す
+        }
+        });
+        }
+
+        // 画面をスクロールをしたら動かしたい場合の記述
+        $(window).scroll(function (){
+        fadeAnime();/* アニメーション用の関数を呼ぶ*/
+        });// ここまで画面をスクロールをしたら動かしたい場合の記述
+
+    </script>
 
 </body>
 
