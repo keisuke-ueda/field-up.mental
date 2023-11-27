@@ -12,9 +12,9 @@
         <li class="nav-item">
           <a class="nav-link" href="{{ route('introduction.show') }}">事業紹介</a>
         </li>
-        <li class="nav-item">
+        <!-- <li class="nav-item">
           <a class="nav-link" href="{{ route('news.show') }}">News</a>
-        </li>
+        </li> -->
         <li class="nav-item">
           <a class="nav-link" href="{{ route('psychology_test.show') }}">心理テスト</a>
         </li>

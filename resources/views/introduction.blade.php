@@ -4,16 +4,16 @@
 <div id="introduction">
   <div class="container">
     
-    <h1 class="text-center f1 pt-3">心理事業紹介</h1>
+    <h1 class="text-center f1 pt-3 mb-3">心理事業紹介</h1>
 
-    <div class="col-12 justify-content-center mx-auto">
+    <div class="col-12 justify-content-center mx-auto fadeUpTrigger">
       <img src='{{ asset("/image/事業デザイン.png") }}' alt="Field-UP心理事業紹介" class="col-12 mt-2 mb-2">
     </div>
 
     <div class="row">
       <h2 class="text-center f1">代表の思い</h2>
-      <div class="col-md-8">
-        <div class="card01 rounded p-3">
+      <div class="col-md-8 fadeUpTrigger">
+        <div class="card01 rounded p-3 text01">
           <p>メンタルは何事においてもとても大事です。<br>
           自分本来の力を出すためには、安定したメンタルがとても大事です。</p>
           <p>メンタルが不安定というだけで、本来の力が発揮できないだけでなく、次の挑戦の機械すら失ってしまいます。<br>
@@ -23,25 +23,22 @@
           <p>Field-UPはそんな方たちを応援しています。</p>
         </div>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-4 fadeUpTrigger">
       <img src='{{ asset("/image/ceo1.jpg") }}' alt="Field-UP 代表上田敬介" class="col-12 mt-2 mb-2">
       </div>
     </div>
 
-
-
-
     <h2 class="text-center f1">サービス紹介</h2>
 
     <div class="row flexbox">
-      <div class="col-md-6">
+      <div class="col-md-6 fadeUpTrigger">
         <h3 class="f3 text-center mt-4">メンタルヘルス関連業<br>(カウンセリングなど)</h3>
         <div class="card01 rounded p-3">
           <p class="text01">仕事の悩みから私生活の悩みまでご相談に乗ります<br>
           今の辛い気持ちを一緒に解消しましょう</p>
         </div>
       </div>
-      <div class="col-md-6">
+      <div class="col-md-6 fadeUpTrigger">
         <h3 class="f3 text-center mt-4">健康予防に関する<br>情報の提供</h3>
         <div class="card01 rounded p-3">
           <p class="text01">予防の知識が意外と普及しきっていない現代<br>
@@ -51,7 +48,7 @@
       </div>
     </div>
     <div class="row flexbox">
-      <div class="col-md-6">
+      <div class="col-md-6 fadeUpTrigger">
         <h3 class="f3 text-center mt-4">仕事で使える<br>心理ノウハウ提供</h3>
         <div class="card01 rounded p-3">
           <p class="text01">仕事の失敗を引きずってしまう<br>
@@ -61,7 +58,7 @@
           心の仕組みを日本とアメリカ2つのカレッジを出た講師が教えます</p>
         </div>
       </div>
-      <div class="col-md-6">
+      <div class="col-md-6 fadeUpTrigger">
         <h3 class="f3 text-center mt-4">ミニセミナー<br>コンテンツ公開</h3>
         <div class="card01 rounded p-3">
 
@@ -72,11 +69,11 @@
       </div>
     </div>
 
-    <div class="row flexbox mt-5 mb-4">
+    <div class="row flexbox mt-5 pb-5">
       <h2 class="text-center f1 text-center">会社情報</h2>
-      <div class="col-8 justify-content-center mx-auto rounded">
-        <div class="rounded card01">
-          <p class="text-center text01 p-3">会社名：Field-UP
+      <div class="col-8 justify-content-center mx-auto rounded fadeUpTrigger">
+        <div class="rounded card01 mb-4">
+          <p class="text-center text01">会社名：Field-UP
             <br>所在地：〒114-0011 東京都北区昭和町1-4-7
             <br>代表者名：上田　敬介
             <br>設立年月日：2020年6月1日

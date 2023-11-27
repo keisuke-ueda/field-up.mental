@@ -29,6 +29,11 @@
     gtag('config', 'UA-167968304-5');
     </script>
 
+
+    <!-- アニメーション -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="{{ asset('/js/fade.anime.js') }}"></script>
+
     <!-- Title -->
     <title>@yield('title')</title>
 
@@ -67,9 +72,7 @@
     <!-- google fonts -->
     <link href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c" rel="stylesheet">
 
-    <!-- アニメーション -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-
+    
     @yield('style')
 </head>
 
@@ -91,28 +94,6 @@
     
     @yield('js_bottom')
 
-
-    <script>
-        // 動きのきっかけとなるアニメーションの名前を定義
-        function fadeAnime(){
-        $('.zoomInTrigger').each(function(){
-        var elemPos = $(this).offset().top-50;//要素より、50px上の
-        var scroll = $(window).scrollTop();
-        var windowHeight = $(window).height();
-        if (scroll >= elemPos - windowHeight){
-        $(this).addClass('zoomIn');// 画面内に入ったらfadeUpというクラス名を追記
-        }else{
-        $(this).removeClass('zoomIn');// 画面外に出たらfadeUpというクラス名を外す
-        }
-        });
-        }
-
-        // 画面をスクロールをしたら動かしたい場合の記述
-        $(window).scroll(function (){
-        fadeAnime();/* アニメーション用の関数を呼ぶ*/
-        });// ここまで画面をスクロールをしたら動かしたい場合の記述
-
-    </script>
 
 </body>
 

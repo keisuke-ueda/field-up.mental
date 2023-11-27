@@ -5,7 +5,7 @@
   <div class="container">
 
     <div class="col-7 page-title pt-5 d-block mx-auto">
-      <h1 class="text-center">ケアメニュー</h1>
+      <h1 class="text-center f1 pt-3 mb-3">ケアメニュー</h1>
       <p class="text-center text01">先ずは相談してください</p>
     </div>
 

@@ -19,7 +19,7 @@
     </a>
   </div>
   
-  <div class="mt-4 mb-4 zoomInTrigger">
+  <div class="mt-4 mb-4 fadeUpTrigger">
     <div class="in-content">
       <h2 class="f1 top-text">心理テスト</h2>
       <div class="bg-light p-4 text-dark bg-opacity-75 top-block text01">
@@ -30,7 +30,7 @@
         </p>
       </div>
       <div class="d-flex align-items-center justify-content-center">
-        <a href="{{ route('psychology_test.show') }}" class="btn btn-info text01 text-light p-2">
+        <a href="{{ route('psychology_test.show') }}" class="btn btn-info text01 text-light p-2 btnripple3">
           →→簡単なテストを<br class="sp-br">やってみよう←←
         </a>
       </div>
@@ -38,7 +38,7 @@
     <img src='{{ asset("/image/sea-4002951_1920.jpg")}}' class="context" alt="心理テスト">
   </div>
 
-  <div class="mt-4 mb-4 zoomInTrigger">
+  <div class="mt-4 mb-4 fadeUpTrigger">
     <div class="in-content">
       <h2 class="f1 top-text">動画コンテンツ</h2>
       <div class="bg-light p-4 text-dark bg-opacity-75 top-block text01">
@@ -48,7 +48,7 @@
         </p>
       </div>
       <div class="d-flex align-items-center justify-content-center">
-        <a href="{{ route('contents_list.show') }}" class="btn btn-info text01 text-light p-2">
+        <a href="{{ route('contents_list.show') }}" class="btn btn-info text01 text-light p-2 btnripple3">
         →→動画で<br class="sp-br">楽しく心理学♪←←
         </a>
       </div>
@@ -56,7 +56,7 @@
     <img src='{{ asset("/image/macey-bundt-AVXrEyc5ViE-unsplash.jpg")}}' class="context" alt="動画コンテンツ">
   </div>
 
-  <div class="mt-4 mb-4 zoomInTrigger">
+  <div class="mt-4 mb-4 fadeUpTrigger">
     <div class="in-content">
       <h2 class="f1 top-text">ケア・カウンセリング</h2>
       <div class="bg-light p-4 text-dark bg-opacity-75 top-block text01">
@@ -67,7 +67,7 @@
         </p>
       </div>
       <div class="d-flex align-items-center justify-content-center">
-        <a href="{{ route('care.show') }}" class="btn btn-info text01 text-light p-2">
+        <a href="{{ route('care.show') }}" class="btn btn-info text01 text-light p-2 btnripple3">
         →→カウンセラーに気軽に相談←←
         </a>
       </div>
@@ -75,7 +75,7 @@
     <img src='{{ asset("/image/chirag-saini-AtUirmlqsVE-unsplash.jpg")}}' class="context" alt="動画コンテンツ">
   </div>
 
-  <div class="mt-4 mb-4">
+  <div class="mt-4 mb-4 fadeUpTrigger">
     <div class="in-content">
       <h2 class="f1 top-text">お問合せ＆FAQ</h2>
       <div class="bg-light p-4 text-dark bg-opacity-75 top-block text01">
@@ -86,8 +86,8 @@
         </p>
       </div>
       <div class="d-flex align-items-center justify-content-center">
-        <a href="{{ route('contacts_faq.show') }}" class="btn btn-info text01 text-light p-2">
-        →→気になることがあれば<br class="sp-br">なんでも聴いてね←←
+        <a href="{{ route('contacts_faq.show') }}" class="btn btn-info text01 text-light p-2 btnripple3">
+        →→なんでも聴いてね←←
         </a>
       </div>
     </div>
@@ -121,7 +121,7 @@
     var scroll_y = window.scrollY;
     window.addEventListener('scroll', (event) => {
       var scroll_y = window.scrollY;
-      console.log(scroll_y);
+      // console.log(scroll_y);
       foam01.stop().animate({
         'bottom': scroll_y + 100
         }, 300); 
