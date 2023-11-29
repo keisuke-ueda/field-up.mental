@@ -11,6 +11,7 @@ $(function() {
     });
     
     // フェードアニメーションの設定
+    // 数値変更
     function fadeAnime() {
         $('.fadeUpTrigger').each(function() {
         // 縦位置を取得
