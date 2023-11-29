@@ -13,7 +13,7 @@
   
     <div class="row">
 
-      <div class="col-md-4 item mb-5">
+      <div class="col-md-4 item mb-5 fadeUpTrigger fade-in-up fade-in">
         <div class="card" style="margin: 10px;">
           <a href='{{ route("contents_list.select", ["page_number"=>1]) }}' class="w-100 h-100">
             <img src='{{ asset("/image/サムネ(心理の本質).jpg") }}' class="card-img" alt="心理と本質">
@@ -22,7 +22,7 @@
         </div>
       </div>
       
-      <div class="col-md-4 item mb-5">
+      <div class="col-md-4 item mb-5 fadeUpTrigger fade-in-up fade-in">
         <div class="card" style="margin: 10px;">
           <a href='{{ route("contents_list.select", ["page_number"=>2]) }}' class="w-100 h-100">
             <img src='{{ asset("/image/サムネ(ストレスと心理).jpg") }}' class="card-img" alt="ストレスと心理">
@@ -31,7 +31,7 @@
         </div>
       </div>
 
-      <div class="col-md-4 item mb-5">
+      <div class="col-md-4 item mb-5 fadeUpTrigger fade-in-up fade-in">
         <div class="card" style="margin: 10px;">
           <a href='{{ route("contents_list.select", ["page_number"=>3]) }}' class="card w-100 h-100">
             <img src='{{ asset("/image/サムネ(カラダとココロ).jpg") }}' class="card-img" alt="カラダとココロ">
@@ -40,7 +40,7 @@
         </div>
       </div>
 
-      <div class="col-md-4 item mb-5">
+      <div class="col-md-4 item mb-5 fadeUpTrigger fade-in-up fade-in">
         <div class="card" style="margin: 10px;">
           <a href='{{ route("contents_list.select", ["page_number"=>4]) }}' class="w-100 h-100">
             <img src='{{ asset("/image/サムネ(悩みと心理).jpg") }}' class="card-img" alt="悩みと心理">
@@ -49,7 +49,7 @@
         </div>
       </div>
 
-      <div class="col-md-4 item mb-5">
+      <div class="col-md-4 item mb-5 fadeUpTrigger fade-in-up fade-in">
         <div class="card" style="margin: 10px;">
           <a href='{{ route("contents_list.select", ["page_number"=>5]) }}' class="w-100 h-100">
             <img src='{{ asset("/image/サムネ(仕事と心理).jpg") }}' class="card-img" alt="仕事と心理">
@@ -58,7 +58,7 @@
         </div>
       </div>
 
-      <div class="col-md-4 item mb-5">
+      <div class="col-md-4 item mb-5 fadeUpTrigger fade-in-up fade-in">
         <div class="card" style="margin: 10px;">
           <a href='{{ route("contents_list.select", ["page_number"=>6]) }}' class="w-100 h-100">
             <img src='{{ asset("/image/サムネ(遊びと心理).jpg") }}' class="card-img" alt="遊びと心理">

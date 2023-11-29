@@ -9,7 +9,7 @@
       <p class="text-center text01">先ずは相談してください</p>
     </div>
 
-    <div class="card01 m-5">
+    <div class="card01 m-5 fadeUpTrigger fade-in-up fade-in">
       <p class="text01">　<b>聴くプロ</b>という資格を持ったカウンセラーとして多くの職種や年齢層の方のご相談をお受けしてきました。
         <br>　皆さんの悩みはどれも特別で、簡単には解決できなさそうなモノばかりです。
         <br>　だからこそ、<b>きちんと資格を持ったカウンセラー</b>が必要になります。
@@ -23,13 +23,13 @@
     </div>
     
     <div class="row">
-      <div class="col-6">
+      <div class="col-6 fadeUpTrigger fade-in-up fade-in">
         <!-- <a href="{{ route('chat_care.login') }}"></a> -->
         <p class="text-center bg-light">チャットページ</p>
         <img src='{{ asset("/image/製作中ページ.jpg") }}' class="card-img d-block mx-auto" alt="開設準備中" style="width: 50%;">
       </div>
 
-      <div class="col-6">
+      <div class="col-6 fadeUpTrigger fade-in-up fade-in">
         <p class="text-center bg-light">チャット予約ページ</p>
         <img src='{{ asset("/image/製作中ページ.jpg") }}' class="card-img d-block mx-auto" alt="開設準備中" style="width: 50%;">
       </div>
