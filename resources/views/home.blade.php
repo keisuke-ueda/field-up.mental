@@ -19,7 +19,7 @@
     </a>
   </div>
   
-  <div class="mt-4 mb-4 fadeUpTrigger">
+  <div class="mt-4 mb-4 fadeUpTrigger fade-in-up fade-in">
     <div class="in-content">
       <h2 class="f1 top-text">心理テスト</h2>
       <div class="bg-light p-4 text-dark bg-opacity-75 top-block text01">
@@ -38,7 +38,7 @@
     <img src='{{ asset("/image/sea-4002951_1920.jpg")}}' class="context" alt="心理テスト">
   </div>
 
-  <div class="mt-4 mb-4 fadeUpTrigger">
+  <div class="mt-4 mb-4 fadeUpTrigger fade-in-up fade-in">
     <div class="in-content">
       <h2 class="f1 top-text">動画コンテンツ</h2>
       <div class="bg-light p-4 text-dark bg-opacity-75 top-block text01">
@@ -56,7 +56,7 @@
     <img src='{{ asset("/image/macey-bundt-AVXrEyc5ViE-unsplash.jpg")}}' class="context" alt="動画コンテンツ">
   </div>
 
-  <div class="mt-4 mb-4 fadeUpTrigger">
+  <div class="mt-4 mb-4 fadeUpTrigger fade-in-up fade-in">
     <div class="in-content">
       <h2 class="f1 top-text">ケア・カウンセリング</h2>
       <div class="bg-light p-4 text-dark bg-opacity-75 top-block text01">
@@ -75,7 +75,7 @@
     <img src='{{ asset("/image/chirag-saini-AtUirmlqsVE-unsplash.jpg")}}' class="context" alt="動画コンテンツ">
   </div>
 
-  <div class="mt-4 mb-4 fadeUpTrigger">
+  <div class="mt-4 mb-4 fadeUpTrigger fade-in-up fade-in">
     <div class="in-content">
       <h2 class="f1 top-text">お問合せ＆FAQ</h2>
       <div class="bg-light p-4 text-dark bg-opacity-75 top-block text01">
