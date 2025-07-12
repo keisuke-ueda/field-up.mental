@@ -6,14 +6,14 @@
     
     <h1 class="text-center f1 pt-3 mb-3">心理事業紹介</h1>
 
-    <div class="col-12 justify-content-center mx-auto fadeUpTrigger fade-in-up fade-in">
-      <img src='{{ asset("/image/事業デザイン.png") }}' alt="Field-UP心理事業紹介" class="col-12 mt-2 mb-2">
+    <div class="col-12 justify-content-center mx-auto">
+      <img src='{{ asset("/image/事業デザイン.png") }}' alt="Field-UP心理事業紹介" class="col-12 introduction-mess d-block mx-auto">
     </div>
 
-    <div class="row">
+    <div class="row introduction-block">
       <h2 class="text-center f1">代表の思い</h2>
       <div class="col-md-8 fadeUpTrigger fade-in-up fade-in">
-        <div class="card01 rounded p-3 text01">
+        <div class="card01 rounded p-5 text01">
           <p>メンタルは何事においてもとても大事です。<br>
           自分本来の力を出すためには、安定したメンタルがとても大事です。</p>
           <p>メンタルが不安定というだけで、本来の力が発揮できないだけでなく、次の挑戦の機械すら失ってしまいます。<br>
@@ -74,7 +74,7 @@
       <div class="col-8 justify-content-center mx-auto rounded fadeUpTrigger fade-in-up fade-in">
         <div class="rounded card01 mb-4">
           <p class="text-center text01">会社名：Field-UP
-            <br>所在地：〒114-0011 東京都北区昭和町1-4-7
+            <br>所在地：〒115-0055 東京都北区赤羽西1-36-16
             <br>代表者名：上田　敬介
             <br>設立年月日：2020年6月1日
             <br>従業員数：1名

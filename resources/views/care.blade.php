@@ -4,12 +4,14 @@
 <div id="care" class="pb-5">
   <div class="container">
 
-    <div class="col-7 page-title pt-5 d-block mx-auto">
-      <h1 class="text-center f1 pt-3 mb-3">ケアメニュー</h1>
-      <p class="text-center text01">先ずは相談してください</p>
+    <div class="row mx-auto">
+      <div class="col-7 page-title mx-auto">
+        <h1 class="text-center f1 mt-5">ケアメニュー</h1>
+        <p class="text-center text01 mt-5 mb-5">先ずは相談してください</p>
+      </div>
     </div>
 
-    <div class="card01 m-5 fadeUpTrigger fade-in-up fade-in">
+    <div class="card02 mb-5">
       <p class="text01">　<b>聴くプロ</b>という資格を持ったカウンセラーとして多くの職種や年齢層の方のご相談をお受けしてきました。
         <br>　皆さんの悩みはどれも特別で、簡単には解決できなさそうなモノばかりです。
         <br>　だからこそ、<b>きちんと資格を持ったカウンセラー</b>が必要になります。

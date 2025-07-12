@@ -3,16 +3,15 @@
 @section('content')
 <div id="psychology_test">
   <div class="row justify-content-center mx-auto">
-    <div class="col-7 page-title mt-3 pb-3">
-      <h1 class="text-center f1">心理テスト</h1>
-      <p class="text-center text01">手軽に心理テストができちゃう<br>どんな結果が出るかな？</p>
+    <div class="col-7 page-title">
+      <h1 class="text-center f1 mt-5">心理テスト</h1>
+      <p class="text-center text01 mt-5 mb-5">手軽に心理テストができちゃう<br>どんな結果が出るかな？</p>
     </div>
   </div>
 
   <div class="container pb-5">
     <div class="row"> 
-      <!--{{-- @for ($i = 0; $i < 3; $i++) --}}-->
-      <div class="col-md-4 item fadeUpTrigger fade-in-up fade-in">
+      <div class="col-md-4 item">
         <div class="card" style="margin: 10px;">
           <a href='psychology_test/egogram' class="w-100 h-100">
             <img src='{{ asset("/image/psychology_test_img/心理テスト(エゴグラム).jpg") }}' class="card-img" alt="エゴグラム">
@@ -21,7 +20,7 @@
         </div>
       </div>
 
-      <div class="col-md-4 item fadeUpTrigger fade-in-up fade-in">
+      <div class="col-md-4 item">
         <div class="card" style="margin: 10px;">
           <a href='psychology_test/dream_analysis' class="w-100 h-100">
             <img src='{{ asset("/image/psychology_test_img/夢分析.jpg") }}' class="card-img" alt="夢分析ページ">
@@ -30,7 +29,7 @@
         </div>
       </div>
 
-      <div class="col-md-4 item fadeUpTrigger fade-in-up fade-in">
+      <div class="col-md-4 item">
         <div class="card" style="margin: 10px;">
           <a href='making_now' class="w-100 h-100">
             <img src='{{ asset("/image/psychology_test_img/製作中ページ.jpg") }}' class="card-img" alt="開設準備中">

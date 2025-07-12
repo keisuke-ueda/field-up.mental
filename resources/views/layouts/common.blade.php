@@ -66,7 +66,6 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/destyle.css@3.0.2/destyle.css">
 
     <!-- Styles -->
-    <!-- <link href="{{ asset('css/app.css') }}?ver1.0.6" rel="stylesheet"> -->
     <link href="{{ asset('css/common.css') }}?ver202107181220" rel="stylesheet">
 
     <!-- google fonts -->

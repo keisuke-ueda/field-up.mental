@@ -1,6 +1,6 @@
 <footer class="section">
 	<div class="container">
-		<div class="row mt-3 fot">
+		<div class="row mt-5 fot mb-5">
 			<div class="col-md-4">
         <aside id="text-3"><h2 class="text-center">システム事業</h2>
           <div class="border-top">
