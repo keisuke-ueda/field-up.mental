@@ -6,7 +6,7 @@
   <div class="container pb-3">
 
     <div class="col-md-7 page-title d-block mx-auto">
-      <h2 class="text-center f1 pt-5 pb-5">お問い合わせ</h2>
+      <h2 class="text-center f1 mt-5 mb-5">お問い合わせ</h2>
     </div>
     <form method="post" action="{{route('send_contacts.send')}}" method="post">
     @csrf

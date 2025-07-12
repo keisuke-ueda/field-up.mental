@@ -10,7 +10,7 @@
       前に向かって一緒に進んでいこう!!</h2>
     </div>
   </div>
-  <div class="mt-3 ">
+  <div class="mt-5">
     <a title="THE INNOVATOR Field-UP 上田敬介" href="https://the-innovator.jp/interviewees/ueda_keisuke/" target="_blank">
         <img src="https://the-innovator.jp/img/banner/TI_banner01.jpg" alt="Field-UP 上田敬介" class="d-block mx-auto news1"/>
     </a>
@@ -19,10 +19,10 @@
     </a>
   </div>
   
-  <div class="mt-4 mb-4 fadeUpTrigger fade-in-up fade-in">
+  <div class="block-top fadeUpTrigger fade-in-up fade-in">
     <div class="in-content">
       <h2 class="f1 top-text">心理テスト</h2>
-      <div class="bg-light p-4 text-dark bg-opacity-75 top-block text01">
+      <div class="bg-light text-dark bg-opacity-75 top-block text01">
         <p>皆さんは心理テストは好きですか？<br><br>
         心理テストの多くは【ユング心理学】がベースになっていて、その中の【象徴】や、【元型】という考え方がとても大事になっています。<br><br>
         例えば、複数の動物の中から好きな動物を選んでくださいというテストがあったとします。その人の潜在意識、無意識下で、今の心情やあなたの特性によって選択される動物が違ってきたりもします。<br><br>
@@ -38,10 +38,10 @@
     <img src='{{ asset("/image/sea-4002951_1920.jpg")}}' class="context" alt="心理テスト">
   </div>
 
-  <div class="mt-4 mb-4 fadeUpTrigger fade-in-up fade-in">
+  <div class="block-top fadeUpTrigger fade-in-up fade-in">
     <div class="in-content">
       <h2 class="f1 top-text">動画コンテンツ</h2>
-      <div class="bg-light p-4 text-dark bg-opacity-75 top-block text01">
+      <div class="bg-light text-dark bg-opacity-75 top-block text01">
         <p>心理学を学んで、仕事や人間関係に生かしたいけど勉強方法が分からないし、難しい事ばかり書いてある本が多いから理解しづらい。そんな声をよく耳にします。<br><br>
         心理学はどうしても【概念】のような話が多くて、例題みたいなケースで説明してもらわないとわかりづらいことが多いです。でも、そのケースも人それぞれ違っていて中々しっくりこないものです。<br><br>
         Field-UPのYoutubeチャンネルやSNSの動画では、アニメーションやイラストを使って多くのケースを使って心理学の解説をしているので是非参考にしてみて下さい。
@@ -56,10 +56,10 @@
     <img src='{{ asset("/image/macey-bundt-AVXrEyc5ViE-unsplash.jpg")}}' class="context" alt="動画コンテンツ">
   </div>
 
-  <div class="mt-4 mb-4 fadeUpTrigger fade-in-up fade-in">
+  <div class="block-top fadeUpTrigger fade-in-up fade-in">
     <div class="in-content">
       <h2 class="f1 top-text">ケア・カウンセリング</h2>
-      <div class="bg-light p-4 text-dark bg-opacity-75 top-block text01">
+      <div class="bg-light text-dark bg-opacity-75 top-block text01">
         <p>悩み事は人それぞれ様々です。本当に自分自身の悩みを分かってくれる人は、自分以外にはいないのかもしれません。<br>
         どれだけ多くのクライエントの相談を受けても、同じケースは１度もありません。それでも私たち心理カウンセラーを頼ってほしいです。<br><br>
         数多くのケースを見て、聴いてきているからこそ今までと違った角度のアドバイスや、提案などをできる事には自信があります。<br><br>
@@ -75,10 +75,10 @@
     <img src='{{ asset("/image/chirag-saini-AtUirmlqsVE-unsplash.jpg")}}' class="context" alt="動画コンテンツ">
   </div>
 
-  <div class="mt-4 mb-4 fadeUpTrigger fade-in-up fade-in">
+  <div class="block-top fadeUpTrigger fade-in-up fade-in">
     <div class="in-content">
       <h2 class="f1 top-text">お問合せ＆FAQ</h2>
-      <div class="bg-light p-4 text-dark bg-opacity-75 top-block text01">
+      <div class="bg-light text-dark bg-opacity-75 top-block text01">
         <p>悩み事は人それぞれ様々です。本当に自分自身の悩みを分かってくれる人は、自分以外にはいないのかもしれません。<br>
         どれだけ多くのクライエントの相談を受けても、同じケースは１度もありません。それでも私たち心理カウンセラーを頼ってほしいです。<br><br>
         数多くのケースを見て、聴いてきているからこそ今までと違った角度のアドバイスや、提案などをできる事には自信があります。<br><br>

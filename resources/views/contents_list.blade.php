@@ -5,15 +5,15 @@
   <div class="container">
 
     <div class="row mx-auto">
-      <div class="col-md-7 page-title pt-5 pb-3 d-block mx-auto">
-        <h1 class="text-center f1 pt-5 mb-3">コンテンツライブラリ</h1>
-        <p class="text-center text01">動画でわかりやすく解説<br>難しい専門用語も、動画でなら簡単に覚えられるよ</p>
+      <div class="col-md-7 page-title d-block mx-auto">
+        <h1 class="text-center f1 mt-5">コンテンツライブラリ</h1>
+        <p class="text-center text01 mt-5 mb-5">動画でわかりやすく解説<br>難しい専門用語も、動画でなら簡単に覚えられるよ</p>
       </div>
     </div>
   
     <div class="row">
 
-      <div class="col-md-4 item mb-5 fadeUpTrigger fade-in-up fade-in">
+      <div class="col-md-4 item mb-5">
         <div class="card" style="margin: 10px;">
           <a href='{{ route("contents_list.select", ["page_number"=>1]) }}' class="w-100 h-100">
             <img src='{{ asset("/image/サムネ(心理の本質).jpg") }}' class="card-img" alt="心理と本質">
@@ -22,7 +22,7 @@
         </div>
       </div>
       
-      <div class="col-md-4 item mb-5 fadeUpTrigger fade-in-up fade-in">
+      <div class="col-md-4 item mb-5">
         <div class="card" style="margin: 10px;">
           <a href='{{ route("contents_list.select", ["page_number"=>2]) }}' class="w-100 h-100">
             <img src='{{ asset("/image/サムネ(ストレスと心理).jpg") }}' class="card-img" alt="ストレスと心理">
@@ -31,7 +31,7 @@
         </div>
       </div>
 
-      <div class="col-md-4 item mb-5 fadeUpTrigger fade-in-up fade-in">
+      <div class="col-md-4 item mb-5">
         <div class="card" style="margin: 10px;">
           <a href='{{ route("contents_list.select", ["page_number"=>3]) }}' class="card w-100 h-100">
             <img src='{{ asset("/image/サムネ(カラダとココロ).jpg") }}' class="card-img" alt="カラダとココロ">

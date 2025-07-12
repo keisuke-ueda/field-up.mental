@@ -25,12 +25,17 @@ h1,h2 {
    0px -2px 1px rgba(102, 102, 255, 0.30); 
 }
 h3 {
-  color          : #4e6b70;
+  color          : #fefefe;
   letter-spacing : 4px;
+  font-weight: bold;
+  text-shadow:2px 2px 3px #575667;
 }
 .f1 {
   font-family: 'Mochiy Pop P One', sans-serif;
   font-size:50px;
+  color: #ffffff;
+  text-shadow:1px 3px 3px #21447d;
+
 }
 @media screen and (max-width:780px){
   .f1 {
@@ -48,7 +53,7 @@ h3 {
 }
 .f3 {
   font-family: "M PLUS Rounded 1c";
-  font-size:35px;
+  font-size:30px;
 }
 @media screen and (max-width:780px){
   .f3 {
@@ -56,7 +61,7 @@ h3 {
   }
 }
 .text01 {
-  font-size:24px;
+  font-size:18px;
 }
 @media screen and (max-width:780px){
   .text01 {
@@ -78,7 +83,7 @@ h3 {
   }
 }
 .q-text {
-  color: rgb(247, 60, 100);
+  color: rgb(240, 131, 154);
   font-weight: bold;
 }
 
@@ -163,6 +168,10 @@ footer {
 }
 
 /* TOPコンテンツ */
+.block-top {
+  margin: 150px 0 150px 0;
+}
+
 .in-content { 
   position:absolute;
   z-index:1;
@@ -173,7 +182,7 @@ footer {
   height: 700px;
   object-fit: cover;
   position:relative;
-  opacity: 0.95;
+  opacity: 0.5;
 }
 @media screen and (max-width: 930px){
   .context {
@@ -194,8 +203,9 @@ footer {
   }
 }
 .top-block {
-  width: 85%;
+  width: 100%;
   margin: 50px auto 50px auto;
+  padding: 70px 100px;
 }
 @media screen and (max-width: 780px){
   .top-block {
@@ -233,7 +243,9 @@ footer {
   text-decoration: none;
   color: #333;
   outline: none;
+  box-shadow: 5px 5px 3px 1px #5b6389;
 }
+
 /*波形の設定*/
 .btnripple3:hover::before {
   content: '';
@@ -275,6 +287,16 @@ footer {
   font-size: larger;
 }
 
+.introduction-block {
+  margin: 100px 50px;
+}
+
+.introduction-mess {
+  width:80%;
+  margin: 50px 50px;
+  text-align: center;
+}
+
 .youtube {
   position: relative;
   width: 100%;/*横幅いっぱいにwidthを指定*/
@@ -297,7 +319,16 @@ footer {
 .card01 {
   background-color: rgba(255, 255, 255, 0.9);
   padding: 20px;
+  margin: 50px;
 }
+
+.card02 {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+}
+
+
+
 
 @media screen and (min-width:300px) and ( max-width:780px) {
   .flexbox {
@@ -350,7 +381,7 @@ table .table-back {
 }
 
 .faq {
-  background-color: rgb(171, 240, 255);
+  background-color: rgb(233, 251, 255);
   font-size: 25px;
 }
 @media screen and (max-width:780px){
@@ -375,54 +406,16 @@ table .table-back {
 /*******************/
 /* 各ページの背景設定 */
 /*******************/
-#home {
-  /* background-image: url('../image/water-1330252_1920.jpg'); */
-  /* background-attachment: fixed; */
-  /* background-size: cover; */
-  background-color: rgb(240, 255, 250);
-}
-
-#introduction {
-  /* background-image: url('../image/beach-g936fec171_1920.jpg');
-  background-attachment: fixed;
-  background-size: cover; */
-  background-color: rgb(233, 255, 248);
-  }
-
-#mental_care_contents {
-  /* background-image: url('../image/sea-4002951_1920.jpg');
-  background-attachment: fixed;
-  background-size: cover; */
-  background-color: rgb(233, 255, 248);
-}
-
-#psychology_test {
-  /* background-image: url('../image/devon-janse-van-rensburg-qjIzxfkoqrI-unsplash.jpg');
-  background-attachment: fixed;
-  background-size: cover; */
-  background-color: rgb(233, 255, 248);
-}
-
-#care {
-  /* background-image: url('../image/beach-g936fec171_1920.jpg');
-  background-attachment: fixed;
-  background-size: cover; */
-  background-color: rgb(233, 255, 248);
-}
-
+#home,
+#contacts_faq,
+#introduction,
+#mental_care_contents,
+#psychology_test,
+#care,
 #news {
-  /* background-image: url('../image/tree-gca6b83ad3_1280.jpg');
-  background-attachment: fixed;
-  background-size: cover; */
-  background-color: rgb(233, 255, 248);
+  background: linear-gradient(160deg, rgb(255 255 255), rgb(154, 241, 127));
 }
 
-#contacts_faq {
-  /* background-image: url('../image/macey-bundt-AVXrEyc5ViE-unsplash.jpg');
-  background-attachment: fixed;
-  background-size: cover; */
-  background-color: rgb(233, 255, 248);
-}
 
 input[type=radio] {
   width: 20px;
