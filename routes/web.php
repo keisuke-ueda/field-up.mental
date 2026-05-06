@@ -29,7 +29,7 @@ Route::get('/edit_member_info', [App\Http\Controllers\EditMemberInfoController::
 Route::get('/introduction', [App\Http\Controllers\IntroductionController::class, 'show'])-> name('introduction.show');
 Route::get('/news', [App\Http\Controllers\NewsController::class, 'show'])-> name('news.show');
 Route::get('/psychology_test', [App\Http\Controllers\PsychologyTestController::class, 'show'])-> name('psychology_test.show');
-Route::get("/psychology_test/egogram", [App\Http\Controllers\EgogramController::class, 'show'])-> name('egogram.show');
+Route::get('/egogram', [App\Http\Controllers\EgogramController::class, 'show'])->name('egogram.show');
 Route::get("/psychology_test/dream_analysis", [App\Http\Controllers\Dream_analysisController::class, 'show'])-> name('dream_analysis.show');
 
 

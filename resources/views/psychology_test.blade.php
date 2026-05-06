@@ -13,7 +13,7 @@
     <div class="row"> 
       <div class="col-md-4 item">
         <div class="card" style="margin: 10px;">
-          <a href='psychology_test/egogram' class="w-100 h-100">
+          <a href='https://www.field-up.work/egogram' class="w-100 h-100">
             <img src='{{ asset("/image/psychology_test_img/心理テスト(エゴグラム).jpg") }}' class="card-img" alt="エゴグラム">
             <h3 class="">【エゴグラム】あなたはどんな特性があるのかな？</h3>
           </a>
